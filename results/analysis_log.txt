@@ -1,0 +1,316 @@
+===== ENGLISH ===== 
+train  sentences= 11514  tokens=   79732  entities=  11344
+dev    sentences=  2033  tokens=   13962  entities=   2012
+test   sentences=  2974  tokens=   20287  entities=   2815
+entity types: alarm_type, app_name, artist_name, audiobook_author, audiobook_name, business_name, business_type, change_amount, coffee_type, color_type, cooking_type, currency_name, date, definition_word, device_type, drink_type, email_address, email_folder, event_name, food_type, game_name, game_type, general_frequency, house_place, ingredient, joke_type, list_name, meal_type, media_type, movie_name, movie_type, music_album, music_descriptor, music_genre, news_topic, order_type, person, personal_info, place_name, player_setting, playlist_name, podcast_descriptor, podcast_name, radio_name, relation, song_name, sport_type, time, time_zone, timeofday, transport_agency, transport_descriptor, transport_name, transport_type, weather_descriptor
+
+--- baseline ---
+=== baseline / dev ===
+micro P=0.5237  R=0.5770  F1=0.5491
+macro P=0.4371  R=0.4296  F1=0.4179  (weighted F1=0.5444, 53 classes)
+TP=1161 FP=1056 FN=851  token_acc=0.8735  invalid_BIO=462
+
+type                 P       R      F1  support
+alarm_type      0.0000  0.0000  0.0000        2
+app_name        1.0000  0.7500  0.8571        8
+artist_name     0.3846  0.4444  0.4124       45
+audiobook_author  0.0000  0.0000  0.0000        1
+audiobook_name  0.0833  0.0625  0.0714       16
+business_name   0.5000  0.5690  0.5323       58
+business_type   0.8261  0.5758  0.6786       33
+change_amount   0.0000  0.0000  0.0000        6
+coffee_type     1.0000  0.5000  0.6667        2
+color_type      0.5217  0.7500  0.6154       16
+cooking_type    0.0000  0.0000  0.0000        2
+currency_name   0.4426  0.6000  0.5094       45
+date            0.5459  0.6667  0.6003      339
+definition_word  0.3200  0.1860  0.2353       43
+device_type     0.4750  0.5429  0.5067       35
+drink_type      1.0000  0.3333  0.5000        3
+email_address   0.0000  0.0000  0.0000        3
+email_folder    1.0000  1.0000  1.0000        6
+event_name      0.6250  0.6562  0.6402      160
+food_type       0.4923  0.6275  0.5517       51
+game_name       0.6429  0.5000  0.5625       18
+game_type       0.0000  0.0000  0.0000        1
+general_frequency  0.1818  0.2667  0.2162       15
+house_place     0.6207  0.7200  0.6667       25
+ingredient      0.0000  0.0000  0.0000        4
+joke_type       0.5000  0.1250  0.2000        8
+list_name       0.4412  0.4054  0.4225       37
+meal_type       0.6000  1.0000  0.7500       12
+media_type      0.6068  0.7245  0.6605       98
+movie_name      1.0000  0.5000  0.6667        2
+movie_type      0.0000  0.0000  0.0000        1
+music_descriptor  0.0000  0.0000  0.0000        8
+music_genre     0.6579  0.6757  0.6667       37
+news_topic      0.2045  0.2250  0.2143       40
+order_type      0.8500  0.8947  0.8718       19
+person          0.5872  0.4848  0.5311      132
+personal_info   0.0000  0.0000  0.0000        9
+place_name      0.4591  0.4833  0.4709      209
+player_setting  0.8182  0.5000  0.6207       36
+playlist_name   0.0000  0.0000  0.0000        7
+podcast_descriptor  0.0000  0.0000  0.0000       10
+podcast_name    0.2500  0.2500  0.2500        8
+radio_name      0.0000  0.0000  0.0000       21
+relation        0.7143  0.8333  0.7692       42
+song_name       0.1667  0.0870  0.1143       23
+sport_type      0.0000  0.0000  0.0000        1
+time            0.3565  0.5620  0.4363      137
+time_zone       0.6250  1.0000  0.7692        5
+timeofday       0.7667  0.9388  0.8440       49
+transport_agency  1.0000  1.0000  1.0000        9
+transport_name  0.2500  0.5000  0.3333        2
+transport_type  0.9464  0.9815  0.9636       54
+weather_descriptor  0.7042  0.8475  0.7692       59
+  train 0.0s   predict 0.0s
+
+--- hmm ---
+=== hmm / dev ===
+micro P=0.6911  R=0.6372  F1=0.6630
+macro P=0.4788  R=0.4246  F1=0.4383  (weighted F1=0.6459, 53 classes)
+TP=1282 FP=573 FN=730  token_acc=0.8853  invalid_BIO=1
+
+type                 P       R      F1  support
+alarm_type      0.0000  0.0000  0.0000        2
+app_name        1.0000  0.5000  0.6667        8
+artist_name     0.5152  0.3778  0.4359       45
+audiobook_author  0.0000  0.0000  0.0000        1
+audiobook_name  0.3333  0.2500  0.2857       16
+business_name   0.5588  0.6552  0.6032       58
+business_type   0.7826  0.5455  0.6429       33
+change_amount   1.0000  0.1667  0.2857        6
+coffee_type     0.0000  0.0000  0.0000        2
+color_type      0.7857  0.6875  0.7333       16
+cooking_type    0.0000  0.0000  0.0000        2
+currency_name   0.8158  0.6889  0.7470       45
+date            0.8547  0.9027  0.8780      339
+definition_word  0.4091  0.2093  0.2769       43
+device_type     0.8667  0.7429  0.8000       35
+drink_type      0.0000  0.0000  0.0000        3
+email_address   0.5000  1.0000  0.6667        3
+email_folder    1.0000  1.0000  1.0000        6
+event_name      0.6194  0.6000  0.6095      160
+food_type       0.5088  0.5686  0.5370       51
+game_name       0.5333  0.4444  0.4848       18
+game_type       0.0000  0.0000  0.0000        1
+general_frequency  0.6875  0.7333  0.7097       15
+house_place     0.7826  0.7200  0.7500       25
+ingredient      0.0000  0.0000  0.0000        4
+joke_type       0.0000  0.0000  0.0000        8
+list_name       0.0870  0.0541  0.0667       37
+meal_type       0.6250  0.8333  0.7143       12
+media_type      0.7396  0.7245  0.7320       98
+movie_name      0.0000  0.0000  0.0000        2
+movie_type      0.0000  0.0000  0.0000        1
+music_descriptor  0.0000  0.0000  0.0000        8
+music_genre     0.8333  0.5405  0.6557       37
+news_topic      0.3200  0.2000  0.2462       40
+order_type      0.8333  0.7895  0.8108       19
+person          0.5325  0.6212  0.5734      132
+personal_info   0.5000  0.3333  0.4000        9
+place_name      0.7173  0.6555  0.6850      209
+player_setting  0.6552  0.5278  0.5846       36
+playlist_name   0.4286  0.4286  0.4286        7
+podcast_descriptor  0.8750  0.7000  0.7778       10
+podcast_name    0.0000  0.0000  0.0000        8
+radio_name      0.4000  0.3810  0.3902       21
+relation        0.6786  0.4524  0.5429       42
+song_name       0.0909  0.0435  0.0588       23
+sport_type      0.0000  0.0000  0.0000        1
+time            0.6786  0.6934  0.6859      137
+time_zone       0.3333  0.2000  0.2500        5
+timeofday       0.8113  0.8776  0.8431       49
+transport_agency  1.0000  1.0000  1.0000        9
+transport_name  0.0000  0.0000  0.0000        2
+transport_type  0.9444  0.9444  0.9444       54
+weather_descriptor  0.7368  0.7119  0.7241       59
+  train 0.1s   predict 8.0s
+
+--- crf ---
+=== crf / dev ===
+micro P=0.8245  R=0.7540  F1=0.7876
+macro P=0.7016  R=0.5956  F1=0.6328  (weighted F1=0.7800, 53 classes)
+TP=1517 FP=323 FN=495  token_acc=0.9231  invalid_BIO=1
+
+type                 P       R      F1  support
+alarm_type      0.0000  0.0000  0.0000        2
+app_name        1.0000  0.7500  0.8571        8
+artist_name     0.8378  0.6889  0.7561       45
+audiobook_author  0.0000  0.0000  0.0000        1
+audiobook_name  0.7000  0.4375  0.5385       16
+business_name   0.8095  0.5862  0.6800       58
+business_type   0.7692  0.6061  0.6780       33
+change_amount   0.7500  0.5000  0.6000        6
+coffee_type     1.0000  0.5000  0.6667        2
+color_type      0.8235  0.8750  0.8485       16
+cooking_type    0.3333  0.5000  0.4000        2
+currency_name   0.9024  0.8222  0.8605       45
+date            0.8914  0.9204  0.9057      339
+definition_word  0.9091  0.6977  0.7895       43
+device_type     0.9394  0.8857  0.9118       35
+drink_type      1.0000  0.3333  0.5000        3
+email_address   1.0000  1.0000  1.0000        3
+email_folder    1.0000  1.0000  1.0000        6
+event_name      0.7325  0.7188  0.7256      160
+food_type       0.6667  0.6667  0.6667       51
+game_name       0.7500  0.6667  0.7059       18
+game_type       0.0000  0.0000  0.0000        1
+general_frequency  0.5556  0.6667  0.6061       15
+house_place     0.8889  0.6400  0.7442       25
+ingredient      0.0000  0.0000  0.0000        4
+joke_type       0.6667  0.2500  0.3636        8
+list_name       0.8333  0.6757  0.7463       37
+meal_type       0.7143  0.8333  0.7692       12
+media_type      0.8587  0.8061  0.8316       98
+movie_name      1.0000  0.5000  0.6667        2
+movie_type      1.0000  1.0000  1.0000        1
+music_descriptor  0.0000  0.0000  0.0000        8
+music_genre     0.7812  0.6757  0.7246       37
+news_topic      0.5926  0.4000  0.4776       40
+order_type      0.7727  0.8947  0.8293       19
+person          0.8319  0.7121  0.7673      132
+personal_info   0.5714  0.4444  0.5000        9
+place_name      0.8492  0.8086  0.8284      209
+player_setting  0.8065  0.6944  0.7463       36
+playlist_name   0.7143  0.7143  0.7143        7
+podcast_descriptor  1.0000  0.5000  0.6667       10
+podcast_name    0.4000  0.2500  0.3077        8
+radio_name      0.6923  0.4286  0.5294       21
+relation        0.9048  0.9048  0.9048       42
+song_name       0.7692  0.4348  0.5556       23
+sport_type      0.0000  0.0000  0.0000        1
+time            0.8211  0.7372  0.7769      137
+time_zone       0.8000  0.8000  0.8000        5
+timeofday       0.8269  0.8776  0.8515       49
+transport_agency  1.0000  1.0000  1.0000        9
+transport_name  0.0000  0.0000  0.0000        2
+transport_type  0.9310  1.0000  0.9643       54
+weather_descriptor  0.7895  0.7627  0.7759       59
+  train 218.3s   predict 0.4s
+
+================================================================================
+method                  micro P  micro R  micro F1  macro F1  tok acc  bad BIO
+--------------------------------------------------------------------------------
+baseline                 0.5237   0.5770    0.5491    0.4179   0.8735      462
+hmm                      0.6911   0.6372    0.6630    0.4383   0.8853        1
+crf                      0.8245   0.7540    0.7876    0.6328   0.9231        1
+================================================================================
+
+micro weights every span equally; macro weights every CLASS equally.
+A large micro-macro gap means the method is carried by frequent slots.
+Next: src/significance.py (is a difference real?), src/stratified.py (where does it come from?)
+
+wrote results\en-US\metrics.json
+ 
+===== SIGNIFICANCE: CRF vs HMM ===== 
+pred_crf_dev.json
+  sentences        2033
+  span F1          0.7185
+  95% CI           [0.6977, 0.7384]   (+/-0.0204, 1000 bootstrap samples)
+
+pred_hmm_dev.json
+  span F1          0.5555
+  95% CI           [0.5331, 0.5793]
+
+paired permutation test (approximate randomisation)
+  difference       0.1630  in favour of pred_crf_dev.json
+  p-value          0.0001   (10000 permutations)
+  verdict          highly significant (p < 0.001)
+ 
+===== SIGNIFICANCE: CRF vs BASELINE ===== 
+pred_crf_dev.json
+  sentences        2033
+  span F1          0.7185
+  95% CI           [0.6977, 0.7384]   (+/-0.0204, 1000 bootstrap samples)
+
+pred_baseline_dev.json
+  span F1          0.4899
+  95% CI           [0.4675, 0.5132]
+
+paired permutation test (approximate randomisation)
+  difference       0.2286  in favour of pred_crf_dev.json
+  p-value          0.0001   (10000 permutations)
+  verdict          highly significant (p < 0.001)
+ 
+===== STRATIFIED: TURKISH ===== 
+stratified analysis: pred_crf_dev.json
+training vocabulary: 10032 types, 55 slot classes
+
+by OOV status (the morphology hypothesis)
+----------------------------------------------------------------
+bucket                      P        R       F1    gold    pred
+has OOV token          0.6147   0.3190   0.4201     420     218
+seen                   0.8043   0.7588   0.7809    1571    1482
+
+  OOV penalty: +0.3608 F1 (0.7809 seen -> 0.4201 with OOV)
+  Compare this gap across locales: a larger gap in Turkish than in
+  English is the evidence that agglutination drives the errors.
+
+by span length (boundary modelling)
+----------------------------------------------------------------
+span length                 P        R       F1    gold    pred
+1 token                0.8367   0.7125   0.7696    1179    1004
+2 token                0.7053   0.6238   0.6621     614     543
+3 token                0.7699   0.5839   0.6641     149     113
+4+ tokens              0.4000   0.3265   0.3596      49      40
+
+by class frequency tier (micro vs macro gap)
+----------------------------------------------------------------
+tier                        P        R       F1    gold    pred
+1-head                 0.7874   0.7136   0.7487    1599    1449
+2-mid                  0.7357   0.5045   0.5986     331     227
+3-tail                 0.7500   0.2951   0.4235      61      24
+
+wrote results\tr-TR\stratified.json
+ 
+===== STRATIFIED: ENGLISH ===== 
+stratified analysis: pred_crf_dev.json
+training vocabulary: 5302 types, 55 slot classes
+
+by OOV status (the morphology hypothesis)
+----------------------------------------------------------------
+bucket                      P        R       F1    gold    pred
+has OOV token          0.6966   0.4489   0.5459     225     145
+seen                   0.8354   0.7924   0.8133    1787    1695
+
+  OOV penalty: +0.2674 F1 (0.8133 seen -> 0.5459 with OOV)
+  Compare this gap across locales: a larger gap in Turkish than in
+  English is the evidence that agglutination drives the errors.
+
+by span length (boundary modelling)
+----------------------------------------------------------------
+span length                 P        R       F1    gold    pred
+1 token                0.8650   0.8132   0.8383    1253    1178
+2 token                0.7775   0.6828   0.7271     517     454
+3 token                0.7724   0.6474   0.7044     173     145
+4+ tokens              0.5238   0.4783   0.5000      69      63
+
+by class frequency tier (micro vs macro gap)
+----------------------------------------------------------------
+tier                        P        R       F1    gold    pred
+1-head                 0.8429   0.7960   0.8188    1618    1528
+2-mid                  0.7336   0.6036   0.6623     333     274
+3-tail                 0.7368   0.4590   0.5657      61      38
+
+wrote results\en-US\stratified.json
+ 
+===== CROSS-LINGUAL MATRIX ===== 
+training crf on tr-TR (11514 sentences) ...
+training crf on en-US (11514 sentences) ...
+
+cross-lingual span F1 (crf, dev split)
+               -> tr-TR    -> en-US    
+---------------------------------------
+train tr-TR    0.7185*    0.0673   
+train en-US    0.0261     0.7876*  
+
+* = in-language (diagonal). Off-diagonal cells are zero-shot.
+
+transfer gap (in-language F1 minus mean zero-shot F1)
+----------------------------------------------------
+  tr-TR    in-language 0.7185   zero-shot 0.0673   gap 0.6512
+  en-US    in-language 0.7876   zero-shot 0.0261   gap 0.7615
+
+wrote results\crosslingual.json
