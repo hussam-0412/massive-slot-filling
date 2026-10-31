@@ -1,7 +1,9 @@
 # Project 2 — Results
 
 Cross-lingual slot filling on MASSIVE · Group Coders
-All figures are the **dev** split. Test is untouched, for a final single run.
+All model scores below use the **development (dev) split**. No final test-set model scores are included in the supplied results. Test vocabulary statistics were inspected, so the test split should not be described as completely untouched.
+
+The saved predictions and metrics are the basis of this report. See [README.md](README.md) for preprocessing, model settings, file descriptions and runnable commands.
 
 ---
 
@@ -11,17 +13,18 @@ All figures are the **dev** split. Test is untouched, for a final single run.
 |---|---|---|
 | train / dev / test sentences | 11,514 / 2,033 / 2,974 | 11,514 / 2,033 / 2,974 |
 | train tokens | 63,263 | 79,732 |
-| distinct wordforms | **10,032** | **5,302** |
+| distinct training wordforms | **10,032** | **5,302** |
 | type/token ratio | **0.159** | **0.066** |
-| test OOV rate | **9.6%** | **3.5%** |
+| test token OOV rate (relative to training vocabulary) | **9.6%** | **3.5%** |
 | slot classes | 55 | 55 |
-| BIO labels | 109 | 107 |
+| BIO labels observed in training | 109 | 107 |
 | training spans | 11,257 | 11,344 |
 | classes with <20 train spans | 11 | 11 |
-| skipped utterances in conversion | **0** | **0** |
+| skipped utterances in conversion (reported in the group summary) | **0** | **0** |
 
-Same sentences, same annotations, **1.9× the vocabulary** in Turkish. That is
-agglutination, measured before any model is trained.
+The two locales share the task and slot inventory, but use localized utterances. Turkish has approximately **1.9× as many distinct training wordforms** under the supplied whitespace tokenization. This is consistent with a role for morphology; lexical choices and tokenization also differ, so the comparison does not isolate agglutination as the cause.
+
+The OOV rates above describe **test tokens**. The span-level OOV analysis in Section 5 instead uses **dev spans**. These are different populations. A reported zero skip count also does not establish that every annotation aligned: the converter's default mode retains alignment mismatches, while `--strict` excludes them.
 
 Smallest classes: `music_album` and `game_type` have **1** training span each.
 
@@ -29,29 +32,30 @@ Smallest classes: `music_album` and `game_type` have **1** training span each.
 
 ## 2. Main results — Turkish
 
-| method | micro P | micro R | micro F1 | macro F1 | token acc | invalid BIO | train | predict |
-|---|---|---|---|---|---|---|---|---|
-| most-frequent-tag | 0.4921 | 0.4877 | 0.4899 | 0.3747 | 0.8312 | 440 | 0.1 s | 0.0 s |
-| HMM + Viterbi | 0.5957 | 0.5203 | 0.5555 | 0.3558 | 0.8336 | 1 | 0.1 s | 6.4 s |
-| CRF | 0.7800 | 0.6660 | 0.7185 | 0.5252 | 0.8830 | 1 | 168 s | 0.3 s |
-| **BERTurk** | 0.7641 | 0.8152 | **0.7888** | **0.6124** | **0.9143** | 53 | 579 s | 2.1 s |
+| method | micro P | micro R | micro F1 | macro F1 | token accuracy | invalid BIO transitions |
+|---|---|---|---|---|---|---|
+| most-frequent-tag | 0.4921 | 0.4877 | 0.4899 | 0.3747 | 0.8312 | 440 |
+| HMM + Viterbi | 0.5957 | 0.5203 | 0.5555 | 0.3558 | 0.8336 | 1 |
+| CRF | 0.7800 | 0.6660 | 0.7185 | 0.5252 | 0.8830 | 1 |
+| **BERTurk** | 0.7641 | 0.8152 | **0.7888** | **0.6124** | **0.9143** | 53 |
+
+Span matches require the same boundaries and slot type after the evaluator's BIO-to-span conversion. Macro F1 averages the types appearing in either gold or predicted spans, rather than a fixed inventory of 55 types. The Turkish CRF evaluation includes 53 types; the other Turkish evaluations include 54. This difference should be considered when comparing macro scores.
 
 ## 3. Main results — English
 
-| method | micro F1 | macro F1 | token acc | invalid BIO |
+| method | micro F1 | macro F1 | token accuracy | invalid BIO transitions |
 |---|---|---|---|---|
 | most-frequent-tag | 0.5491 | 0.4179 | 0.8735 | 462 |
 | HMM + Viterbi | 0.6630 | 0.4383 | 0.8853 | 1 |
 | CRF | 0.7876 | 0.6328 | 0.9231 | 1 |
 
-Turkish is below English at every rung: 0.49/0.56/0.72 vs 0.55/0.66/0.79.
-The gap is systematic, not an artifact of one method.
+The three classical models score lower on Turkish than English in these runs. English macro scores use 53 observed evaluation types. **BERTurk was evaluated on Turkish only**; no English transformer result is supplied.
 
 ---
 
 ## 4. Significance (Turkish dev, 2,033 sentences)
 
-95% bootstrap confidence intervals, 1,000 resamples:
+Sentence-level 95% bootstrap confidence intervals, 1,000 resamples:
 
 | method | F1 | 95% CI |
 |---|---|---|
@@ -60,7 +64,7 @@ The gap is systematic, not an artifact of one method.
 | CRF | 0.7185 | [0.6977, 0.7384] |
 | BERTurk | 0.7888 | [0.7716, 0.8061] |
 
-Paired permutation tests, 10,000 permutations:
+Two-sided paired permutation tests, 10,000 permutations:
 
 | comparison | difference | p-value | verdict |
 |---|---|---|---|
@@ -68,51 +72,45 @@ Paired permutation tests, 10,000 permutations:
 | CRF vs HMM | +0.1630 | 0.0001 | highly significant |
 | BERTurk vs CRF | +0.0703 | 0.0001 | highly significant |
 
-No CIs overlap. Every step up the ladder is real.
+The listed paired tests support differences between these saved prediction sets. The displayed p-values are rounded to four decimal places; the implementation uses an add-one correction. These tests measure uncertainty from the dev sentences, not variation across independent training seeds, and do not replace a final test-set evaluation.
 
 ---
 
-## 5. THE HEADLINE — subword tokenization solves the morphology problem
+## 5. Unseen wordforms — BERTurk has a smaller dev OOV gap
 
-F1 split by whether a span contains a token unseen in training:
+F1 grouped by whether a span contains any wordform absent from the Turkish training vocabulary. Vocabulary membership is case-sensitive. Gold and predicted spans are assigned to buckets separately, and each bucket's F1 is computed from its own TP, FP and FN counts:
 
 | | CRF | BERTurk |
 |---|---|---|
 | seen spans | 0.7809 | 0.8145 |
 | spans with an OOV token | 0.4201 | **0.6915** |
-| **OOV penalty** | **−0.3608** | **−0.1230** |
+| **F1 drop from seen to OOV spans** | **0.3608** | **0.1230** |
 | recall on OOV spans | 0.3190 | **0.7071** |
 
 On *seen* spans BERTurk beats the CRF by only **+0.034**.
 On *OOV* spans it beats it by **+0.271**.
 
-OOV spans are 21% of the data but account for roughly **two-thirds** of
-BERTurk's total advantage. Almost all of its win is about wordforms it has
-never seen.
+Of the **1,991 gold Turkish dev spans**, 420 (21.1%) contain an OOV wordform. BERTurk's F1 improvement is larger in this bucket than in the seen-wordform bucket.
 
-**Mechanism:** `Ankara'dan` is one unknown token to a word-level CRF.
-WordPiece splits it into `Ankara` + `'` + `##dan`, pieces the model already
-knows — so an unseen *word* is not unseen at the *subword* level. The hand-built
-Turkish features (apostrophe clitics, 6-char suffixes) approximate this and get
-about a third of the way there.
+This supports better handling of unseen wordforms in this run. It does **not** establish that subword tokenization alone causes the improvement: BERTurk also differs in pretraining, architecture and contextual representation. The CRF already uses character suffix and other hand-built features. A controlled ablation would be needed to separate these effects.
 
-This is BERT2D's thesis about subwords in morphologically rich languages,
-tested on a token-level task the paper did not evaluate.
+Bucket F1 values cannot be weighted by the share of gold spans to attribute a fraction of the total F1 gain, because F1 depends on both gold and predicted counts. No percentage of the overall gain is assigned to OOV spans here.
 
-### Cross-lingual confirmation (CRF)
+### Within-language CRF comparison
 
-| | OOV rate | OOV penalty |
+| Dev span group | Turkish CRF F1 | English CRF F1 |
 |---|---|---|
-| Turkish | 9.6% | −0.3608 |
-| English | 3.5% | −0.2674 |
+| Seen wordforms | 0.7809 | 0.8133 |
+| Contains an OOV wordform | 0.4201 | 0.5459 |
+| F1 drop | 0.3608 | 0.2674 |
 
-Turkish is hit twice: 2.7× more OOV tokens, and each costs 1.35× more F1.
+The Turkish CRF has a larger dev OOV gap. This is a descriptive comparison across localized datasets, not a causal estimate of the cost of morphology or of each additional OOV token.
 
 ---
 
 ## 6. Stratified analysis (Turkish)
 
-### By span length — boundaries are the weak point
+### By span length
 
 | span length | CRF | BERTurk | English CRF |
 |---|---|---|---|
@@ -121,40 +119,40 @@ Turkish is hit twice: 2.7× more OOV tokens, and each costs 1.35× more F1.
 | 3 tokens | 0.6641 | 0.7303 | 0.7044 |
 | 4+ tokens | **0.3596** | **0.4667** | **0.5000** |
 
-Long spans need two correct boundaries. Both models collapse there, and Turkish
-collapses harder than English.
+Four-or-more-token spans have the lowest F1 in each column. There are only **49** such gold spans in Turkish dev and **69** in English dev, so these estimates have limited support. Exact-span errors may involve boundaries, slot types or both; this table alone does not identify their cause.
 
-### By class frequency tier — where the micro/macro gap lives
+### By training class frequency
 
 | tier | CRF | BERTurk | English CRF |
 |---|---|---|---|
 | head (top 18 classes) | 0.7487 | 0.8253 | 0.8188 |
-| mid | 0.5986 | 0.6628 | 0.6623 |
-| tail (bottom 18) | 0.4235 | 0.4915 | 0.5657 |
+| mid (next 18 classes) | 0.5986 | 0.6628 | 0.6623 |
+| tail (remaining 19 classes) | 0.4235 | 0.4915 | 0.5657 |
 
-Seven classes score exactly 0.0000 even for BERTurk: `alarm_type`,
-`audiobook_author`, `cooking_type`, `game_type`, `ingredient`, `movie_name`,
-`transport_name`. All have fewer than 5 dev examples.
+Tiers are assigned separately for each locale by training span counts. Values are micro F1 within each tier, not averages of the class F1 scores. The Turkish dev tail contains only 61 gold spans.
 
-**55 classes is the label inventory, not the learnable inventory.**
+Seven classes **with gold Turkish dev examples** have BERTurk F1 of 0: `alarm_type`, `audiobook_author`, `cooking_type`, `game_type`, `ingredient`, `movie_name` and `transport_name`. Each has fewer than five dev examples. `transport_descriptor` also has F1 of 0 because it is predicted once despite having no gold dev examples.
+
+These sparse classes make individual per-class estimates unstable. Their scores do not show that the classes are inherently unlearnable.
 
 ---
 
-## 7. Structural validity — the accuracy/well-formedness trade-off
+## 7. Structural validity
 
-| method | micro F1 | invalid BIO sequences |
+| method | micro F1 | invalid BIO transitions |
 |---|---|---|
 | baseline | 0.4899 | **440** |
 | HMM + Viterbi | 0.5555 | **1** |
 | CRF | 0.7185 | **1** |
 | BERTurk | 0.7888 | **53** |
 
-The most accurate model is the least well-formed. BERTurk classifies each token
-independently with no transition modelling, so it emits sequences like `I-date`
-after `O`, which cannot decode to a valid span. The HMM and CRF forbid this by
-construction through transition scores.
+BERTurk has the highest F1 but more invalid transitions than the HMM or CRF. The baseline has the most invalid transitions overall.
 
-This is the empirical case for putting a CRF layer on top of BERT.
+The counter measures invalid `I-` transitions, **not sentences or whole sequences**. For example, `I-date` immediately after `O` is counted as invalid. The evaluator permissively treats a stray `I-` tag as the beginning of a new span and reports transition violations separately.
+
+BERTurk uses contextual token representations with a token-classification head and no structured BIO decoder. The HMM and CRF learn transition scores, but these implementations do not hard-forbid all illegal BIO transitions; each produces one violation here.
+
+A constrained decoder or a BERT–CRF extension is a possible follow-up experiment. Neither was evaluated in the supplied results.
 
 ---
 
@@ -165,15 +163,15 @@ This is the empirical case for putting a CRF layer on top of BERT.
 | **train tr-TR** | 0.7185 | 0.0673 |
 | **train en-US** | 0.0261 | 0.7876 |
 
-Transfer gap: Turkish 0.6512, English 0.7615.
+For a model trained on Turkish, moving from Turkish dev to English dev lowers F1 by **0.6512**. For a model trained on English, moving to Turkish dev lowers F1 by **0.7615**.
 
-Zero-shot transfer collapses to near zero. A CRF is a lexical model and the two
-languages share almost no surface vocabulary. This is the motivation for a
-multilingual encoder, not a failure of the experiment.
+Direct transfer is weak for this CRF feature set. These runs show limited transfer of the learned lexical, orthographic and contextual feature weights. A multilingual encoder is a possible future comparison; no multilingual neural transfer experiment is included.
 
 ---
 
-## 9. Training behaviour — BERTurk overfits after epoch 3
+## 9. BERTurk training history
+
+The following epoch values and training-loss endpoints were reported in the supplied group summary. The saved `metrics_bert.json` contains the selected model's dev metrics; the package does not include a separate per-epoch training log.
 
 | epoch | eval loss | eval F1 |
 |---|---|---|
@@ -188,11 +186,9 @@ multilingual encoder, not a failure of the experiment.
 | 9 | 0.5991 | 0.7864 |
 | 10 | 0.6050 | 0.7829 |
 
-Training loss fell 1.514 → 0.0098 while eval loss **rose** from epoch 3 onward.
-Classic overfitting. `load_best_model_at_end` selected epoch 5.
+Reported training loss fell from 1.514 to 0.0098. The lowest dev loss occurred at epoch 3, while the highest dev F1 occurred at epoch 5. The script selects the checkpoint with the best dev F1, consistent with the saved F1 of 0.7888.
 
-Ten epochs (the hyperparameter from the BERT2D paper) is too many for this
-dataset. 4–5 would do, at half the compute.
+Rising dev loss with little further F1 improvement is consistent with overfitting or increasing confidence in errors. Early stopping is worth testing, but one training run does not establish an optimal epoch count. A dev-selected checkpoint still needs independent final evaluation.
 
 ---
 
@@ -200,21 +196,28 @@ dataset. 4–5 would do, at half the compute.
 
 | method | train | predict | notes |
 |---|---|---|---|
-| baseline | 0.1 s | 0.0 s | CPU |
-| HMM | 0.1 s | **6.4 s** | Viterbi is O(T·\|Y\|²), 109 labels |
-| CRF | 168 s | 0.3 s | CPU |
-| BERTurk | 579 s | 2.1 s | T4 GPU |
+| baseline | 0.05 s | 0.00 s | Saved Turkish timing; prediction time rounded |
+| HMM | 0.06 s | 6.41 s | Saved Turkish timing |
+| CRF | 168.08 s | 0.34 s | Saved Turkish timing |
+| BERTurk | 579 s | 2.1 s | Reported in the group summary; T4 GPU reported |
 
-The HMM trains instantly but predicts **20× slower than the CRF** — Viterbi does
-~12,000 operations per token at 109 labels. The CRF trains 1,700× slower than
-the HMM but predicts 20× faster. Accuracy is not the only axis.
+The saved Turkish timings show HMM prediction taking approximately **19×** as long as CRF prediction. HMM Viterbi decoding has O(T·|Y|²) complexity in this implementation, whereas the CRF uses a compiled library. These are run-specific measurements, not hardware-normalized benchmarks. A recorded 0.00 seconds means below the stored timing precision, not zero computational work. BERTurk timings are reported by the group and are not stored in `metrics_bert.json`.
 
 ---
 
-## Reproducing
+## Reproducing the analysis
 
+Run the following from the repository root to analyze the existing predictions without retraining:
+
+```bash
+python src/significance.py --pred results/tr-TR/pred_crf_dev.json --compare results/tr-TR/pred_hmm_dev.json
+python src/significance.py --pred results/tr-TR/pred_crf_dev.json --compare results/tr-TR/pred_baseline_dev.json
+python src/significance.py --pred results/bert/pred_bert_dev.json --compare results/tr-TR/pred_crf_dev.json
+python src/stratified.py --pred results/tr-TR/pred_crf_dev.json --train data/massive/tr-TR/train.conll
+python src/stratified.py --pred results/en-US/pred_crf_dev.json --train data/massive/en-US/train.conll
+python src/stratified.py --pred results/bert/pred_bert_dev.json --train data/massive/tr-TR/train.conll
 ```
-RUN_ME.bat            # data + baseline/HMM/CRF, Turkish
-RUN_ANALYSIS.bat      # English, significance, stratified, transfer matrix
-```
-BERTurk needs a GPU; see README for the Colab steps.
+
+Evidence files: `results/dataset_stats.json`, the language-specific `metrics.json` and `stratified.json` files, `results/bert/metrics_bert.json`, all `pred_*_dev.json` files, `results/crosslingual.json`, and `results/analysis_log.txt`. The saved analysis log covers selected classical-model analyses, not the BERTurk training history.
+
+See [README.md](README.md) for full setup and training commands, including Colab use from an iPad. The `.bat` wrappers are for Windows and can recreate data or overwrite experiment outputs; they are not needed to inspect this report. No new training or final test evaluation was performed for this documentation update.
