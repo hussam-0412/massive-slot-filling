@@ -1,0 +1,13066 @@
+ışıkları	O
+kapat	O
+lütfen	O
+
+koridordaki	B-house_place
+ışıkları	O
+kıs	O
+
+odayı	B-house_place
+daha	O
+karanlık	O
+yap	O
+
+daireyi	B-house_place
+temizle	O
+
+temizlik	O
+iyidir	O
+toz	O
+çok	O
+kötü	O
+şimdi	O
+sihrini	O
+yap	O
+halımı	B-house_place
+temizle	O
+
+benim	O
+uygun	O
+anılarımda	O
+durum	O
+sağla	O
+
+çin	B-food_type
+yemeği	O
+için	O
+en	O
+fazla	O
+yıldızlı	O
+teslimat	B-order_type
+seçeneklerini	O
+listele	O
+
+migrostan	B-place_name
+benim	O
+ıspanaklı	B-food_type
+börek	I-food_type
+paketimi	B-order_type
+bul	O
+
+büyük	B-artist_name
+ev	I-artist_name
+ablukada'dan	I-artist_name
+arayan	B-song_name
+bulur	I-song_name
+dinlemek	O
+istiyorum	O
+
+bana	O
+metin	B-artist_name
+arolat'tan	I-artist_name
+dert	B-song_name
+değil	I-song_name
+çal	O
+
+grup	O
+şimdi	O
+ne	O
+çalıyor	O
+
+akşam	O
+yemeği	O
+siparişimde	O
+neler	O
+var	O
+
+haftanın	B-time
+hava	O
+tahmini	O
+nasıl	O
+
+direniyorum	B-song_name
+u	O
+çal	O
+
+güle	B-song_name
+güle	I-song_name
+şekerim	I-song_name
+i	O
+çal	O
+
+biraz	O
+zeki	B-artist_name
+müren	I-artist_name
+çal	O
+
+bu	O
+şarkıyı	O
+döngüye	B-player_setting
+al	O
+
+sesi	O
+düşüğe	B-change_amount
+ayarla	O
+
+bugün	B-date
+günlerden	O
+ne	O
+
+şu	O
+hangi	O
+şarkı	O
+
+caz	B-music_genre
+dinlemek	O
+istiyorum	O
+
+olly	O
+caz	B-music_genre
+dinlemek	O
+istiyorum	O
+
+hey	O
+
+yarın	B-date
+sabah	B-time
+altıya	I-time
+alarm	O
+kur	O
+
+sesi	O
+aç	O
+
+dışarıda	O
+yağmur	B-weather_descriptor
+var	O
+mı	O
+
+aydın	B-place_name
+da	O
+saat	O
+kaç	O
+
+bayburt'ta	B-place_name
+saat	O
+kaç	O
+
+sabah	B-timeofday
+altıya	B-time
+alarm	O
+kur	O
+
+sabah	B-timeofday
+uyanmak	B-alarm_type
+için	O
+alarm	O
+kurdum	O
+mu	O
+
+amerika'da	B-place_name
+neler	O
+oluyor	O
+
+olly	O
+şimdi	O
+de	O
+death	O
+metal	B-music_genre
+
+şimdi	O
+istanbulda	B-place_name
+saat	O
+kaç	O
+
+bugünkü	B-date
+gazete	B-media_type
+başlıklarını	O
+söyle	O
+
+harun	B-artist_name
+kolçak	I-artist_name
+çal	O
+
+bu	B-date
+yıl	I-date
+cumhuriyet	O
+bayramı	O
+hangi	O
+gün	O
+
+içerisi	O
+çok	O
+karanlık	O
+
+yarın	B-date
+yağmur	B-weather_descriptor
+yağacak	O
+mı	O
+
+daha	O
+yumuşak	O
+
+yarın	B-date
+dışarısı	O
+kaç	O
+derece	B-weather_descriptor
+olacak	O
+
+yarınki	B-date
+hava	O
+için	O
+tahminler	O
+ne	O
+
+yirmi	B-date
+iki	I-date
+mart	I-date
+haftanın	O
+hangi	O
+günüdür	O
+
+bugün	B-date
+pazartesi	I-date
+mi	O
+
+tekirdağ'da	B-place_name
+hava	O
+nasıl	O
+
+şu	O
+an	O
+gaziantep	B-place_name
+güneşli	B-weather_descriptor
+mi	O
+
+brexit	B-news_topic
+hakkında	O
+daha	O
+fazla	O
+haber	O
+olur	O
+olmaz	O
+bana	O
+haber	O
+ver	O
+
+akıllı	B-device_type
+prizi	I-device_type
+kapat	O
+
+benim	O
+favorilerimden	O
+bir	O
+şarkı	O
+çal	O
+
+pop	B-music_genre
+müzik	O
+dinlemek	O
+istiyorum	O
+lütfen	O
+
+benim	O
+ışıklarımı	O
+değiştir	O
+böylece	O
+iyi	B-color_type
+bir	I-color_type
+uyku	I-color_type
+çekebileyim	O
+
+cuma	B-date
+günü	I-date
+hava	O
+nasıl	O
+
+bugün	B-date
+günlerden	O
+ne	O
+
+bugün	B-date
+mont	B-weather_descriptor
+giymeli	O
+miyim	O
+
+karıştırmayı	B-player_setting
+devre	I-player_setting
+dışı	I-player_setting
+bırak	I-player_setting
+
+tarih	O
+ne	O
+
+hangi	O
+şeyleri	O
+yapamazsın	O
+
+saati	O
+söyle	O
+
+dışarısı	O
+sıcak	B-weather_descriptor
+mı	O
+
+kurulu	O
+alarmım	O
+var	O
+mı	O
+
+doğru	O
+formül	O
+ile	O
+
+bir	B-time
+sonraki	I-time
+saat	I-time
+boyunca	O
+sessize	O
+al	O
+lütfen	O
+
+benim	O
+en	O
+sevdiğim	O
+şarkıyı	O
+çal	O
+
+çok	O
+mu	O
+tehlikeli	O
+
+lütfen	O
+bana	O
+uluslararası	B-place_name
+haberleri	O
+var	O
+
+sabah	B-time
+saat	I-time
+on	I-time
+için	O
+bir	O
+uyandırma	O
+çağrısı	O
+ayarla	O
+
+öğleden	B-time
+sonra	I-time
+üç	I-time
+için	O
+alarm	O
+kur	O
+
+öğleden	B-time
+sonra	I-time
+bire	I-time
+alarm	O
+kur	O
+
+şarkıyı	O
+hemen	B-song_name
+aç	O
+
+bana	O
+bu	O
+şarkının	O
+sözlerini	O
+mail	O
+at	O
+
+sabah	B-time
+sekiz	I-time
+alarmımdan	O
+kurtul	O
+
+yarın	B-date
+yağmur	B-weather_descriptor
+yağacak	I-weather_descriptor
+mı	O
+
+sezen	B-artist_name
+aksu	I-artist_name
+'dan	O
+sen	B-song_name
+ağlama	I-song_name
+dinlemek	O
+istiyorum	O
+lütfen	O
+
+alarmı	O
+başlat	O
+
+yarın	B-date
+sabah	B-time
+altıda	I-time
+uyanmak	O
+istiyorum	O
+lütfen	O
+
+olly	O
+benim	O
+çalma	O
+listemden	O
+şarkılar	O
+çal	O
+
+ramazan	B-event_name
+bayramı	I-event_name
+haftanın	O
+hangi	O
+gününe	O
+geliyor	O
+
+lütfen	O
+bana	O
+pırlantayı	B-song_name
+dinlet	O
+
+bana	O
+bir	O
+hayvan	B-joke_type
+fıkrası	O
+anlatır	O
+mısın	O
+
+anlık	O
+hava	O
+durumu	O
+nasıl	O
+
+kaliforniya'da	B-place_name
+şu	O
+an	O
+saat	O
+kaç	O
+
+zaman	O
+dilimini	O
+ayarla	O
+
+ben	O
+eve	O
+gelince	O
+t.	B-device_type
+v.	I-device_type
+prizi	O
+aç	O
+
+hilary	B-news_topic
+e-posta	I-news_topic
+meselesi	I-news_topic
+ile	O
+ilgili	O
+gelecek	B-time
+te	O
+haberleri	O
+takip	O
+et	O
+
+sesi	O
+ayarını	O
+düşür	O
+
+duyamıyorum	O
+sesi	O
+artır	O
+
+ışıkları	O
+biraz	O
+daha	O
+parlaklaştırır	O
+mısın	O
+lütfen	O
+
+şimdi	O
+fazıl	B-artist_name
+say	I-artist_name
+dinlemek	O
+istiyorum	O
+
+formula	B-news_topic
+bir	I-news_topic
+yarışına	O
+şu	O
+an	O
+kim	O
+liderlik	O
+ediyor	O
+
+kahve	O
+hazırla	O
+
+cumhuriyet	B-media_type
+gazetesinden	O
+başlıkları	O
+oku	O
+
+c.	B-media_type
+n.	I-media_type
+n.	I-media_type
+türkten	O
+son	O
+dakika	O
+haberlerini	O
+öğrenmek	O
+istiyorum	O
+
+lütfen	O
+sesi	O
+kısabilir	O
+misin	O
+
+rb	B-artist_name
+ve	O
+soul	B-music_genre
+türü	O
+parçalar	O
+çal	O
+
+wemo	B-device_type
+prizi	I-device_type
+kapatabilir	O
+misin	O
+
+bu	B-date
+hafta	I-date
+hava	O
+nasıl	O
+görünüyor	O
+
+bu	B-date
+hafta	I-date
+hava	O
+nasıl	O
+olacak	O
+
+dünyada	O
+bir	O
+deprem	B-news_topic
+olursa	O
+bana	O
+haber	O
+ver	O
+
+reynmen	B-artist_name
+'den	O
+hevesim	B-song_name
+yok	I-song_name
+'u	O
+çal	O
+
+hey	O
+olly	O
+hoparlörlerin	O
+sesini	O
+kapat	O
+
+hoparlörlerdeki	O
+tüm	O
+sesi	O
+kıs	O
+lütfen	O
+
+şimdi	O
+kahve	O
+yap	O
+
+ok	O
+google	O
+biraz	O
+müzik	O
+çal	O
+
+hollywood'daki	B-news_topic
+son	O
+dedikodu	O
+ne	O
+
+ışıkları	O
+parlaklaştır	O
+
+sabah	B-time
+sekiz	I-time
+için	O
+alarm	O
+kur	O
+
+çarşamba	B-date
+için	O
+sabah	B-time
+altı	I-time
+alarmını	O
+kapat	O
+
+cumadan	B-date
+sonra	I-date
+sabah	B-timeofday
+alarmlarını	O
+kapat	O
+
+benim	O
+için	O
+gelecek	B-date
+hafta	I-date
+için	O
+hava	O
+durumuna	O
+bak	O
+lütfen	O
+
+benim	O
+favori	O
+sanatçılarımdan	O
+müzik	O
+aç	O
+
+lütfen	O
+ışıkları	O
+biraz	B-change_amount
+daha	I-change_amount
+kıs	O
+
+telefonlar	O
+
+doğu	B-place_name
+yakası	I-place_name
+için	O
+saat	O
+akşam	B-time
+sekiz	I-time
+ise	O
+meriç	B-place_name
+edirne	I-place_name
+de	O
+saat	O
+kaç	O
+
+quick	B-business_name
+china	I-business_name
+paket	B-order_type
+servis	I-order_type
+siparişi	O
+alıyor	O
+mu	O
+
+bana	O
+istanbul	B-place_name
+daki	O
+zamanı	O
+söyler	O
+misin	O
+
+c.	B-media_type
+n.	I-media_type
+n.	I-media_type
+için	O
+mevcut	O
+haberler	O
+
+beni	O
+türk	B-media_type
+telekom	I-media_type
+web	O
+sitesine	O
+götür	O
+
+manşetleri	O
+çıkar	O
+lütfen	O
+
+new	B-media_type
+york	I-media_type
+times'ın	I-media_type
+manşetleri	O
+neler	O
+
+birbiçer	B-business_name
+kebabın	I-business_name
+paket	B-order_type
+servisi	I-order_type
+almama	I-order_type
+uygun	O
+olup	O
+olmadığını	O
+bul	O
+
+bugünün	B-date
+tarihini	O
+alabilir	O
+miyim	O
+
+okul	O
+alarmım	O
+kurulu	O
+mu	O
+
+dışarısı	O
+ne	O
+kadar	O
+sıcak	B-weather_descriptor
+
+bugün	B-date
+öğleden	B-time
+sonra	I-time
+birde	I-time
+robot	B-device_type
+süpürgeyi	I-device_type
+çalıştır	O
+
+iyi	O
+asistanlar	O
+
+bana	O
+gün	O
+için	O
+mevcut	O
+haberleri	O
+gönder	O
+
+şimdi	O
+sefo	B-artist_name
+'dan	O
+bonita	B-song_name
+'yı	O
+çal	O
+
+bugünün	B-date
+tarihi	O
+
+gülşen	B-artist_name
+'den	O
+ne	B-song_name
+kavgam	I-song_name
+bitti	I-song_name
+ne	I-song_name
+sevdam	I-song_name
+şarkısının	O
+sözleri	O
+neler	O
+
+bana	O
+hiç	O
+country	B-music_genre
+müzik	O
+çalma	O
+
+hatay	B-place_name
+da	O
+gece	B-time
+on	I-time
+ise	O
+içel	B-place_name
+de	O
+saat	O
+kaç	O
+
+ayna	B-artist_name
+'dan	O
+gittiğin	B-song_name
+yağmurla	I-song_name
+gel	I-song_name
+dinlemek	O
+istiyorum	O
+şimdi	O
+
+bugün	B-date
+hava	O
+durumu	O
+nasıl	O
+
+yağmur	B-weather_descriptor
+yağacak	O
+mı	O
+
+antalya	B-place_name
+daki	O
+mevcut	O
+saat	O
+ne	O
+
+akşam	O
+yemeği	O
+için	O
+sağlıklı	B-food_type
+yemekler	I-food_type
+önerir	O
+misin	O
+
+hoş	O
+bir	O
+restoran	B-business_type
+dan	O
+yemek	O
+sipariş	O
+et	O
+
+girne	B-place_name
+saatini	O
+istanbul	B-place_name
+saatine	O
+çevir	O
+
+olly	O
+oturma	B-house_place
+odasını	I-house_place
+mavi	B-color_type
+yap	O
+
+oturma	B-house_place
+odasını	I-house_place
+mavi	B-color_type
+yap	O
+
+lütfen	O
+arsız	B-song_name
+gönül	I-song_name
+'ü	O
+çal	O
+
+salı	B-date
+günü	O
+için	O
+güncel	O
+hava	O
+durumu	O
+nedir	O
+
+pazartesi	B-date
+öğlen	B-timeofday
+için	O
+en	O
+son	O
+hava	O
+durumu	O
+nasıl	O
+
+on	B-date
+beş	I-date
+mart	I-date
+hangi	O
+gün	O
+olacak	O
+
+bu	B-date
+ayın	I-date
+son	I-date
+pazartesi	I-date
+gününün	O
+tarihini	O
+istiyorum	O
+
+amerikada	B-place_name
+öğlen	B-time
+on	I-time
+iki	I-time
+iken	O
+hindistanda	B-place_name
+saat	O
+kaç	O
+
+bana	O
+saatin	O
+kaç	O
+olduğunu	O
+söyle	O
+
+bana	O
+internetteki	O
+en	O
+iyi	O
+tık	B-joke_type
+tık	I-joke_type
+şakasını	O
+bul	O
+
+bu	B-date
+hafta	I-date
+pazartesi	I-date
+hava	O
+nasıl	O
+olacak	O
+
+biftek	B-food_type
+tarifin	O
+harikuladeydi	O
+
+bugün	B-date
+dünyada	O
+neler	O
+oluyor	O
+
+beş	B-date
+aralık	I-date
+hangi	O
+gün	O
+
+hey	O
+
+akademi	B-news_topic
+ödülleri	I-news_topic
+hakkındaki	O
+haberleri	O
+istiyorum	O
+
+bana	O
+bakü	B-place_name
+saatini	O
+söyle	O
+
+bugün	B-date
+hava	O
+nasıl	O
+
+bugün	B-date
+sıcak	B-weather_descriptor
+değil	O
+mi	O
+
+bugün	B-date
+çok	O
+sıcak	B-weather_descriptor
+değil	O
+mi	O
+
+yüz	O
+bin	O
+iki	O
+yüz	O
+on	O
+yedinci	O
+
+bu	B-date
+hafta	I-date
+hava	O
+nasıl	O
+olacak	O
+
+gece	O
+lambası	O
+ayarlarına	O
+geç	O
+
+sesi	O
+sadece	O
+biraz	O
+daha	O
+aç	O
+
+banadura'dan	B-business_name
+teslim	B-order_type
+almak	I-order_type
+üzere	O
+sipariş	O
+verebilir	O
+miyim	O
+
+paket	B-order_type
+yemek	O
+sipariş	O
+et	O
+
+tarkan	B-artist_name
+ın	O
+tüm	O
+sıradaki	O
+şarkılarını	O
+bul	O
+ve	O
+karıştırma	B-player_setting
+olmadan	I-player_setting
+çal	O
+
+kibariye	B-artist_name
+'nin	O
+tüm	O
+şarkılarından	O
+bir	O
+çalma	O
+listesi	O
+yap	O
+ve	O
+karmada	B-player_setting
+çal	O
+
+bu	B-date
+hafta	I-date
+kar	B-weather_descriptor
+yağacak	O
+mı	O
+
+müzik	O
+aç	O
+
+yeni	B-joke_type
+fıkra	O
+araştır	O
+
+hafif	B-music_genre
+rock	I-music_genre
+dinlemek	O
+istiyorum	O
+
+neşeli	B-music_descriptor
+bir	O
+müzik	O
+dinlemek	O
+istiyorum	O
+
+sezen	O
+aksu	O
+dan	O
+sen	O
+ağlama	O
+çal	O
+
+kendi	O
+bölgem	O
+için	O
+on	B-time
+günlük	I-time
+hava	O
+durumunu	O
+alabilir	O
+miyim	O
+
+bu	B-date
+haftanın	I-date
+hava	O
+durumunu	O
+al	O
+lütfen	O
+
+pop	B-music_genre
+bir	O
+şeyler	O
+çal	O
+bana	O
+
+playlist	O
+ten	O
+müzik	O
+çal	O
+
+bir	O
+espresso	B-coffee_type
+alabilir	O
+miyim	O
+lütfen	O
+
+olly	O
+elektrikli	B-device_type
+süpürgeyi	I-device_type
+çalıştır	O
+
+robot	B-device_type
+süpürgeyi	I-device_type
+çalıştırabilir	O
+misin	O
+
+bana	O
+politikadaki	B-news_topic
+herhangi	O
+yeni	O
+bir	O
+konu	O
+hakkında	O
+bildirim	O
+gönder	O
+
+değerlendirme	O
+
+öğleden	O
+önce	O
+mi	O
+sonra	O
+mı	O
+
+son	O
+yahoo	B-media_type
+haber	I-media_type
+makaleleri	O
+nedir	O
+
+bana	O
+son	B-time
+altı	I-time
+saat	I-time
+ten	O
+çok	B-media_type
+temiz	I-media_type
+bir	O
+haber	O
+bul	O
+
+şu	O
+anda	O
+doksan	O
+dokuz	O
+çalıyor	O
+bu	O
+hangi	O
+müzik	O
+
+müziğin	O
+sesini	O
+doksana	B-change_amount
+çıkar	O
+
+yarınki	B-date
+hava	B-weather_descriptor
+sıcak	I-weather_descriptor
+olacak	O
+evet	O
+mi	O
+hayır	O
+mı	O
+
+bu	B-date
+haftanın	I-date
+hava	O
+tahmini	O
+nedir	O
+
+şu	O
+an	O
+çalan	O
+şarkının	O
+sanatçısı	O
+kim	O
+
+o	O
+şarkıyı	O
+sevmiyorum	O
+kapat	O
+
+her	B-general_frequency
+gün	I-general_frequency
+sabah	O
+on	B-time
+ile	O
+onbir	B-time
+arası	O
+elektrikli	B-device_type
+süpürgemi	I-device_type
+çalıştır	O
+
+önümüzdeki	B-date
+hafta	I-date
+en	O
+yüksek	O
+sıcaklık	B-weather_descriptor
+kaç	O
+derece	O
+olacak	O
+
+bugün	B-date
+sabah	B-time
+ona	I-time
+alarm	O
+kurulu	O
+mu	O
+kontrol	O
+et	O
+
+enrique	B-artist_name
+çal	O
+
+tarkan	B-artist_name
+çal	O
+
+bana	O
+müziğimin	O
+like	O
+larını	O
+vermen	O
+mümkün	O
+mü	O
+
+suriye'den	B-place_name
+son	O
+haberler	O
+neler	O
+
+biraz	O
+daha	O
+fazla	O
+ışık	O
+lazım	O
+
+mevcut	O
+saati	O
+ver	O
+
+benim	O
+favori	O
+şarkıcım	O
+shakira	B-artist_name
+
+samsun'da	B-place_name
+neler	O
+oluyor	O
+
+benim	O
+en	O
+çok	O
+dinlediğim	O
+şarkıları	O
+çal	O
+
+youtube	B-media_type
+a	O
+git	O
+ve	O
+en	B-playlist_name
+güzel	I-playlist_name
+dans	I-playlist_name
+şarkıları	I-playlist_name
+kolleksiyonunu	O
+çal	O
+
+bana	O
+en	O
+son	O
+teknoloji	B-news_topic
+haberlerini	O
+getir	O
+
+o	O
+şarkıyı	O
+en	O
+iyi	O
+on	O
+favori	O
+listeme	O
+ekle	O
+
+bu	O
+şarkı	O
+harikaydı	O
+tekrar	O
+çalabilir	O
+misin	O
+
+bana	O
+mutfakta	B-house_place
+loş	O
+ışık	O
+ver	O
+
+o	O
+şarkıyı	O
+ve	O
+benim	O
+fikrimi	O
+kaydet	O
+
+seçim	B-news_topic
+sonuçları	O
+ile	O
+ilgili	O
+beni	O
+güncel	O
+tut	O
+
+analistler	O
+yeni	O
+göçmen	B-news_topic
+politikaları	I-news_topic
+hakkında	O
+ne	O
+dyor	O
+
+restoran	B-business_type
+sipariş	O
+durumu	O
+
+beş	B-time
+saat	O
+içinde	O
+beni	O
+uyar	O
+
+robot	B-device_type
+süpürgemi	I-device_type
+çalıştır	O
+
+müzik	O
+çal	O
+
+mevcut	O
+tarih	O
+saat	O
+grubu	O
+hangisi	O
+
+ev	B-house_place
+temizliğine	O
+başla	O
+
+ışığı	O
+kapat	O
+
+komik	B-joke_type
+espri	O
+
+şua	O
+nda	O
+hangi	O
+şarkı	O
+çalıyor	O
+
+bu	O
+şarkıda	O
+apple	B-artist_name
+music	I-artist_name
+tarafından	O
+sağlanan	O
+bilgiyi	O
+kaydet	O
+
+hey	O
+alexa	O
+dairemde	B-house_place
+disko	B-device_type
+ışıklarını	I-device_type
+aç	O
+ve	O
+parti	O
+başlasın	O
+
+lütfen	O
+kapat	O
+
+lütfen	O
+rap	B-music_genre
+çal	O
+
+bu	B-date
+hafta	I-date
+hava	O
+durumu	O
+ne	O
+olacak	O
+
+ne	O
+güneşli	B-weather_descriptor
+bir	O
+gün	O
+
+toplantı	B-event_name
+yarına	B-date
+planlandımı	O
+
+bugün	B-date
+bulutlu	B-weather_descriptor
+
+sessiz	O
+tuşuna	O
+dokun	O
+
+bana	O
+son	B-song_name
+aranjmanların	I-song_name
+hepsini	B-artist_name
+çal	O
+
+amerikadan	O
+olmayan	O
+batıya	B-music_genre
+ait	I-music_genre
+amerikan	I-music_genre
+folk	I-music_genre
+müziği	I-music_genre
+dinleyelim	O
+
+şu	O
+anda	O
+çalan	O
+müziğin	O
+adını	O
+kontrol	O
+et	O
+
+saklı	B-business_name
+bahçe	I-business_name
+teslimat	B-order_type
+yapıyor	O
+mu	O
+
+benim	O
+en	O
+son	O
+kullanılmış	O
+playlistimi	O
+aç	O
+
+bana	O
+ankaradaki	B-place_name
+saati	O
+söyle	O
+
+pop	B-music_genre
+çal	O
+
+modu	O
+ayarla	O
+lütfen	O
+
+ışıkları	O
+maviye	B-color_type
+çevir	O
+
+oturma	B-house_place
+odası	I-house_place
+ışıklarını	O
+kırmızıya	B-color_type
+çevir	O
+
+bana	O
+antalya	B-place_name
+konyaaltı	I-place_name
+havasını	O
+söyle	O
+olly	O
+
+siri	O
+dışarıda	O
+hava	O
+nasıl	O
+
+doğum	B-date
+günüm	I-date
+hangi	O
+gün	O
+
+çalan	O
+şarkının	O
+adı	O
+ne	O
+
+bana	O
+saatin	O
+kaç	O
+olduğunu	O
+söyler	O
+misin	O
+
+pazartesi	B-date
+hava	O
+durumu	O
+
+salı	B-date
+günü	O
+hava	O
+
+şarkıyı	O
+tekrarla	B-player_setting
+
+bana	O
+mevcut	O
+hava	O
+durumunu	O
+söyler	O
+misin	O
+
+yatak	B-house_place
+odamın	I-house_place
+ışığını	O
+kapatabilir	O
+misin	O
+lütfen	O
+
+hey	O
+beni	O
+mutlu	O
+edecek	O
+bir	O
+fıkra	O
+paylaş	O
+
+noel	B-event_name
+e	O
+kaç	O
+hafta	O
+kaldı	O
+
+haber	O
+siteleri	O
+nden	O
+hiç	O
+haberin	O
+var	O
+mı	O
+
+gülek	B-place_name
+yaylasında	I-place_name
+hava	O
+nasıl	O
+
+lütfen	O
+öğleden	B-time
+önce	I-time
+dokuz	I-time
+u	O
+erzincan	B-place_name
+dan	O
+sinop	B-place_name
+a	O
+çevir	O
+
+gardırop	O
+ışığını	O
+kapat	O
+
+barikat	B-artist_name
+'ı	O
+aç	O
+
+en	B-music_descriptor
+iyi	I-music_descriptor
+değerlendirilmiş	I-music_descriptor
+pop	B-music_genre
+şarkılarımı	O
+çal	O
+lütfen	O
+
+evimdeki	O
+bütün	O
+ışıkları	O
+mavi	B-color_type
+renge	O
+ayarla	O
+
+mahvettim	O
+hip	B-music_genre
+hop	I-music_genre
+
+olly	O
+ışıkları	O
+yediye	B-change_amount
+indir	O
+
+ışıklar	O
+yediye	B-change_amount
+insin	O
+
+ışığın	O
+gücünü	O
+en	O
+aza	O
+indir	O
+
+yedisinde	B-date
+hava	O
+nasıl	O
+olacak	O
+
+hoparlörü	O
+sessize	O
+al	O
+lütfen	O
+
+şu	O
+an	O
+çalan	O
+müziğin	O
+adı	O
+ne	O
+
+sesi	O
+aç	O
+
+bu	O
+şarkı	O
+hangisi	O
+
+iltimas	B-song_name
+ı	O
+dinlemek	O
+istiyorum	O
+
+mevcut	O
+şarkı	O
+albümlerini	O
+karıştır	B-player_setting
+
+haber	B-media_type
+bülteni	I-media_type
+den	O
+hangi	O
+haber	O
+güncellemeleri	O
+var	O
+
+news	B-media_type
+express	I-media_type
+de	O
+yeni	O
+ne	O
+var	O
+
+news	B-media_type
+express	I-media_type
+de	O
+neler	O
+oluyor	O
+
+saatin	O
+kaç	O
+olduğunu	O
+söyle	O
+bana	O
+
+türkiye	B-place_name
+deki	O
+saati	O
+öğrenmek	O
+istiyorum	O
+
+yaklaşan	O
+alarmlar	O
+hangileri	O
+
+olly	O
+ışıkları	O
+kapat	O
+
+erdoğan	B-news_topic
+hakkındaki	O
+son	O
+dakika	O
+haberlerini	O
+almanın	O
+bir	O
+yolu	O
+var	O
+mı	O
+
+ışıkları	O
+aç	O
+
+paket	B-order_type
+iste	O
+
+tüm	O
+ışıkları	O
+kısacak	O
+mısın	O
+
+bana	O
+haberleri	O
+ver	O
+
+ışıkları	O
+kıs	O
+
+bu	B-date
+haftanın	I-date
+hava	O
+durumu	O
+nasıl	O
+
+bu	B-date
+hafta	I-date
+için	O
+hava	O
+durumunu	O
+göster	O
+
+robot	B-device_type
+süpürgeyi	I-device_type
+nasıl	O
+başlatabilirim	O
+
+lütfen	O
+robot	B-device_type
+süpürgeyi	I-device_type
+açmamda	O
+bana	O
+yardım	O
+et	O
+
+biraz	O
+modern	B-music_genre
+rock	I-music_genre
+dinlemek	O
+istiyorum	O
+
+son	O
+siparişimin	O
+durumu	O
+nedir	O
+
+dışarıda	O
+hava	O
+nasıl	O
+
+sevgililer	B-event_name
+günü	I-event_name
+haftanın	O
+hangi	O
+günü	O
+
+miami	B-place_name
+florida	I-place_name
+hava	O
+durumunu	O
+söyle	O
+
+biraz	O
+müzik	O
+istiyorum	O
+antrenman	B-playlist_name
+çalma	I-playlist_name
+listemi	I-playlist_name
+çalmaya	O
+ne	O
+dersin	O
+
+yarın	B-date
+sabah	B-timeofday
+sekize	B-time
+alarm	O
+kur	O
+
+lütfen	O
+yatak	B-house_place
+odasındaki	I-house_place
+ışıkları	O
+kıs	O
+
+bana	O
+sanatçının	O
+adını	O
+söyle	O
+
+şarkının	O
+adı	O
+ne	O
+
+bugün	B-date
+dünya	B-place_name
+haberlerinde	O
+neler	O
+oluyor	O
+
+en	O
+son	O
+uluslararası	B-place_name
+haberler	O
+nelerdir	O
+
+şimdi	O
+kahve	O
+alabilirim	O
+
+başucu	B-device_type
+lambamı	I-device_type
+kapat	O
+lütfen	O
+
+lütfen	O
+elektrik	B-device_type
+süpürgesini	I-device_type
+çalıştır	O
+
+elektrik	B-device_type
+süpürgesini	I-device_type
+çalıştır	O
+şimdi	O
+
+tüm	O
+yanıtları	O
+şimdi	O
+sessize	O
+al	O
+
+konuşma	O
+lütfen	O
+
+yeni	B-media_type
+sağlayıcı	I-media_type
+dan	O
+herhangi	O
+güncel	O
+bir	O
+şey	O
+aldık	O
+mı	O
+
+blank	B-news_topic
+hakkında	O
+yeni	O
+ne	O
+var	O
+
+adele	B-artist_name
+çal	O
+
+izmir	B-place_name
+için	O
+hava	O
+tahmini	O
+nasıl	O
+
+gelecek	B-date
+hafta	I-date
+kar	B-weather_descriptor
+yağacak	O
+mı	O
+
+istanbul	B-place_name
+il	B-news_topic
+konseyi	I-news_topic
+evsizlik	I-news_topic
+ile	I-news_topic
+ilgili	I-news_topic
+ne	I-news_topic
+yapıyor	I-news_topic
+
+b.	B-media_type
+b.	I-media_type
+c.	I-media_type
+news	I-media_type
+den	O
+haberleri	O
+getir	O
+
+sabah	B-time
+altı	I-time
+ve	I-time
+dokuz	I-time
+arası	O
+kaç	O
+tane	O
+alarm	O
+kurdum	O
+
+çalma	O
+listesini	O
+aç	O
+
+siparişi	O
+onayla	O
+
+benim	O
+için	O
+bir	O
+fincan	O
+kahve	O
+yap	O
+
+rock	B-music_genre
+dinlemek	O
+istiyorum	O
+
+ok	O
+google	O
+rock	B-music_genre
+müzik	O
+çal	O
+
+akımı	O
+kapat	O
+
+beş	B-time
+buçuğa	I-time
+alarm	O
+kur	O
+
+bu	O
+restoran	B-business_type
+dan	O
+paket	B-order_type
+sipariş	I-order_type
+edebiliyor	O
+muyum	O
+
+benim	O
+favorim	O
+lokanta	B-business_type
+teslimat	B-order_type
+yapıyor	O
+mu	O
+
+paket	B-order_type
+servis	I-order_type
+hizmetleri	O
+var	O
+mı	O
+
+kahve	B-device_type
+makinesini	I-device_type
+başlat	O
+
+siyasette	B-news_topic
+son	O
+haberler	O
+
+bana	O
+saati	O
+göster	O
+
+jazz	B-music_genre
+türü	O
+bir	O
+müzik	O
+çal	O
+
+önümüzdeki	O
+cumartesi	B-date
+ayın	O
+kaçı	O
+
+yankees	O
+geçen	B-date
+gece	I-date
+kazandı	O
+mı	O
+
+hoparlörlerden	O
+gelen	O
+sesi	O
+kapat	O
+
+oturma	B-house_place
+odasındaki	I-house_place
+ışıkların	O
+parlaklığını	O
+arttır	O
+
+kahve	O
+demle	O
+
+ışık	O
+renklerini	O
+maviden	B-color_type
+beyaza	I-color_type
+çevir	O
+
+evdeki	B-house_place
+ışıkları	O
+kırmızı	B-color_type
+yap	O
+
+on	B-date
+altı	I-date
+nisan	I-date
+hangi	O
+güne	O
+denk	O
+geliyor	O
+
+elektrik	B-device_type
+süpürgesini	I-device_type
+bir	B-time
+saat	I-time
+çalıştır	O
+
+bana	O
+bugünün	B-date
+tarihini	O
+söyle	O
+
+oturma	B-house_place
+odasındaki	I-house_place
+ışıkları	O
+kırmızı	B-color_type
+ayarla	O
+
+restoranın	B-business_type
+teslimat	B-order_type
+durumu	O
+nasıl	O
+gidiyor	O
+
+bu	O
+şarkıyı	O
+dinle	O
+
+tadım	B-business_name
+pizza	I-business_name
+da	O
+paket	B-order_type
+servis	I-order_type
+var	O
+mı	O
+
+ışık	O
+rengini	O
+maviye	B-color_type
+çevir	O
+
+alarmlarımı	O
+bana	O
+söyle	O
+
+lütfen	O
+kurduğum	O
+herhangi	O
+alarmları	O
+kaldır	O
+
+lütfen	O
+sabah	B-media_type
+haberlerinde	I-media_type
+oturan	O
+köpekle	B-news_topic
+ilgili	O
+makaleyi	O
+aç	O
+
+burada	O
+hava	O
+nasıl	O
+
+salcılar	B-food_type
+dürüm	I-food_type
+paket	O
+iste	O
+
+hürriyet	B-media_type
+için	O
+youtube	B-media_type
+da	O
+hiç	O
+yeni	O
+video	O
+var	O
+mı	O
+
+ardından	O
+yalan	B-song_name
+'ı	O
+çal	O
+
+benim	O
+country	B-music_genre
+çalma	O
+listesi	O
+ni	O
+çal	O
+
+ikinci	B-playlist_name
+çalma	I-playlist_name
+listesi	I-playlist_name
+ni	O
+çal	O
+
+bugünün	B-date
+tarihi	O
+ne	O
+
+alexa	O
+büyük	B-house_place
+yatak	I-house_place
+odasındaki	I-house_place
+klimayı	B-device_type
+kapat	O
+
+lütfen	O
+mevcut	O
+şarkıyı	O
+favorilerime	O
+ekle	O
+
+hip	B-music_genre
+hop'u	I-music_genre
+seviyorum	O
+
+lütfen	O
+bruno	B-artist_name
+mars	I-artist_name
+'dan	O
+benim	O
+en	O
+sevdiğim	O
+şarkıyı	O
+çal	O
+
+lütfen	O
+kahveyi	O
+başlat	O
+
+ışıkları	O
+kıs	O
+
+gece	O
+zamanı	O
+modu	O
+
+trend	O
+teknoloji	B-news_topic
+haberleri	O
+
+günümüz	O
+teknoloji	B-news_topic
+haberleri	O
+
+bir	O
+sonraki	O
+şarkıyı	O
+çal	O
+
+şarkı	O
+hangi	O
+yılda	O
+yazılmış	O
+
+yemeğimi	O
+bul	O
+
+olly	O
+sivas	B-place_name
+ta	O
+kar	B-weather_descriptor
+kalınlığı	O
+tahminleri	B-weather_descriptor
+
+olly	O
+trend	B-news_topic
+olmuş	I-news_topic
+popüler	O
+başlıklar	O
+
+sonraki	O
+alarm	O
+
+canım	O
+cidden	O
+çok	O
+çin	B-food_type
+yemeği	O
+istiyor	O
+şu	O
+anda	O
+lütfen	O
+bir	O
+paket	O
+siparişi	O
+oluştur	O
+
+bugün	B-date
+siyaset	B-news_topic
+için	O
+haberler	O
+nelerdir	O
+erdoğan	B-person
+haberlerini	O
+filtreler	O
+misin	O
+
+iki	O
+sucuklu	B-food_type
+pizza	I-food_type
+ihtiyacım	O
+var	O
+
+bir	O
+şarkı	O
+çal	O
+
+ışığı	O
+kapat	O
+
+güneyde	O
+hava	B-weather_descriptor
+güneşli	I-weather_descriptor
+mi	O
+
+bana	O
+biraz	O
+müzik	O
+çal	O
+
+en	O
+yakın	O
+nerelerden	O
+paket	B-order_type
+servisi	I-order_type
+yapabilirim	O
+ben	O
+
+sesini	O
+alçalt	O
+lütfen	O
+
+kalkış	O
+alarmımı	O
+kaça	O
+kurdun	O
+
+yarın	B-date
+sabah	B-timeofday
+için	O
+hiç	O
+alarmım	O
+var	O
+mı	O
+
+önceki	O
+alarmlarımı	O
+sil	O
+
+classical	B-music_genre
+chamber	I-music_genre
+müzik	O
+playlisti	O
+çal	O
+
+bu	O
+şarkıyı	O
+bir	O
+dahakine	O
+koy	O
+
+bu	O
+gruptaki	O
+solistin	O
+adı	O
+ne	O
+
+güç	O
+kapama	O
+açık	O
+
+siri	O
+benim	O
+pop	B-music_genre
+oynatma	O
+listemi	O
+çal	O
+
+o	O
+konuda	O
+hiç	O
+yeni	O
+haber	O
+var	O
+mı	O
+söyle	O
+
+biliyorsun	O
+ki	O
+caz	B-music_genre
+seviyorum	O
+
+lütfen	O
+çalma	O
+listemi	O
+kontrol	O
+et	O
+
+alarmı	O
+bir	B-time
+buçuğa	I-time
+kurabilir	O
+misin	O
+
+yarın	B-date
+için	O
+alarmı	O
+iptal	O
+et	O
+
+mevcut	O
+merkezi	B-time_zone
+saat	O
+ne	O
+
+yarın	B-date
+için	O
+ayarlanmış	O
+alarmları	O
+kaldır	O
+
+olly	O
+ışıkları	O
+azalt	O
+lütfen	O
+
+yarın	B-date
+mersin'de	B-place_name
+yağmur	B-weather_descriptor
+yağacak	I-weather_descriptor
+mı	O
+
+ankarada	B-place_name
+saat	O
+kaç	O
+
+doğu	B-time_zone
+ve	O
+pasifik	B-time_zone
+zaman	O
+farkı	O
+ne	O
+kadardır	O
+
+en	O
+yakın	O
+çin	B-food_type
+lokantası	B-business_type
+teslimat	B-order_type
+yapıyor	O
+mu	O
+
+los	B-place_name
+angeles	I-place_name
+de	O
+hava	O
+nasıl	O
+
+ok	O
+google	O
+hava	O
+nasıl	O
+
+aydınlatmayı	O
+azalt	O
+
+lütfen	O
+wemo	B-device_type
+prizi	I-device_type
+aç	O
+
+gelecek	B-date
+hafta	I-date
+hava	O
+nasıl	O
+olacak	O
+
+şarkı	O
+nasıl	O
+tekrar	O
+edilir	O
+
+o	O
+hangi	O
+müzik	O
+
+ışıkları	O
+artır	O
+lütfen	O
+
+romantik	B-playlist_name
+playlist	I-playlist_name
+aç	O
+
+bu	B-date
+ay	I-date
+yirmi	I-date
+ikinci	I-date
+günü	O
+hangi	O
+güne	O
+denk	O
+geliyor	O
+
+uyu	O
+
+yarın	B-date
+sabah	B-time
+yedide	I-time
+bir	O
+uyandırma	B-alarm_type
+alarmı	O
+istiyorum	O
+
+lütfen	O
+tüm	O
+dış	O
+ışıkları	O
+aç	O
+
+sesi	O
+artır	O
+lütfen	O
+
+resmi	B-news_topic
+kapanma	I-news_topic
+ile	O
+ilgili	O
+mevcut	O
+haberleri	O
+getir	O
+
+bandista	B-artist_name
+müziğini	O
+aç	O
+
+gece	O
+vakti	O
+
+bana	O
+paket	B-order_type
+servisi	I-order_type
+yemek	O
+al	O
+
+romantik	B-music_genre
+bir	O
+şeyler	O
+çal	O
+
+cuma	B-date
+plajda	B-place_name
+hava	O
+güzel	B-weather_descriptor
+olacak	O
+mı	O
+
+sezen	B-artist_name
+aksu	I-artist_name
+nun	I-artist_name
+dördüncü	O
+albümünü	O
+çal	O
+
+lütfen	O
+bana	O
+kahve	O
+yap	O
+
+bu	B-date
+hafta	I-date
+hangi	O
+gün	O
+yağmurlu	B-weather_descriptor
+olacak	O
+
+bu	B-date
+hafta	I-date
+hava	O
+nasıl	O
+
+öğleden	B-time
+sonra	I-time
+bir	I-time
+için	O
+çalar	O
+saat	O
+kur	O
+
+türkiyede	B-news_topic
+seçim	I-news_topic
+hakkında	O
+en	O
+son	O
+haberler	O
+nelerdir	O
+
+lütfen	O
+benim	O
+için	O
+bir	O
+kahve	O
+yap	O
+
+bugün	B-date
+güneşli	B-weather_descriptor
+bir	O
+gün	O
+mü	O
+
+şu	O
+an	O
+amasya'da	B-place_name
+hava	O
+nasıl	O
+
+playlist	O
+imi	O
+dinlemek	O
+istiyorum	O
+onu	O
+benim	O
+için	O
+çalar	O
+mısın	O
+
+olly	O
+tarkan	B-artist_name
+dan	O
+ölürüm	B-song_name
+sana	I-song_name
+çal	O
+
+antalya'da	B-place_name
+hava	O
+ne	O
+kadar	O
+sıcak	B-weather_descriptor
+
+trabzon'da	B-place_name
+saat	O
+kaç	O
+
+izmir	B-place_name
+de	O
+saat	O
+kaç	O
+
+pazar	B-date
+günü	O
+hava	O
+elbise	O
+giymek	O
+için	O
+fazla	O
+mı	O
+soğuk	B-weather_descriptor
+olacak	O
+
+biraz	O
+irem	B-artist_name
+derici	I-artist_name
+dinleyebilir	O
+miyim	O
+
+çok	O
+parlak	O
+
+dominoes	B-business_name
+dan	O
+iki	O
+pizza	B-food_type
+ve	I-food_type
+acılı	I-food_type
+kanat	I-food_type
+parçaları	I-food_type
+sipariş	O
+et	O
+
+bugün	B-date
+için	O
+tarih	O
+ve	O
+saat	O
+ne	O
+
+benim	O
+mevcut	O
+top	O
+çalma	O
+listemi	O
+çal	O
+
+benim	O
+en	O
+sevdiğim	O
+country	B-music_genre
+şarkılarını	O
+çal	O
+
+şu	O
+anda	O
+zimbabve	B-place_name
+de	O
+saat	O
+kaç	O
+
+olly	O
+şu	O
+anda	O
+türkiyede	B-place_name
+saat	O
+kaç	O
+
+lütfen	O
+tarkanın	B-artist_name
+ölürüm	O
+sana	O
+sını	O
+çal	O
+
+bana	O
+zamanı	O
+bildir	O
+
+en	O
+son	O
+koşu	B-news_topic
+yarışı	I-news_topic
+haberi	O
+nedir	O
+
+bundan	O
+sonra	O
+sevdanın	B-song_name
+son	I-song_name
+vuruşunu	I-song_name
+çal	O
+
+biraz	O
+jazz	B-music_genre
+dinlemek	O
+istiyorum	O
+
+bana	O
+bir	B-date
+haftalık	I-date
+ankara	B-place_name
+hava	O
+durumunu	O
+göster	O
+
+lütfen	O
+akıllı	B-device_type
+prizi	I-device_type
+kapat	O
+
+akıllı	B-device_type
+prizi	I-device_type
+aç	O
+
+hoparlör	O
+sesini	O
+azalt	O
+
+robot	B-device_type
+süpürgeyi	I-device_type
+çalıştır	O
+
+bana	O
+çin	B-food_type
+yemeği	O
+sipariş	O
+et	O
+
+radyodaki	O
+şarkıyı	O
+kim	O
+yaptı	O
+
+şu	O
+anki	O
+iki	B-news_topic
+adet	I-news_topic
+şampiyonlar	I-news_topic
+ligi	I-news_topic
+maçı	I-news_topic
+için	O
+skorlar	O
+nedir	O
+
+yeni	B-media_type
+asır	I-media_type
+başlığı	O
+nedir	O
+
+haftanın	B-date
+kalanında	I-date
+hava	O
+nasıl	O
+görünüyor	O
+
+ani	B-weather_descriptor
+hava	I-weather_descriptor
+değişikliği	I-weather_descriptor
+bekleniyor	O
+mu	O
+
+şimdi	O
+hava	O
+nasıl	O
+
+lütfen	O
+ışığı	O
+artırın	O
+
+önümüzdeki	B-date
+hafta	I-date
+kar	B-weather_descriptor
+olacak	O
+mı	O
+
+lütfen	O
+çarşamba	B-date
+akşamı	B-timeofday
+alarmını	O
+sil	O
+
+bugün	B-date
+itibariyle	O
+maine	B-place_name
+ne	O
+kadar	O
+kar	B-weather_descriptor
+aldı	O
+
+bu	O
+şarkıların	O
+türünü	O
+benim	O
+için	O
+kaydet	O
+
+bu	O
+şarkıyı	O
+sevdiğimi	O
+hatırlamanı	O
+istiyorum	O
+
+bu	O
+şarkıdan	O
+sonra	O
+yarınım	B-song_name
+yok	I-song_name
+u	O
+çal	O
+
+üç	B-time
+saat	I-time
+sonra	O
+beni	O
+uyar	O
+
+athena	B-music_genre
+
+hava	O
+şu	O
+anda	O
+nasıl	O
+
+bana	O
+avrupa	B-news_topic
+siyasetinde	I-news_topic
+neler	O
+olduğunu	O
+anlat	O
+bana	O
+
+şu	O
+anda	O
+ingiltere	B-news_topic
+premiyer	I-news_topic
+ligin	I-news_topic
+zirvesinde	O
+kimin	O
+olduğunu	O
+öğrenmek	O
+istiyorum	O
+
+alexa	O
+bölgemdeki	O
+haberler	O
+neler	O
+
+biraz	O
+tarkan	B-artist_name
+dinlemek	O
+istiyorum	O
+
+tekrarı	B-player_setting
+aç	O
+
+süpürgeyi	O
+aç	O
+
+gelecek	B-date
+hafta	I-date
+pizza	B-food_type
+ya	O
+gitme	O
+için	O
+en	O
+iyi	O
+gün	O
+hangisi	O
+
+bugün	B-date
+nasıl	O
+bir	O
+hava	O
+beklemeliyim	O
+
+istanbul'da	B-place_name
+saat	O
+kaç	O
+
+lütfen	O
+sabah	B-time
+sekize	I-time
+bir	O
+alarm	O
+kur	O
+
+çalma	O
+listesine	O
+fikret	B-artist_name
+kızılok	I-artist_name
+barış	I-artist_name
+manço	I-artist_name
+ve	O
+tarkan	B-artist_name
+ekle	O
+
+bana	O
+biraz	O
+dans	B-music_genre
+müziği	I-music_genre
+çalabilir	O
+misin	O
+
+çalma	O
+listesinden	O
+şarkılar	O
+çal	O
+
+şuan	O
+hangi	O
+alarmlarım	O
+kurulu	O
+
+bugün	B-date
+çeşme	B-place_name
+izmir	I-place_name
+için	O
+sıcaklık	B-weather_descriptor
+kaç	O
+derece	O
+olacak	O
+
+spotify	B-app_name
+yükle	O
+
+hey	O
+olly	O
+bana	O
+bir	O
+fıkra	O
+anlat	O
+
+bu	B-timeofday
+akşam	I-timeofday
+adrese	O
+teslim	O
+çin	B-food_type
+yemeği	O
+sipariş	O
+etmek	O
+istiyorum	O
+
+hey	O
+siri	O
+mevcut	O
+ışık	O
+ayarlarını	O
+değiştir	O
+
+bu	O
+riffi	O
+daha	O
+önce	O
+de	O
+duymuştum	O
+bu	O
+riffi	O
+hangi	O
+şarkı	O
+çalmıştı	O
+tıpatıp	O
+aynısı	O
+
+gece	B-time
+saat	I-time
+dört	I-time
+için	O
+ayarlanmış	O
+alarmı	O
+kaldır	O
+
+yarın	B-date
+hava	O
+otuz	B-weather_descriptor
+derecenin	O
+üzerinde	B-weather_descriptor
+olacak	O
+mı	O
+
+geçen	B-date
+yıldan	I-date
+benim	O
+favori	O
+şarkımı	O
+çal	O
+
+lütfen	O
+cevap	O
+verme	O
+
+masa	B-device_type
+lambamı	I-device_type
+kapatır	O
+mısın	O
+
+birinci	B-device_type
+masa	I-device_type
+lambası	I-device_type
+kapansın	O
+
+ışık	O
+aç	O
+
+ben	O
+bugün	B-date
+işe	O
+şemsiye	B-weather_descriptor
+getirmeli	O
+miyim	O
+
+bugün	B-date
+alışveriş	O
+yaparken	O
+şort	B-weather_descriptor
+giyebilir	O
+miyim	O
+
+teoman	B-artist_name
+dan	O
+müzik	O
+çal	O
+
+sezen	B-artist_name
+aksu	I-artist_name
+'nun	O
+en	O
+yeni	O
+albümünü	O
+çal	O
+
+yarın	B-date
+sabah	B-timeofday
+saat	O
+on	B-time
+için	O
+alarm	O
+kur	O
+
+beni	O
+saat	O
+onda	B-time
+uyandır	O
+
+emre	B-artist_name
+aydın	I-artist_name
+'dan	O
+afilli	B-song_name
+yalnızlık	I-song_name
+çal	O
+
+bana	O
+yakın	O
+adrese	O
+teslimat	B-order_type
+göster	O
+
+interneti	O
+aç	O
+
+bana	O
+biraz	O
+müzik	O
+dinlet	O
+
+harika	O
+müzik	O
+dinlemek	O
+istiyorum	O
+
+lambanın	B-device_type
+ışığını	I-device_type
+arttır	O
+
+lütfen	O
+sesi	O
+en	B-change_amount
+yüksek	I-change_amount
+ayara	O
+getir	O
+
+sesi	O
+kapat	O
+
+sesi	O
+durdur	O
+
+bu	B-date
+hafta	I-date
+hiç	O
+yağmur	B-weather_descriptor
+yağacak	I-weather_descriptor
+mı	O
+
+tüm	O
+iç	B-house_place
+mekan	O
+ışıklarını	O
+karart	O
+
+ben	O
+bugün	B-date
+şort	B-weather_descriptor
+ile	O
+çıkabilir	O
+miyim	O
+
+bugün	B-date
+kat	B-weather_descriptor
+kat	I-weather_descriptor
+mı	O
+giyinmeliyim	O
+
+ışıklarımı	O
+herhangi	B-color_type
+bir	I-color_type
+renge	O
+çevir	O
+
+bana	O
+en	O
+yeni	O
+cumhuriyet	B-media_type
+gazetesini	O
+aç	O
+
+ayarları	O
+sessize	O
+al	O
+
+bu	B-date
+hafta	I-date
+kar	O
+yağacak	O
+mı	O
+
+ışıkların	O
+rengini	O
+değiştir	O
+
+yirmi	B-date
+iki	I-date
+nisan	I-date
+da	O
+gün	O
+
+ne	O
+kadar	O
+sonra	O
+yağmur	B-weather_descriptor
+beklemeliyiz	O
+
+bana	O
+verdiğin	O
+hava	O
+durumu	O
+tahminleri	O
+yanlış	O
+şehir	O
+için	O
+bulunduğum	O
+yerin	O
+sıcaklığını	O
+bilmek	O
+istiyorum	O
+
+duble	O
+pastırmalı	B-food_type
+çizburger	I-food_type
+pastırma	I-food_type
+ve	O
+amerikan	B-food_type
+peyniri	I-food_type
+sipariş	O
+et	O
+
+erkin	B-playlist_name
+koray	I-playlist_name
+'dan	O
+çal	O
+
+hayvanlarla	B-date
+ilgili	B-news_topic
+güncel	O
+haberler	B-news_topic
+
+bu	B-date
+hafta	I-date
+yakınlarımda	O
+hava	O
+nasıl	O
+
+buradaki	O
+ışıkları	O
+daha	O
+yükselt	O
+lütfen	O
+
+lütfen	O
+hoparlör	O
+sesini	O
+aç	O
+
+ordu	B-place_name
+için	O
+saat	O
+farkı	O
+ne	O
+
+bana	O
+hangi	O
+catering	O
+paket	O
+servislerinin	O
+uygun	O
+olduğunu	O
+söyle	O
+
+hava	O
+bulutlu	O
+olacak	O
+mı	O
+
+benim	O
+pizza	B-business_name
+hut	I-business_name
+siparişim	O
+yolda	O
+mı	O
+bir	O
+bakıver	O
+
+yeni	O
+akıllı	B-device_type
+soketi	I-device_type
+çalıştır	O
+
+ışıkları	O
+iki	O
+seviye	O
+karart	O
+
+bu	B-date
+haftanın	I-date
+hava	O
+durumu	O
+tahmini	O
+nedir	O
+
+yatak	B-house_place
+odası	I-house_place
+ışıklarını	O
+kapat	O
+lütfen	O
+
+taco	B-business_name
+bell	I-business_name
+ne	O
+zaman	O
+gelecek	O
+
+bu	O
+müzik	O
+grubunun	O
+adı	O
+ne	O
+
+trump'ın	O
+bir	B-news_topic
+sonraki	I-news_topic
+basın	I-news_topic
+toplantısı	I-news_topic
+ne	O
+zaman	O
+
+turkcell	B-business_name
+için	O
+güncel	O
+hisse	B-news_topic
+senedi	I-news_topic
+fiyatları	I-news_topic
+nelerdir	O
+
+golf	O
+maçımda	O
+yağmurdan	B-weather_descriptor
+dolayı	O
+erteleme	B-weather_descriptor
+olur	O
+mu	O
+
+şikago'da	B-place_name
+hava	O
+nasıl	O
+
+sabah	B-time
+beşe	I-time
+alarm	O
+kur	O
+
+lütfen	O
+saat	O
+akşam	B-time
+ona	I-time
+alarm	O
+kur	O
+
+yarın	B-date
+hava	O
+nasıl	O
+olacak	O
+
+yarın	B-date
+hava	O
+güzel	B-weather_descriptor
+olacak	O
+mı	O
+
+bölgemde	O
+bugün	B-date
+hava	O
+nasıl	O
+
+farklı	O
+alarmımı	O
+listele	O
+
+borsadaki	B-news_topic
+tüm	O
+haberler	O
+için	O
+bildirim	O
+aç	O
+
+beni	O
+borsadaki	B-news_topic
+en	O
+son	O
+gelişmelerden	O
+haberdar	O
+et	O
+
+benim	O
+müziğimi	O
+aç	O
+
+bana	O
+son	O
+dakika	O
+haberlerinin	O
+neler	O
+olduğunu	O
+söyle	O
+
+inek	B-joke_type
+şakası	O
+istiyorum	O
+
+bugün	B-date
+şort	B-weather_descriptor
+giymeli	O
+miyim	O
+
+bana	O
+güzel	B-joke_type
+bir	O
+fıkra	O
+anlatır	O
+mısın	O
+
+son	B-music_descriptor
+şarkıyı	I-music_descriptor
+yeniden	O
+tekrar	B-player_setting
+et	I-player_setting
+
+bu	O
+yıl	O
+yirmi	B-date
+yedi	I-date
+haziran	I-date
+hangi	O
+gün	O
+
+ısınmaya	B-weather_descriptor
+ihtiyacım	O
+olacak	O
+mı	O
+
+bugün	B-date
+ne	O
+var	O
+
+yatak	B-house_place
+odasındaki	I-house_place
+ışıkları	O
+kapat	O
+
+zaman	O
+dilimini	O
+değiştir	O
+
+başka	B-place_name
+bir	I-place_name
+şehirde	I-place_name
+saat	O
+kaç	O
+
+gün	O
+batımı	O
+ne	O
+zaman	O
+
+on	B-time
+günlük	I-time
+hava	O
+tahmini	O
+
+ışıklar	O
+yeşile	B-color_type
+değiştirilebilir	O
+mi	O
+
+bana	O
+hürriyet	B-media_type
+haberlerini	O
+göster	O
+
+hiç	O
+haber	O
+var	O
+mı	O
+
+mustafa	B-artist_name
+sandal	I-artist_name
+'dan	O
+araba	B-song_name
+şarkısını	O
+çal	O
+
+beş	B-time
+dakika	I-time
+sonrasına	I-time
+alarm	O
+kur	O
+
+lütfen	O
+alarmımı	O
+kur	O
+
+pf	B-business_name
+chang's	I-business_name
+i	O
+ara	O
+ve	O
+egg	B-food_type
+foo	I-food_type
+young	I-food_type
+iste	O
+
+anlık	O
+sıcaklık	B-weather_descriptor
+kaç	O
+derece	O
+
+biraz	O
+müzik	O
+çal	O
+
+bu	O
+şarkı	O
+sözlerinden	O
+haberin	O
+var	O
+mı	O
+
+bunu	O
+kim	O
+söyledi	O
+
+bazı	O
+havalı	B-joke_type
+fıkralar	O
+aç	O
+
+bana	O
+fıkra	O
+anlat	O
+
+ışıkları	O
+söndür	O
+
+son	O
+güncel	O
+kasırga	B-news_topic
+haberlerini	O
+ver	O
+bana	O
+
+bugünün	B-date
+borsa	B-news_topic
+güncellemelerini	O
+gönder	O
+
+dün	B-date
+gece	I-date
+kazanan	B-news_topic
+powerball	I-news_topic
+numaraları	I-news_topic
+nelerdi	O
+
+şebnem'in	B-person
+yatak	O
+zamanı	O
+alarmını	O
+kaldır	O
+
+benimle	O
+daha	O
+sessiz	O
+konuş	O
+lütfen	O
+
+doğu	B-time_zone
+zaman	O
+dilimine	O
+göre	O
+saat	O
+kaç	O
+
+lütfen	O
+bana	O
+eyalet	B-place_name
+teki	O
+seçim	B-news_topic
+senaryosu	I-news_topic
+hakkında	O
+en	O
+son	O
+haberleri	O
+söyleyin	O
+
+rb'u	B-music_genre
+seviyorum	O
+
+bize	O
+kırmızı	B-color_type
+göster	O
+
+nisanın	B-date
+yirmi	I-date
+üçü	I-date
+cumartesi	O
+mi	O
+
+bugün	B-date
+hangi	O
+gün	O
+
+memleket	B-place_name
+havası	O
+nasıl	O
+
+bu	O
+playlist	O
+ten	O
+müzik	O
+aç	O
+
+yerel	O
+haberlerimden	O
+yeni	O
+haber	O
+geldiğinde	O
+söyle	O
+
+rengin	O
+opaklığını	O
+değiştir	O
+
+rengi	B-color_type
+açıktan	O
+koyuya	B-color_type
+döndür	O
+
+wemoyu	B-device_type
+aç	O
+
+sabah	B-time
+altıya	I-time
+alarm	O
+kur	O
+
+burası	O
+karanlık	O
+
+olly	O
+alarmları	O
+iptal	O
+et	O
+
+siri	O
+yoga	O
+alarmlarını	O
+iptal	O
+et	O
+
+olly	O
+sesi	O
+aç	O
+
+karıştırma	B-player_setting
+çalma	O
+listesini	O
+googleda	O
+ara	O
+
+sonraki	O
+ölürüm	B-song_name
+sana	I-song_name
+'yı	O
+çal	O
+
+sonraki	B-date
+gün	I-date
+hava	O
+nasıl	O
+olacak	O
+
+u.m.d	B-news_topic
+guam	I-news_topic
+uyuşturucu	I-news_topic
+kullanımının	I-news_topic
+artışta	I-news_topic
+olduğunu	I-news_topic
+bildirdi	I-news_topic
+
+bana	O
+bu	B-date
+hafta	I-date
+için	O
+hava	O
+tahminini	O
+söyler	O
+misin	O
+
+kahve	B-device_type
+makinesini	I-device_type
+çalışacak	O
+şekilde	O
+ayarlar	O
+mısın	O
+
+burası	O
+çok	O
+aydınlık	O
+bir	O
+ışığı	O
+kapatabilir	O
+misin	O
+
+bu	B-date
+hafta	I-date
+hava	O
+nasıl	O
+olacak	O
+
+lütfen	O
+bu	O
+şarkıyı	O
+benim	O
+çalma	O
+listesi	O
+favorilerime	O
+ekle	O
+
+yine	O
+bu	O
+şarkıyı	O
+çal	O
+lütfen	O
+
+perşembe	B-date
+rüzgarlı	B-weather_descriptor
+mı	O
+olacak	O
+
+bir	O
+fıkra	O
+anlat	O
+
+olly	O
+bana	O
+donald	B-person
+trump	I-person
+ile	O
+ilgili	O
+haberleri	O
+ver	O
+
+olly	O
+başkanlık	B-news_topic
+seçimi	I-news_topic
+hakkında	O
+mevcut	O
+haber	O
+var	O
+mı	O
+
+bugün	B-date
+benim	O
+buralarda	O
+havanın	O
+nasıl	O
+olma	O
+ihtimal	O
+i	O
+var	O
+
+salondaki	B-house_place
+ışıkları	O
+kapat	O
+
+beni	O
+en	O
+sonki	O
+haberlere	O
+götür	O
+
+cheteshwar	B-person
+pujara	I-person
+dün	B-date
+kaç	O
+koşu	O
+attı	O
+
+egzersiz	B-playlist_name
+çalma	I-playlist_name
+listemi	I-playlist_name
+çal	O
+
+banyodaki	B-house_place
+ışıkları	O
+kapat	O
+lütfen	O
+
+olly	O
+bugün	B-date
+eldiven	B-weather_descriptor
+giymem	O
+gerekiyor	O
+mu	O
+
+dışarı	O
+çıkarken	O
+şemsiye	B-weather_descriptor
+almam	O
+gerekli	O
+mi	O
+
+en	O
+son	O
+eklenen	O
+çalma	O
+listesini	O
+çalmaya	O
+başla	O
+
+b.	B-media_type
+b.	I-media_type
+c.	I-media_type
+den	O
+mevcut	O
+haberleri	O
+göster	O
+
+fox	B-media_type
+t.	I-media_type
+v.	I-media_type
+haberleri	I-media_type
+göster	O
+
+dışarısı	O
+nasıl	O
+
+bugün	B-date
+miami	B-place_name
+florida'da	I-place_name
+hava	O
+nasıl	O
+
+bana	O
+ayarladığın	O
+alarm	O
+zamanlarını	O
+söyle	O
+
+wayne	B-news_topic
+ilçe	I-news_topic
+şerifleri	I-news_topic
+için	O
+yerel	O
+haberleri	O
+verebilir	O
+misin	O
+
+benim	O
+çalma	O
+listemi	O
+çal	O
+
+doğu	B-time_zone
+zaman	O
+dilimine	O
+çevir	O
+
+gelecek	B-date
+hafta	I-date
+ayın	O
+yirmi	B-date
+dördü	I-date
+ne	O
+zamana	O
+geliyor	O
+
+itunesda	O
+yeni	O
+neler	O
+var	O
+
+lütfen	O
+bir	B-date
+ocak	I-date
+iki	I-date
+bin	I-date
+yirmi	I-date
+iki	I-date
+için	O
+hava	O
+durumunu	O
+göster	O
+bana	O
+
+irlanda'da	B-place_name
+haberler	O
+nasıl	O
+
+çalan	O
+şarkı	O
+hangisi	O
+
+sesi	O
+aç	O
+
+mutfağı	B-house_place
+temizlemek	O
+için	O
+robot	B-device_type
+süpürgeyi	I-device_type
+getir	O
+
+bana	O
+cevapsız	B-artist_name
+çınlama	I-artist_name
+ile	O
+ilgili	O
+bilgileri	O
+ver	O
+
+akşam	B-time
+beş	I-time
+alarmından	O
+kurtul	O
+
+türk	B-music_genre
+halk	I-music_genre
+müziği	O
+çal	O
+
+sabah	B-time
+saat	I-time
+ondan	I-time
+sonra	I-time
+monta	B-weather_descriptor
+ihtiyacım	O
+var	O
+mı	O
+yok	O
+mu	O
+
+trt	B-media_type
+haberlerini	I-media_type
+okumak	O
+istiyorum	O
+
+bu	B-timeofday
+gece	I-timeofday
+eldiven	B-weather_descriptor
+getirmem	O
+gerekiyor	O
+mu	O
+
+bugün	B-date
+cekete	B-weather_descriptor
+ihtiyacım	O
+var	O
+mı	O
+
+olly	O
+ışıkların	O
+parlaklığını	O
+arttır	O
+
+ışıkların	O
+rengini	O
+değiştir	O
+
+ışık	O
+rengini	O
+aktifleştir	O
+
+farklı	O
+bir	O
+ışık	O
+rengini	O
+etkinleştir	O
+
+kamuoyunun	B-news_topic
+başkan	I-news_topic
+trump'a	I-news_topic
+bakışı	I-news_topic
+hakkındaki	I-news_topic
+son	I-news_topic
+anket	I-news_topic
+nedir	O
+
+bu	O
+müziği	O
+favori	O
+yap	O
+
+oda	B-house_place
+ışığını	O
+kapat	O
+
+mayısın	B-date
+yirmi	I-date
+ikisi	I-date
+hangi	O
+gün	O
+
+aksi	O
+söyleyene	O
+kadar	O
+sessize	O
+ayarla	O
+
+şu	O
+anki	O
+çalan	O
+şarkıyı	O
+tekrar	B-player_setting
+oynat	I-player_setting
+lütfen	O
+
+lütfen	O
+bana	O
+hafta	B-date
+içi	I-date
+sabah	B-timeofday
+alarm	O
+bilgisi	O
+ver	O
+
+fotoğraflar	O
+için	O
+ayşeye	O
+teşekkürler	O
+
+biraz	O
+eski	B-music_genre
+okul	I-music_genre
+rapi	I-music_genre
+çal	O
+
+bana	O
+günün	O
+haberlerini	O
+oku	O
+
+bedri	B-person
+ile	O
+jale	B-person
+tekrar	O
+barıştı	O
+mı	O
+
+alarmı	O
+yirmi	B-date
+beş	I-date
+mayıs	I-date
+saat	O
+akşam	B-time
+beşe	I-time
+kur	O
+
+benim	O
+müziğimi	O
+aç	O
+lütfen	O
+
+asistan	O
+bütün	B-music_descriptor
+kitaplığı	I-music_descriptor
+karıştır	B-player_setting
+
+en	O
+yakın	O
+altın	B-business_name
+kebap	I-business_name
+
+mavi	O
+çalma	B-playlist_name
+listesini	I-playlist_name
+karıştır	B-player_setting
+ve	O
+çal	O
+
+alarm	O
+ayarlarını	O
+bildir	O
+
+anlık	O
+sıcaklık	B-weather_descriptor
+
+tarkanın	B-artist_name
+tüm	B-music_descriptor
+şarkılarını	O
+karıştır	B-player_setting
+ve	O
+çal	O
+
+bu	B-date
+hafta	I-date
+sonu	I-date
+güneş	B-weather_descriptor
+kremine	I-weather_descriptor
+ihtiyacım	O
+olur	O
+mu	O
+
+mağaza	B-business_type
+dan	O
+kar	B-food_type
+tuzu	I-food_type
+almam	O
+gerekiyor	O
+mu	O
+
+wemo	B-device_type
+prizini	I-device_type
+aç	O
+
+akıllı	B-device_type
+soketimi	I-device_type
+aç	O
+
+bana	O
+bugün	B-date
+hangi	O
+gün	O
+olduğunu	O
+söyle	O
+
+anlık	O
+hava	O
+durumu	O
+ya	O
+meteoroloji	O
+genel	O
+müdürlüğü	O
+veya	O
+accuweather	O
+dan	O
+güncelleniyor	O
+her	O
+ikisi	O
+de	O
+benim	O
+sistemde	O
+zayıf	O
+
+başlat'a	O
+dokunun	O
+ve	O
+ardından	O
+ayarları	O
+seçin	O
+
+ankara	B-place_name
+türkiye	I-place_name
+de	O
+saat	O
+kaç	O
+
+parti	B-music_descriptor
+şarkıları	I-music_descriptor
+oynat	O
+
+sezen	B-artist_name
+aksu	I-artist_name
+
+ev	B-house_place
+temizliği	I-house_place
+başlat	O
+
+işe	O
+giderken	O
+ceket	B-weather_descriptor
+giymeli	O
+miyim	O
+
+daha	O
+yüksek	O
+sesle	O
+konuşur	O
+musun	O
+
+odadaki	B-house_place
+her	B-device_type
+ışığın	I-device_type
+şiddetini	O
+arttır	O
+
+bana	O
+bir	O
+ajda	B-artist_name
+pekkan	I-artist_name
+şarkısı	O
+çal	O
+yine	O
+
+orevana	O
+ses	O
+kaydedicisi	O
+bana	O
+şarkı	O
+kaydetmek	O
+için	O
+sistem	O
+sayfasını	O
+bul	O
+
+iklim	B-weather_descriptor
+
+doğum	B-event_name
+günüm	I-event_name
+gelecek	B-date
+yıl	I-date
+hangi	O
+güne	O
+denk	O
+geliyor	O
+
+on	B-date
+ikisi	I-date
+hangi	O
+gün	O
+
+ses	O
+açık	O
+
+sanatçı	O
+çal	O
+
+hosta	B-business_name
+restoran	B-business_type
+paket	B-order_type
+servis	I-order_type
+yapıyor	O
+mu	O
+
+gün	B-time
+batımından	I-time
+sonra	I-time
+sis	B-weather_descriptor
+olacak	O
+mı	O
+
+dışarısı	O
+soğuk	B-weather_descriptor
+
+çalar	O
+saat	O
+
+bu	O
+akşam	B-timeofday
+saat	O
+beşe	B-time
+alarm	O
+kur	O
+etiket	O
+taksi	B-event_name
+
+memlekette	B-place_name
+hava	O
+durumu	O
+
+bu	O
+şarkıdan	O
+sonra	O
+aynı	O
+albümden	O
+dördüncü	O
+şarkıyı	O
+çal	O
+
+alexa	O
+classic	B-music_genre
+rock	I-music_genre
+aç	O
+
+robot	B-device_type
+süpürgeyi	I-device_type
+etkinleştir	O
+
+bu	O
+aydın	B-place_name
+için	O
+en	O
+sıcak	O
+gün	O
+mü	O
+
+alarm	O
+saatlerini	O
+bana	O
+söyle	O
+
+belli	O
+bir	O
+kelimenin	O
+anlamı	O
+
+müzik	O
+dinlet	O
+
+bana	O
+bir	O
+akşam	B-weather_descriptor
+yağmurluğu	I-weather_descriptor
+lazım	O
+
+uluslar	B-news_topic
+arası	I-news_topic
+ticaret	I-news_topic
+ve	I-news_topic
+iş	I-news_topic
+piyasası	I-news_topic
+
+lütfen	O
+bir	O
+süre	O
+kendini	O
+sessize	O
+alır	O
+mısın	O
+
+yemek	O
+sipariş	O
+istiyorum	O
+
+benim	O
+için	O
+kaça	O
+alarm	O
+kurdun	O
+
+şimdi	O
+kahve	O
+istiyorum	O
+
+sabah	B-coffee_type
+kahvemi	O
+hazırla	O
+
+kahve	O
+zamanı	O
+
+tadım	B-business_name
+pizza	I-business_name
+daki	O
+siparişim	O
+hazır	O
+mı	O
+
+çin	B-food_type
+yemeği	I-food_type
+mi	O
+ne	O
+zaman	O
+alabilirim	O
+
+saati	O
+aç	O
+
+bir	O
+sonraki	O
+seçili	O
+şarkı	O
+
+alexa	O
+ışık	O
+parlaklık	O
+arttır	O
+aşağıda	O
+görmek	O
+zor	O
+
+siparişim	O
+şimdi	O
+almaya	O
+hazır	O
+mı	O
+
+alarm	O
+
+bu	B-timeofday
+öğleden	I-timeofday
+sonra	I-timeofday
+yanıma	O
+şemsiye	B-weather_descriptor
+almalı	O
+mıyım	O
+
+mor	B-artist_name
+ve	I-artist_name
+ötesi	I-artist_name
+den	O
+şarkı	O
+çal	O
+
+bugün	B-date
+mersin	B-place_name
+pozcu'da	I-place_name
+yağmur	B-weather_descriptor
+yağacak	I-weather_descriptor
+mı	I-weather_descriptor
+
+hey	O
+olly	O
+bodrum	B-place_name
+muğla'da	I-place_name
+hava	O
+nasıl	O
+
+can	B-artist_name
+bonomo	I-artist_name
+'dan	O
+ben	B-song_name
+yağmurum	I-song_name
+'u	O
+çal	O
+
+hey	O
+olly	O
+çin	B-business_name
+yemeği	I-business_name
+dükkanından	I-business_name
+iki	O
+tavuk	B-food_type
+kanadı	I-food_type
+ve	I-food_type
+patates	I-food_type
+kızartması	I-food_type
+sipariş	O
+et	O
+
+hey	O
+olly	O
+ekstra	B-food_type
+peynirli	I-food_type
+pizza	I-food_type
+iste	O
+
+hey	O
+olly	O
+antakya	B-place_name
+hatayda	I-place_name
+saat	O
+kaç	O
+
+benim	O
+yeni	O
+çalma	O
+listemden	O
+bir	B-music_descriptor
+şeyler	I-music_descriptor
+çal	O
+
+olly	O
+en	O
+güncel	O
+çalma	O
+listemden	O
+bana	O
+herhangi	B-music_descriptor
+bir	I-music_descriptor
+şey	I-music_descriptor
+çal	O
+
+şu	O
+an	O
+çalmakta	O
+olan	O
+şarkı	O
+ile	O
+ilgili	O
+bilgi	O
+ver	O
+
+benim	O
+için	O
+komik	O
+ol	O
+
+olly	O
+eldivenlerimi	B-weather_descriptor
+giymeli	O
+mi	O
+giymemeli	O
+miyim	O
+
+önümüzdeki	B-time
+ayın	I-time
+hava	O
+durumunu	O
+söyle	O
+
+elektrik	B-device_type
+süpürgesini	I-device_type
+aç	O
+
+bugün	B-date
+bir	O
+ara	O
+üstüme	O
+bir	O
+kat	O
+daha	O
+giymem	O
+gerekecek	O
+mi	O
+
+bu	B-date
+haftanın	I-date
+hava	O
+raporunu	O
+bak	O
+
+bana	O
+bir	B-time
+haftalık	I-time
+hava	O
+tahmini	O
+göster	O
+
+buradan	O
+teslimat	B-order_type
+alabiliyor	O
+muyum	O
+
+bugün	B-date
+metro	O
+çok	O
+yoğundu	O
+
+bana	O
+günümden	O
+bahset	O
+
+ayşe	O
+dünyanda	O
+tuhaf	O
+bir	O
+şey	O
+fark	O
+ettin	O
+mi	O
+
+bugün	B-date
+ne	O
+olduğunu	O
+duymak	O
+ister	O
+misin	O
+
+beni	O
+nasıl	O
+tanıyorsun	O
+
+şehir	O
+merkezinde	B-place_name
+açılan	O
+bu	O
+yeni	O
+restoran	B-business_type
+da	O
+bir	O
+akşam	O
+yemeği	O
+yemek	O
+harika	O
+olurdu	O
+
+olly	O
+nasıl	O
+gidiyor	O
+
+bugün	B-date
+ödüller	O
+aldım	O
+olly	O
+
+bugün	B-date
+bir	O
+sürü	O
+toplantım	B-event_name
+vardı	O
+
+nerelisin	O
+
+hava	O
+bugün	B-date
+güneşli	O
+
+hey	O
+google	O
+bir	O
+milyon	O
+dolar	O
+piyango	O
+kazandım	O
+
+bana	O
+bugünün	B-date
+önemli	O
+haberlerini	O
+söyle	O
+
+bugün	B-date
+gün	O
+nasıl	O
+
+sepet	O
+sepet	O
+yumurta	O
+sakın	O
+beni	O
+unutma	O
+
+neler	O
+oluyor	O
+
+bugün	B-date
+haberlerde	O
+ilginç	O
+herhangi	O
+bir	O
+şey	O
+var	O
+mı	O
+
+cumartesi	B-date
+günü	O
+bar	B-place_name
+daveti	O
+aldım	O
+
+bana	O
+güzel	O
+bir	O
+alkollü	B-drink_type
+içecek	I-drink_type
+söyle	O
+
+bana	O
+türkiye	B-place_name
+hakkında	O
+bir	O
+şeyler	O
+söyle	O
+
+spor	O
+
+hey	O
+yakında	O
+çıkacak	O
+güzel	O
+filmler	O
+hangileri	O
+
+kişisel	O
+verilerimle	O
+ne	O
+yapıyorsun	O
+
+not	O
+almasını	O
+istediğimde	O
+
+haftalık	O
+planım	O
+
+tırı	O
+vırı	O
+
+wikipedia	O
+konuları	O
+
+naber	O
+
+en	O
+hipoalerjenik	O
+olan	O
+köpek	O
+ırkları	O
+
+olly	O
+bugün	B-date
+bir	O
+enkaza	O
+girdim	O
+
+bugün	B-date
+boynere	B-place_name
+gittim	O
+
+kinayeli	B-joke_type
+espriler	O
+
+eğlence	B-news_topic
+haberleri	O
+
+cep	O
+telefonu	O
+
+yağmurda	O
+sırılsıklam	O
+oldum	O
+
+moda	O
+
+program	O
+
+bana	O
+cevaplar	O
+bul	O
+
+bugünün	B-date
+kaçamak	B-event_name
+günü	I-event_name
+olarak	O
+işaretlenmesi	O
+gerekiyor	O
+
+bugün	B-date
+yorucu	O
+bir	O
+gündü	O
+
+kız	O
+arkadaşımı	B-relation
+beğendin	O
+mi	O
+
+bana	O
+hadiseden	B-artist_name
+bahset	O
+
+istanbul'da	B-place_name
+neler	O
+oluyor	O
+
+bu	B-time
+defa	I-time
+ne	O
+yaptım	O
+
+günün	O
+nasıldı	O
+
+kozmoz	O
+
+apartmanda	B-place_name
+ne	O
+zaman	O
+ısıtma	O
+seviyesi	O
+
+espriler	O
+
+pişirmek	O
+
+tahmini	O
+kurlar	O
+
+arabalar	O
+
+çok	O
+yoğun	O
+
+google	O
+arama	O
+motoru	O
+ile	O
+ilgili	O
+güncel	O
+tavsiyeler	O
+
+günün	O
+şakası	O
+
+süpermarkette	B-business_type
+gerekli	O
+malzemeler	O
+
+nasıl	O
+gidiyor	O
+
+üç	O
+şey	O
+hakkında	O
+konuşabilseydin	O
+bunlar	O
+ne	O
+olurdu	O
+
+uzay	O
+araştırması	O
+
+kitaplar	O
+
+ünlüler	O
+hakkında	O
+dedikodu	O
+yapmak	O
+
+olly	O
+haftanın	B-time
+geri	I-time
+kalanı	I-time
+için	O
+gündemim	O
+ne	O
+
+günümü	B-time
+toplantılardan	B-event_name
+temizle	O
+
+lütfen	O
+takvimime	O
+sabah	B-time
+ona	I-time
+günlük	B-general_frequency
+kalkışımı	B-event_name
+ekler	O
+misin	O
+
+bir	O
+sonraki	O
+toplantım	B-event_name
+ne	O
+zaman	O
+
+öğleden	B-time
+sonra	I-time
+beşteki	I-time
+günlük	B-general_frequency
+telefon	B-event_name
+görüşmemi	I-event_name
+iptal	O
+et	O
+
+çiğdem	B-person
+ile	O
+bir	O
+toplantı	B-event_name
+ayarla	O
+
+o	O
+ne	O
+zaman	O
+
+bugün	B-date
+herhangi	O
+bir	O
+etkinliğim	O
+var	O
+mı	O
+
+yarın	B-date
+için	O
+herhangi	O
+bir	O
+rezervasyonum	O
+var	O
+mı	O
+
+bana	O
+etkinliklerimden	O
+bahset	O
+
+takvimimdeki	O
+bütün	O
+etkinlikleri	O
+kaldır	O
+
+olly	O
+bana	O
+maçka	B-place_name
+parkındaki	I-place_name
+pikniği	B-event_name
+hatırlat	O
+
+olly	O
+bu	O
+hafta	B-time
+sonu	O
+açık	O
+hava	O
+filmine	B-event_name
+gitmek	O
+istiyorum	O
+bana	O
+hatırlat	O
+
+yarın	B-date
+akşam	B-time
+dokuzda	O
+oğuz	B-person
+ile	O
+görüşme	B-event_name
+ekledin	O
+mi	O
+
+önümüzdeki	B-date
+beş	I-date
+gün	I-date
+tüm	O
+etkinlikleri	O
+sil	O
+
+yarın	B-date
+akşam	B-time
+dokuzda	I-time
+hiç	O
+toplantım	B-event_name
+var	O
+mı	O
+
+takvimde	O
+şu	O
+kişilerle	O
+bu	O
+etkinliği	O
+oluştur	O
+
+ziyaret	O
+ettiğim	O
+son	O
+etkinliği	O
+silebilir	O
+misin	O
+
+takvimimde	O
+bugün	O
+için	O
+yaklaşan	O
+bir	O
+etkinliğim	O
+var	O
+mı	O
+
+takvimimdeki	O
+bir	O
+sonraki	O
+randevu	B-event_name
+ne	O
+zaman	O
+
+yarın	B-date
+öğleden	B-time
+sonra	I-time
+ikideki	I-time
+doğum	B-event_name
+günü	I-event_name
+partisini	I-event_name
+sil	O
+
+takvimimdeki	O
+tüm	O
+etkinlikleri	O
+silebilir	O
+misin	O
+
+burası	O
+çok	O
+ağır	O
+
+her	B-general_frequency
+gün	I-general_frequency
+sabah	B-time
+dokuzda	I-time
+bir	O
+hatırlatmaya	O
+ihtiyacım	O
+var	O
+
+bugün	B-date
+toplantıda	B-event_name
+kimin	O
+olmasını	O
+beklemeliyim	O
+
+her	B-general_frequency
+pazartesi	I-general_frequency
+takvimime	O
+pazartesi	B-event_name
+toplantısı	I-event_name
+koy	O
+
+altı	B-date
+mart	I-date
+için	O
+öğleden	B-time
+önce	I-time
+on	I-time
+birde	I-time
+dernek	B-event_name
+toplantısı	I-event_name
+olduğuna	O
+dair	O
+bir	O
+bildirim	O
+ayarla	O
+
+yarın	B-date
+akşam	B-timeofday
+için	O
+herhangi	O
+bir	O
+program	O
+var	O
+mı	O
+
+tüm	O
+olayları	O
+ve	O
+bilgileri	O
+sil	O
+
+bütün	O
+etkinlikler	O
+ve	O
+programları	O
+kaldır	O
+
+benim	O
+yarınki	B-date
+etkinlik	O
+programım	O
+nedir	O
+
+bana	O
+yarın	B-date
+sabah	B-time
+ondaki	I-time
+toplantımı	B-event_name
+hatırlat	O
+
+bu	B-date
+hafta	I-date
+kaç	O
+tane	O
+toplantım	B-event_name
+var	O
+
+takvimi	O
+tamamen	O
+sil	O
+
+lütfen	O
+yarın	B-date
+sabah	B-timeofday
+yapacağım	O
+toplantıdan	B-event_name
+bir	B-time
+saat	I-time
+önce	O
+bana	O
+hatırlat	O
+
+yarın	B-date
+öğleden	B-timeofday
+sonraki	I-timeofday
+program	O
+ne	O
+
+yaklaşan	O
+etkinlikler	O
+
+en	O
+sonki	O
+etkinlikler	O
+
+muzaffer	B-person
+için	O
+yarına	B-date
+bir	O
+randevu	B-event_name
+ayarla	O
+
+takvimimde	O
+yaklaşan	O
+etkinlikler	O
+var	O
+mı	O
+
+gelecek	B-date
+ay	I-date
+tatil	B-event_name
+için	O
+bir	O
+hatırlatıcı	O
+oluştur	O
+
+bu	O
+ay	B-date
+için	O
+takvimi	O
+temizle	O
+
+iki	B-time
+saat	I-time
+sonraya	I-time
+alarm	O
+kur	O
+lütfen	O
+
+bu	O
+cumartesi	B-date
+öğleden	O
+sonra	O
+iki	B-time
+ile	O
+akşam	B-time
+dört	I-time
+arasında	O
+bir	O
+şeyim	O
+var	O
+mı	O
+
+lütfen	O
+günün	B-time
+geri	I-time
+kalanı	I-time
+için	O
+tüm	O
+takvim	O
+etkinliklerimi	O
+sil	O
+
+bugün	B-date
+benim	O
+takvim	O
+imde	O
+hangi	O
+etkinlikler	O
+var	O
+
+takvim	O
+etkinliğim	O
+nedir	O
+
+bugün	B-date
+hiç	O
+hatırlatıcım	O
+var	O
+mı	O
+
+bugün	B-date
+akşamki	B-timeofday
+toplantıyı	B-event_name
+kaldır	O
+
+on	B-date
+ikisi	I-date
+sabahı	B-timeofday
+doktor	B-event_name
+randevumu	I-event_name
+hatırlat	O
+
+cumartesi	B-date
+sabahı	B-timeofday
+mete	B-person
+yıldırım	I-person
+ve	O
+nihat	B-person
+ile	O
+brunch	B-event_name
+için	O
+bir	O
+takvim	O
+girişi	O
+yap	O
+
+bugün	B-date
+akşam	B-time
+altıda	I-time
+nermin	B-person
+ile	O
+buluşacağımı	B-event_name
+hatırlat	O
+
+haftaya	B-date
+benim	O
+patronumla	B-relation
+olan	O
+toplantı	B-event_name
+ne	O
+zaman	O
+
+ayın	O
+onunda	B-date
+olacak	O
+düğünü	B-event_name
+takvimimden	O
+sil	O
+
+etkinliklerde	O
+sırada	O
+ne	O
+var	O
+
+yarın	B-date
+randevum	B-event_name
+var	O
+hatırlat	O
+
+öğleden	B-time
+sonra	I-time
+dört	I-time
+
+olly	O
+her	B-general_frequency
+perşembe	I-general_frequency
+öğleden	B-time
+sonra	I-time
+iki	I-time
+için	O
+terapist	B-relation
+ime	O
+gideceğim	O
+
+iptal	O
+et	O
+
+cumartesi	B-date
+akşam	B-time
+onda	I-time
+seherin	B-person
+doğum	B-event_name
+gününe	I-event_name
+gitmek	O
+istiyorum	O
+
+gelecek	B-date
+haftaki	I-date
+planım	O
+ne	O
+
+bana	O
+arkadaşım	B-relation
+ahmet'in	B-person
+resmen	B-event_name
+işe	I-event_name
+başlama	I-event_name
+tarihini	O
+söyle	O
+
+lütfen	O
+benim	O
+takvimimde	O
+iki	B-date
+nisan'a	I-date
+türkiye'de	B-place_name
+tatil	B-event_name
+ekle	O
+
+akşam	B-time
+sekizde	I-time
+ilaç	B-event_name
+almam	O
+gerektiğini	O
+hatırlat	O
+
+maç	B-event_name
+kaçta	O
+başlayacak	O
+
+ben	O
+yarın	B-date
+için	O
+iptal	O
+etmem	O
+gereken	O
+ne	O
+planladım	O
+
+hatırlatıcıyı	O
+yarın	B-date
+öğleden	B-time
+sonra	I-time
+üçteki	I-time
+toplantıya	B-event_name
+ayarla	O
+
+bana	O
+gelecek	O
+pazartesi	B-date
+kuru	B-event_name
+temizlemeden	I-event_name
+kıyafetleri	I-event_name
+almam	I-event_name
+gerektiğini	I-event_name
+hatırlat	O
+
+yarın	B-date
+babamı	B-relation
+ziyaret	O
+etmem	O
+gerektiğini	O
+hatırlat	O
+
+takvime	O
+bu	B-timeofday
+öğleden	I-timeofday
+sonra	I-timeofday
+için	O
+bir	O
+birleşme	B-event_name
+etkinliği	I-event_name
+ekle	O
+
+bugünkü	B-date
+ilk	O
+randevum	B-event_name
+ne	O
+
+bugün	B-date
+programımda	O
+ne	O
+var	O
+
+bana	O
+yarın	B-date
+öğle	B-meal_type
+yemeğinde	I-meal_type
+ali	B-person
+ile	O
+buluşmayı	O
+hatırlat	O
+
+bu	O
+etkinlik	O
+için	O
+ablamın	B-relation
+evinin	B-place_name
+yerini	O
+ayarlayabilir	O
+misin	O
+
+bir	O
+sonraki	O
+etkinliği	O
+takvimden	O
+kaldır	O
+
+takvimime	O
+on	B-date
+iki	I-date
+temmuz	I-date
+yasin	B-person
+doğum	B-event_name
+günü	I-event_name
+ekle	O
+
+takvime	O
+dokuz	O
+ağustos	O
+akşamı	O
+saat	O
+sekizde	O
+frank	O
+ile	O
+akşam	B-meal_type
+yemeği	I-meal_type
+yiyeceğimizi	O
+yaz	O
+
+mart	B-date
+ayında	O
+takvimimdeki	O
+etkinliklerin	O
+listesi	O
+nelerdir	O
+
+düğün	B-event_name
+ne	O
+zaman	O
+planlanıyor	O
+
+mart	B-date
+ayında	O
+hangi	O
+toplantılar	B-event_name
+mevcut	O
+
+lütfen	O
+iki	B-date
+bin	I-date
+on	I-date
+yedi	I-date
+martının	I-date
+yirmi	I-date
+ikisinde	I-date
+bulunan	O
+üçüncü	O
+etkinliği	O
+kontrol	O
+et	O
+
+yarın	O
+onunla	O
+sevgililer	B-event_name
+günü	I-event_name
+ekle	B-date
+
+önümüzdeki	B-date
+ay	I-date
+için	O
+annemle	B-relation
+doğum	B-event_name
+günü	I-event_name
+ekle	O
+
+arkadaşınla	B-relation
+bir	O
+toplantı	B-event_name
+oluştur	O
+
+toplantıdan	O
+önce	O
+partiye	B-event_name
+katıl	O
+
+lütfen	O
+yalnızca	O
+bu	O
+kişilerle	O
+bir	O
+etkinlik	O
+oluştur	O
+
+beni	O
+öğlen	B-time
+on	I-time
+iki	I-time
+de	O
+havaalanından	B-place_name
+almayı	O
+unutma	O
+öğleden	B-time
+sonra	I-time
+üçte	I-time
+bir	O
+toplantım	B-event_name
+var	O
+
+ercüment	B-person
+ile	O
+olan	O
+toplantıyı	B-event_name
+on	B-date
+marta	I-date
+ayarla	O
+
+yarın	B-date
+akşam	B-timeofday
+yedide	B-time
+oyuncularla	B-person
+benim	O
+aramda	O
+bir	O
+toplantı	B-event_name
+ayarlamayı	O
+unutma	O
+
+mevcut	O
+uyarılarım	O
+neler	O
+
+bana	O
+yarınki	B-date
+mülakatı	B-event_name
+hatırlat	O
+
+yaklaşan	B-time
+etkinlikler	O
+
+etkinliği	O
+tekrar	O
+eden	O
+olarak	O
+ayarla	O
+
+salıya	B-date
+bir	O
+toplantı	B-event_name
+ayarla	O
+
+dün	B-date
+yapılan	O
+toplantıda	B-event_name
+neleri	O
+not	O
+aldık	O
+
+lütfen	O
+bir	O
+sonraki	O
+toplantımı	B-event_name
+ekle	O
+
+bu	O
+öğe	O
+için	O
+yarın	B-date
+için	O
+hatırlatıcı	O
+ayarla	O
+
+toplantı	B-event_name
+için	O
+kişi	O
+a	O
+yı	O
+ara	O
+
+fatura	B-event_name
+döngüsü	I-event_name
+ne	O
+zaman	O
+
+çerezler	B-event_name
+için	O
+beş	B-time
+dakikalık	I-time
+bir	O
+zamanlayıcı	O
+ayarlayın	O
+
+hokey	B-event_name
+maçı	I-event_name
+cuma	B-date
+günü	I-date
+ne	O
+zaman	O
+başlıyor	O
+
+lütfen	O
+tüm	O
+takvim	O
+etkinliklerimi	O
+sil	O
+
+bana	O
+yarın	B-date
+sabah	B-timeofday
+pizza	B-event_name
+yapmam	I-event_name
+gerektiğini	O
+hatırlat	O
+
+her	B-general_frequency
+cuma	I-general_frequency
+öğle	O
+namazı	B-event_name
+için	O
+onikiye	O
+ayarla	O
+
+bekleyen	O
+bir	O
+hatırlatıcım	O
+var	O
+mı	O
+
+bana	O
+erkek	B-relation
+kardeşimin	I-relation
+yirmi	B-date
+nisandaki	I-date
+doğum	B-event_name
+gününü	I-event_name
+hatırlatmayı	O
+unutma	O
+
+mike	B-person
+jim	I-person
+ve	O
+bob	B-person
+ile	O
+bir	O
+öğle	B-meal_type
+yemeği	I-meal_type
+randevusu	I-meal_type
+eklemek	O
+istiyorum	O
+
+bana	O
+bugün	B-date
+sabah	B-time
+dörtte	I-time
+yaklaşan	O
+toplantıyı	B-event_name
+hatırlat	O
+
+yaklaşan	O
+toplantıyı	B-event_name
+listele	O
+
+evan	B-person
+parker	I-person
+ile	O
+yapacağım	O
+tüm	O
+hafta	B-time
+sonu	I-time
+etkinliklerimi	O
+bul	O
+ve	O
+sil	O
+
+bu	O
+etkinliği	O
+takvimime	O
+not	O
+düş	O
+
+bekleyen	O
+herhangi	O
+bir	O
+hatırlatıcım	O
+var	O
+mı	O
+
+bunu	O
+bana	O
+mutlaka	O
+hatırlat	O
+
+hey	O
+olly	O
+lütfen	O
+yarın	B-date
+sabah	B-timeofday
+ondaki	B-time
+toplantı	B-event_name
+için	O
+bir	O
+hatırlatıcı	O
+ayarla	O
+
+lütfen	O
+bana	O
+saklı	O
+anımsatıcıları	O
+bildir	O
+
+bu	B-date
+hafta	I-date
+olan	O
+toplantımı	B-event_name
+söyle	O
+bana	O
+
+pazartesi	B-date
+bir	O
+doğum	B-event_name
+günüm	I-event_name
+var	O
+etkinliği	O
+ayarla	O
+
+on	B-date
+beşinde	O
+bir	O
+bilet	O
+almam	O
+lazım	O
+
+akşam	B-timeofday
+için	O
+bir	O
+etkinlik	O
+ayarla	O
+
+her	B-date
+üç	I-date
+temmuza	I-date
+bob'un	B-person
+doğum	B-event_name
+gününü	I-event_name
+ayarla	O
+
+bana	O
+her	B-date
+cuma	I-date
+mağazaya	O
+gitmeyi	O
+hatırlat	O
+
+cumartesi	B-date
+programımdan	O
+market	O
+alışverişini	O
+sil	O
+
+takvimimdeki	O
+tüm	O
+verileri	O
+kaldır	O
+
+pazartesi	B-date
+günü	I-date
+ne	O
+yapmalıyım	O
+
+takvimimde	O
+bir	O
+etkinliği	O
+tekrarla	O
+
+o	O
+ay	B-date
+için	O
+takvimimi	O
+temizlemenin	O
+ve	O
+ilerlemenin	O
+yolları	O
+var	O
+mı	O
+
+dört	B-date
+şubat	I-date
+öğleden	B-time
+sonra	I-time
+ikiye	I-time
+atatürk	B-place_name
+parkında	I-place_name
+antreman	O
+ekle	O
+
+bana	O
+selinin	B-person
+doğum	B-event_name
+gününü	I-event_name
+hatırlat	O
+
+bugünün	B-date
+programı	O
+nasıl	O
+
+katılım	O
+için	O
+bir	O
+not	O
+ekle	O
+
+her	B-general_frequency
+gün	I-general_frequency
+sabah	B-time
+sekizde	O
+iş	O
+konularım	O
+için	O
+yinelenen	O
+bir	O
+anımsatıcı	O
+yap	O
+
+programımı	O
+temizle	O
+
+bugün	B-date
+sabah	B-time
+sekiz	I-time
+ile	O
+akşam	B-time
+beş	I-time
+arasında	O
+olmam	O
+gereken	O
+bir	O
+yer	O
+var	O
+mı	O
+
+bu	B-date
+haftanın	I-date
+hatırlatıcıları	O
+neler	O
+
+bu	B-timeofday
+gece	I-timeofday
+akşam	B-time
+beşe	I-time
+beyzbol	B-event_name
+antremanı	I-event_name
+etkinliği	O
+ekle	O
+
+yarın	B-date
+benim	O
+sabahım	B-timeofday
+nasıl	O
+görünüyor	O
+
+bu	B-date
+cuma	I-date
+toplantıya	B-event_name
+kimler	O
+katılıyor	O
+
+ikisi	B-date
+ile	I-date
+on	I-date
+beşi	I-date
+arasında	I-date
+meler	O
+oldu	O
+
+bana	O
+bugün	B-date
+ile	O
+yirmi	B-date
+biri	I-date
+arasındaki	O
+etkinlikleri	O
+söyle	O
+
+lütfen	O
+her	O
+otuz	B-time
+dakikada	I-time
+bir	O
+seçimle	B-event_name
+ilgili	O
+bir	O
+güncelleme	O
+verin	O
+
+bugün	B-date
+hiç	O
+randevum	B-event_name
+var	O
+mı	O
+
+takvimi	O
+aç	O
+tüm	O
+etkinlikleri	O
+kaldır	O
+
+cuma	B-date
+günü	O
+benim	O
+gazideki	B-place_name
+biyoloji	B-event_name
+testimi	I-event_name
+hatırlat	O
+
+yirmi	B-date
+kasımda	I-date
+ne	O
+var	O
+
+gelecek	O
+haftaki	O
+irem	B-event_name
+derici	I-event_name
+konseri	I-event_name
+için	O
+program	O
+nedir	O
+
+show	O
+ile	O
+ilgili	O
+neler	O
+bilmem	O
+gerekiyor	O
+
+bu	B-timeofday
+akşam	I-timeofday
+tiyatroda	B-place_name
+kim	O
+ve	O
+neden	O
+var	O
+
+bugün	B-date
+kurulmuş	O
+herhangi	O
+bir	O
+hatırlatıcım	O
+var	O
+mı	O
+
+yedi	B-date
+mart	I-date
+için	O
+düzenlenen	O
+veli	B-event_name
+toplantısını	I-event_name
+kaldır	O
+
+benim	O
+takvim	O
+imde	O
+bugün	B-date
+için	O
+benim	O
+bir	O
+toplantı	B-event_name
+m	O
+var	O
+mı	O
+
+on	B-time
+dakika	I-time
+içinde	O
+işe	B-event_name
+gitmem	I-event_name
+için	O
+bir	O
+anımsatıcı	O
+kut	O
+lütfen	O
+
+gelecek	B-date
+hafta	I-date
+kaç	O
+toplantım	O
+var	O
+
+on	B-date
+dört	I-date
+şubat	I-date
+için	O
+restoranda	B-business_type
+akşam	B-meal_type
+yemeği	I-meal_type
+rezervasyonu	O
+yap	O
+
+bu	B-date
+hafta	I-date
+sonu	I-date
+ne	O
+oluyor	O
+
+bu	B-date
+hafta	I-date
+çöp	O
+toplama	O
+haftası	O
+mı	O
+
+akşam	B-event_name
+yemeği	I-event_name
+partisi	I-event_name
+bu	B-timeofday
+gece	I-timeofday
+saat	O
+kaçta	O
+başlıyor	O
+
+bir	O
+sonraki	O
+hatırlatıcım	O
+ne	O
+zaman	O
+
+bana	O
+yirmi	B-date
+iki	I-date
+mart'taki	I-date
+turnuva	B-event_name
+detaylarını	O
+anlat	O
+
+yarın	B-date
+öğlen	B-timeofday
+istanbul	O
+beşiktaşda	O
+madoda	O
+öğle	O
+yemeği	O
+ayarla	O
+
+cuma	B-date
+günü	O
+bir	O
+randevum	O
+var	O
+mı	O
+
+öğleden	B-time
+sonra	I-time
+bir	I-time
+de	O
+kuaför	B-place_name
+den	O
+köpeğimi	B-event_name
+almak	I-event_name
+için	O
+bir	O
+anımsatıcı	O
+gönder	O
+
+benim	O
+toplantı	B-event_name
+ne	O
+zaman	O
+
+olly	O
+benim	O
+randevularımın	B-event_name
+saatini	O
+değiştirmek	O
+için	O
+email	O
+gönder	O
+
+her	B-date
+cuma	I-date
+öğle	B-meal_type
+yemeği	I-meal_type
+etkinliğini	O
+yineleye	O
+değiştir	O
+
+takvimimdeki	O
+toplantıyı	O
+güncelle	O
+ve	O
+toplantıyı	B-event_name
+yansıt	I-event_name
+
+yarın	B-date
+trenler	O
+kaçta	O
+hareket	O
+ediyorlar	O
+
+cemi	B-person
+almak	O
+için	O
+öğleden	B-time
+sonra	I-time
+üçe	I-time
+hatırlatma	O
+koy	O
+
+benim	O
+on	B-date
+dördündeki	I-date
+toplantımı	B-event_name
+iptal	O
+et	O
+
+bana	O
+salı	B-date
+gecesi	B-time
+konser	O
+hakkında	O
+bilgi	O
+ver	O
+
+pelinin	B-person
+emekliliği	B-event_name
+için	O
+buluşma	O
+olduğu	O
+konusunda	O
+hatırlatma	O
+lazım	O
+salı	B-date
+günü	O
+öğleden	B-time
+sonra	I-time
+saat	I-time
+üçe	I-time
+hatırlatıcı	O
+kur	O
+
+o	O
+etkinlikte	O
+neler	O
+oluyor	O
+
+bu	O
+sabah	B-time
+on	I-time
+ile	I-time
+on	I-time
+iki	I-time
+arasında	I-time
+ne	I-time
+işim	O
+var	O
+
+john	B-person
+ile	O
+yapacağım	O
+akşamki	B-event_name
+toplantının	I-event_name
+saati	O
+nedir	O
+
+her	B-general_frequency
+sabah	I-general_frequency
+saat	B-time
+beşte	I-time
+uyanmam	O
+gereken	O
+bir	O
+hatırlatıcı	O
+ayarla	O
+
+istiklal	B-place_name
+caddesindeki	I-place_name
+konser	B-event_name
+hakkında	O
+daha	O
+fazla	O
+bilgi	O
+
+olly	O
+bu	B-timeofday
+gece	I-timeofday
+yarınki	B-date
+toplantıyı	B-event_name
+hatırlat	O
+
+çarşamba	B-date
+günü	O
+toplantı	B-event_name
+duyurusu	O
+
+yaklaşan	O
+toplantımı	B-event_name
+takvimime	O
+ekle	O
+
+lütfen	O
+takvimimi	O
+tamamen	O
+temizle	O
+
+bu	B-timeofday
+gece	I-timeofday
+ozan	B-person
+ile	O
+yapacağım	O
+toplantıyı	B-event_name
+sil	O
+
+çarşambaları	B-date
+öğleden	B-time
+sonra	I-time
+iki	I-time
+için	O
+bir	O
+hatırlatıcı	O
+ayarla	O
+
+ayşenin	B-person
+doğum	B-event_name
+günü	I-event_name
+martın	B-date
+birinde	I-date
+olduğu	O
+doğrumu	O
+
+yarınki	B-date
+toplantıyı	B-event_name
+takvimime	O
+ekledin	O
+mi	O
+
+bu	B-date
+hafta	I-date
+her	B-general_frequency
+gün	I-general_frequency
+için	O
+öğle	B-meal_type
+yemeği	I-meal_type
+toplantıları	B-event_name
+ekle	O
+
+cuma	B-date
+günü	I-date
+öğleden	B-time
+sonra	I-time
+üçteki	I-time
+toplantı	B-event_name
+için	O
+bir	O
+hatırlatıcı	O
+ayarla	O
+
+her	O
+şeyi	O
+takvimden	O
+kaldır	O
+
+selam	O
+siri	O
+takvimimin	O
+yarın	B-date
+tamamen	O
+temizlendiğinden	O
+emin	O
+ol	O
+
+iki	B-time
+saat	I-time
+içinde	O
+yeni	O
+toplantı	B-event_name
+bildirimi	O
+
+bana	O
+takvimi	O
+hatırlat	O
+
+bu	O
+sabah	B-timeofday
+bekleyen	O
+randevu	B-event_name
+var	O
+mı	O
+
+bu	B-date
+hafta	I-date
+maaş	O
+haftası	O
+mı	O
+
+takvimimdeki	O
+tüm	O
+randevuları	B-event_name
+iptal	O
+et	O
+
+hangi	O
+hatırlatmaları	O
+ayarlamalıyım	O
+
+bugün	B-date
+sabah	B-time
+altı	I-time
+kırk	I-time
+beş	I-time
+haberlerinde	O
+ne	O
+var	O
+
+takvimimdeki	O
+öğlen	B-time
+birdeki	I-time
+etkinliğimi	O
+kaldır	O
+
+bana	O
+bugünden	B-date
+itibaren	I-date
+bir	I-date
+hafta	I-date
+sonra	O
+saat	O
+beşte	B-time
+kütüphanede	B-place_name
+olmam	O
+gerektiğini	O
+hatırlat	O
+
+gelecek	O
+cumartesi	B-date
+saat	O
+beşte	B-time
+kütüphaneye	B-place_name
+gitmek	O
+için	O
+bir	O
+hatırlatıcı	O
+ayarla	O
+
+bana	O
+yaklaşan	B-event_name
+milli	I-event_name
+bayramları	I-event_name
+hatırlat	O
+
+bugün	B-date
+öğleden	B-time
+sonra	I-time
+birdeki	I-time
+etkinliği	O
+takvimimden	O
+kaldır	O
+
+akşam	B-time
+beşte	I-time
+ki	I-time
+toplantım	B-event_name
+için	O
+hatırlatma	O
+ayarla	O
+
+lütfen	O
+çarşamba	B-date
+sabah	B-time
+dokuzda	I-time
+doktor	B-relation
+mahmut	I-relation
+ofisinde	B-place_name
+randevusunu	O
+ekle	O
+
+bu	B-timeofday
+akşamki	I-timeofday
+futbol	B-sport_type
+maçında	I-sport_type
+önemli	O
+yerler	O
+nelerdi	O
+
+bana	O
+bugün	B-date
+programımda	O
+ne	O
+olduğunu	O
+söyle	O
+
+tarkan	B-person
+izmir'e	B-place_name
+ne	O
+zaman	O
+geliyor	O
+
+takvimime	O
+bir	O
+şeyler	O
+eklemek	O
+istiyorum	O
+
+etkinliği	O
+takvimden	O
+temizle	O
+ve	O
+yenile	O
+
+gelecek	O
+etkinliklerim	O
+neler	O
+
+takvimdeki	O
+son	O
+etkinliği	O
+sil	O
+
+lütfen	O
+takvimdeki	O
+bir	O
+sonraki	O
+etkinliği	O
+iptal	O
+edin	O
+
+bugün	B-date
+sekiz	B-time
+ile	I-time
+on	I-time
+arasında	O
+hangi	O
+görüşmeler	B-event_name
+var	O
+
+yarın	B-date
+öğleden	B-time
+sonra	I-time
+iki	I-time
+de	O
+bana	O
+hatırlat	O
+
+bu	B-date
+cumartesi	I-date
+cenkin	B-place_name
+evindeki	I-place_name
+havuz	B-event_name
+partisi	I-event_name
+için	O
+takvimimde	O
+bir	O
+etkinlik	O
+ayarla	O
+
+bir	B-date
+ocak	I-date
+için	O
+planlanmış	O
+etkinliği	O
+adresi	O
+nedir	O
+
+yarın	B-date
+ayşe	B-person
+ile	O
+buluşmak	O
+istiyorum	O
+
+elif	B-person
+ile	I-person
+salı	B-date
+günü	I-date
+olan	O
+toplantımı	B-event_name
+iptal	O
+et	O
+ve	O
+toplantıyı	O
+perşembeye	B-date
+al	O
+
+takvimimden	O
+perşembe	B-date
+günündeki	I-date
+öğle	B-meal_type
+yemeğini	I-meal_type
+kaldır	O
+
+internet	B-event_name
+faturamı	I-event_name
+ödememi	I-event_name
+hatırlatmak	O
+için	O
+her	B-general_frequency
+ayın	I-general_frequency
+on	I-general_frequency
+beşinde	I-general_frequency
+bir	O
+etkinlik	O
+ayarla	O
+
+takvimime	O
+aşağıdaki	O
+tarih	O
+ve	O
+saati	O
+ekle	O
+
+etkinlik	O
+ne	O
+zaman	O
+
+goshen	B-place_name
+new	I-place_name
+york	I-place_name
+'ta	O
+beş	B-date
+mayısta	I-date
+öğleden	O
+sonra	O
+üçten	B-time
+başlayarak	O
+dan'in	B-event_name
+mezuniyeti	I-event_name
+için	O
+bir	O
+etkinlik	O
+ekle	O
+
+geçen	B-time
+sene	I-time
+kaç	O
+saatim	O
+toplantılarda	B-event_name
+geçti	O
+
+toplantıyı	B-event_name
+sil	O
+
+ali	B-person
+ile	O
+yirmi	O
+bir	O
+mart	O
+onda	B-time
+bir	O
+toplantım	B-event_name
+var	O
+
+toplantı	B-event_name
+için	O
+hazırlanmam	O
+gerek	O
+ti	O
+
+yaklaşan	O
+etkinliklerimi	O
+göster	O
+
+bir	O
+sonraki	O
+etkinliği	O
+takvimden	O
+sil	O
+
+takvim	O
+benim	O
+bir	B-date
+kasım	I-date
+iki	O
+bin	O
+yirmi	O
+birde	O
+boş	O
+olduğumu	O
+söylüyor	O
+mu	O
+
+haftalık	B-general_frequency
+randevu	O
+anımsatıcısı	O
+oluştur	O
+
+bugünden	O
+iki	B-date
+gün	O
+sonrasını	O
+tatilim	B-event_name
+olarak	O
+bayrakla	O
+
+salı	B-date
+öğle	B-timeofday
+toplantısı	B-event_name
+
+on	B-date
+yedi	I-date
+mart	I-date
+için	O
+herhangi	O
+bir	O
+planım	O
+var	O
+mı	O
+
+olly	O
+doktor	B-event_name
+randevumu	I-event_name
+cuma	B-date
+günü	I-date
+öğleden	B-time
+sonra	I-time
+ikiye	I-time
+ayarla	O
+
+takvimime	O
+akşam	B-event_name
+yemeği	I-event_name
+rezervasyonlarını	I-event_name
+ekleyebilir	O
+misin	O
+
+hüseyinin	B-event_name
+nikahı	I-event_name
+için	O
+takvim	O
+bilgisi	O
+oluştur	O
+
+bugün	B-date
+hiç	O
+takvim	O
+etkinliklerim	O
+var	O
+mı	O
+
+benim	O
+lokasyonumda	O
+tatil	B-event_name
+araştır	O
+
+belirli	O
+tarihlerde	O
+son	O
+günlerdeki	O
+olayları	O
+aramak	O
+
+listemde	O
+herhangi	O
+bir	O
+hatırlatıcı	O
+var	O
+mı	O
+
+lütfen	O
+bana	O
+hatırlat	O
+
+lütfen	O
+alarm	O
+kur	O
+
+pazartesi	B-date
+günü	O
+toplantılar	B-event_name
+hakkında	O
+herhangi	O
+bir	O
+anımsatmaya	O
+ihtiyacım	O
+var	O
+mı	O
+
+takvim	O
+etkinliği	O
+yanlış	O
+mı	O
+
+haftanın	B-time
+geri	I-time
+kalanı	I-time
+için	O
+tüm	O
+toplantılarımı	B-event_name
+iptal	O
+et	O
+
+iki	B-date
+mayıs	I-date
+ı	O
+mervenin	B-person
+doğum	B-event_name
+günü	I-event_name
+olarak	O
+her	B-general_frequency
+sene	I-general_frequency
+yinelenen	O
+takvime	O
+ekle	O
+
+yağmurluğumu	B-event_name
+almamı	I-event_name
+hatırlatmanı	O
+istiyorum	O
+çünkü	O
+yağmur	O
+yağabilir	O
+
+lütfen	O
+bana	O
+şemsiyemi	B-event_name
+almamı	I-event_name
+söyle	O
+çünkü	O
+bugün	B-date
+çok	O
+sıcak	O
+olacak	O
+
+on	B-date
+dört	I-date
+haziran	I-date
+iki	I-date
+bin	I-date
+on	I-date
+yedi	I-date
+için	O
+programım	O
+nedir	O
+
+lütfen	O
+pazar	B-date
+günü	O
+için	O
+tüm	O
+anımsatmaları	O
+sil	O
+
+perşembe	B-date
+günü	O
+uludağ	B-place_name
+kebapda	I-place_name
+akşam	B-meal_type
+yemeğini	I-meal_type
+hatırla	O
+
+hatırlatıcıyı	O
+ayarla	O
+
+bu	O
+insanlarla	O
+takvim	O
+etkinliği	O
+
+bugünkü	B-date
+programımı	O
+temizle	O
+
+detaylar	O
+
+son	O
+etkinliklerden	O
+bahset	O
+
+toplantılar	B-event_name
+ne	O
+zaman	O
+
+parti	B-event_name
+ne	O
+zaman	O
+için	O
+programlanmış	O
+
+sonraki	B-time
+bir	I-time
+hafta	I-time
+olacak	O
+tüm	O
+etkinlikler	O
+ile	O
+ilgili	O
+beni	O
+bilgilendir	O
+
+cemal	B-person
+evlilik	B-event_name
+yıl	I-event_name
+dönümü	I-event_name
+
+bu	B-time
+ay	I-time
+tatil	B-event_name
+ne	O
+zaman	O
+
+salı	B-date
+günkü	O
+toplantı	B-event_name
+ile	O
+ilgili	O
+bilgilendir	O
+
+bana	O
+akşam	B-event_name
+programını	I-event_name
+hatırlatmanı	O
+istiyorum	O
+
+takvimden	O
+orçunun	B-event_name
+doğum	I-event_name
+gününü	I-event_name
+sil	O
+
+tamam	O
+google	O
+departman	B-relation
+başkan	I-relation
+yardımcısı	I-relation
+ile	O
+yirmi	B-date
+bir	I-date
+mart	I-date
+iki	I-date
+bin	I-date
+on	I-date
+yedide	I-date
+bir	O
+toplantı	B-event_name
+ayarla	O
+
+perşembe	B-date
+günü	O
+finansal	B-relation
+i̇şler	I-relation
+müdürü	I-relation
+ile	O
+bir	O
+toplantıya	B-event_name
+ihtiyacım	O
+var	O
+
+takvimimden	O
+doğum	B-event_name
+günü	I-event_name
+etkinliğini	O
+kaldır	O
+
+bana	O
+beş	B-date
+nisanda	I-date
+patronla	B-relation
+bir	O
+toplantı	B-event_name
+olduğunu	O
+hatırlat	O
+
+bu	O
+perşembe	B-date
+vize	B-event_name
+başvurusu	I-event_name
+için	O
+bir	O
+hatırlatma	O
+oluştur	O
+
+takvimde	O
+üç	B-date
+temmuzu	I-date
+boş	O
+bırak	O
+
+salı	B-date
+akşam	B-time
+dörde	I-time
+alarm	O
+kur	O
+
+salı	B-date
+günü	I-date
+ahmet'in	B-event_name
+düğünü	I-event_name
+için	O
+bir	O
+etkinlik	O
+hatırlatıcı	O
+oluştur	O
+
+takvime	O
+yinelenen	B-event_name
+bir	I-event_name
+etkinlik	I-event_name
+koy	O
+
+bu	B-date
+hafta	I-date
+sonu	I-date
+meşgul	O
+müyüm	O
+
+olly	O
+haftaya	B-date
+randevum	B-event_name
+var	O
+mı	O
+
+etkinlikten	O
+sonraki	O
+günü	O
+sil	O
+
+sıfırlanması	O
+gereken	O
+etkinlikleri	O
+hatırlat	O
+
+kız	B-event_name
+kardeşimin	I-event_name
+ziyaretini	I-event_name
+aile	I-event_name
+takvimime	O
+ekle	O
+
+kongre	B-place_name
+merkezi	I-place_name
+nerede	O
+
+cuma	B-date
+günü	O
+herhangi	O
+bir	O
+toplantı	O
+
+bana	O
+cumartesi	B-date
+günü	I-date
+saat	B-time
+on	I-time
+ikideki	I-time
+randevumu	B-event_name
+hatırlat	O
+
+olly	O
+bu	B-date
+ay	I-date
+hiç	O
+takvim	O
+etkinliğim	O
+var	O
+mı	O
+
+olly	O
+önümüzdeki	O
+cumartesi	B-date
+sabah	B-time
+on	I-time
+için	O
+takvimde	O
+bir	O
+kayıt	O
+oluştur	O
+
+bana	O
+ocak	B-date
+ayının	I-date
+yirmi	I-date
+ikisindeki	I-date
+toplantıyı	B-event_name
+hatırlat	O
+
+bir	B-time
+saat	I-time
+içerisindeki	O
+toplantıyı	B-event_name
+bana	O
+hatırlat	O
+
+bana	O
+bir	B-time
+saat	I-time
+içinde	O
+toplantımı	B-event_name
+hatırlat	O
+
+biraz	O
+radyo	O
+çal	O
+
+vitrin	O
+radyoyu	O
+aç	O
+
+pandora	B-app_name
+yı	O
+aç	O
+rock	B-music_genre
+kanalı	O
+çal	O
+
+iheartradio	B-app_name
+rov	O
+rock	B-music_genre
+aç	O
+
+güzel	B-radio_name
+fıkralar	I-radio_name
+için	O
+bir	O
+radyo	O
+kanalı	O
+aç	O
+
+radyoyu	O
+başlat	O
+
+alemfm	B-radio_name
+nokta	I-radio_name
+com	I-radio_name
+
+radyo	O
+aç	O
+
+radyo	O
+kanalını	O
+aç	O
+lütfen	O
+
+bu	O
+radyo	O
+kanalını	O
+dinlemek	O
+istiyorum	O
+
+radyo	O
+aç	O
+
+kral	B-radio_name
+f.	I-radio_name
+m.	I-radio_name
+radyo	O
+kanalını	O
+başlatabilir	O
+misin	O
+
+tunes	B-media_type
+çal	O
+
+frekans	B-radio_name
+dokuz	I-radio_name
+yüz	I-radio_name
+doksan	I-radio_name
+yedi	I-radio_name
+aç	O
+
+kanal	O
+dokuz	B-radio_name
+yüz	I-radio_name
+elli	I-radio_name
+bir'i	I-radio_name
+aç	O
+
+lütfen	O
+radyo	O
+çal	O
+
+radyo	O
+açık	O
+
+benim	O
+favori	O
+radyo	O
+kanalıma	O
+git	O
+
+beni	O
+gülümsetecek	O
+bir	O
+şarkı	O
+çal	O
+
+number	B-radio_name
+one	I-radio_name
+turk	I-radio_name
+çal	O
+
+a.	B-radio_name
+t.	I-radio_name
+v.	I-radio_name
+radyo	I-radio_name
+'yu	O
+aç	O
+
+radyo	B-radio_name
+d	I-radio_name
+çal	O
+
+benim	O
+fm	B-radio_name
+radyomu	I-radio_name
+aç	O
+ve	O
+radyo	B-radio_name
+d	I-radio_name
+çal	O
+
+olly	O
+rnb	B-radio_name
+çalan	I-radio_name
+istasyon	I-radio_name
+dinlemek	O
+istiyorum	O
+
+radyoda	O
+futbol	O
+maçı	O
+çal	O
+
+spor	O
+podcastlerimin	O
+kaçının	O
+henüz	O
+dinlemediğim	O
+yeni	O
+bölümleri	O
+var	O
+
+pandorayı	B-app_name
+aç	O
+ve	O
+top	O
+hitleri	O
+çal	O
+
+lütfen	O
+pandora'da	B-app_name
+popüler	O
+müzik	O
+çal	O
+
+benim	O
+için	O
+radyo	O
+d	B-radio_name
+çal	O
+
+bana	O
+trt	B-radio_name
+fm	I-radio_name
+'den	O
+biraz	O
+radyo	O
+müziği	B-media_type
+çal	O
+
+en	O
+iyi	O
+amerikan	B-music_genre
+folk	I-music_genre
+müziği	I-music_genre
+aç	O
+lütfen	O
+
+radyoda	O
+müzik	O
+programları	O
+aç	O
+
+güncel	O
+çalma	O
+listesini	O
+çal	O
+
+sirius	B-app_name
+'da	O
+sezen	O
+aksu'nun	O
+bir	O
+parçasını	O
+bul	O
+
+radyo	B-radio_name
+d	I-radio_name
+kanalını	O
+çal	O
+the	O
+buzz	O
+
+f.	B-radio_name
+m.	I-radio_name
+de	O
+haberleri	O
+çal	O
+
+geveze	O
+'li	O
+fularsız	O
+entellik	O
+de	O
+sezen	O
+aksu	O
+lu	O
+bölümü	O
+aç	O
+
+doksan	B-radio_name
+üç	I-radio_name
+nokta	I-radio_name
+beş	I-radio_name
+f.m.	I-radio_name
+çal	O
+
+ntv	B-radio_name
+radyo	I-radio_name
+'yu	O
+aç	O
+
+ok	O
+google	O
+hasan	B-person
+dinç	I-person
+'i	O
+başlatabilir	O
+misin	O
+
+akşam	B-time
+dokuzda	I-time
+benim	O
+favori	O
+istasyonumu	O
+çal	O
+
+power	B-radio_name
+fm	I-radio_name
+
+bu	O
+program	O
+için	O
+gerekli	O
+podcastleri	O
+çal	O
+
+bu	O
+sabah	B-timeofday
+hangi	O
+istasyonlar	O
+iyi	O
+müzik	O
+çalıyor	O
+
+radyo	B-radio_name
+d	I-radio_name
+'ye	O
+bağlan	O
+
+bir	O
+country	B-radio_name
+station	I-radio_name
+aç	O
+
+radyo	O
+programı	O
+nihat	O
+ve	O
+sivrisinek'i	O
+aç	O
+
+a.	B-radio_name
+t.	I-radio_name
+v.	I-radio_name
+radyo	I-radio_name
+çal	O
+
+bu	O
+programı	O
+aç	O
+
+harry	B-audiobook_name
+potter'ın	I-audiobook_name
+benim	O
+favori	O
+sesli	O
+kitabımı	O
+çalar	O
+mısın	O
+
+burak	B-audiobook_name
+soyer	I-audiobook_name
+sesli	O
+kitabını	O
+açabilir	B-player_setting
+misin	I-player_setting
+
+unutkan	B-audiobook_name
+aşk	I-audiobook_name
+bölüm	O
+yediyi	O
+başlat	B-player_setting
+
+osmanlıyı	B-audiobook_name
+yeniden	I-audiobook_name
+keşfetmek	I-audiobook_name
+sesli	O
+kitabına	O
+devam	B-player_setting
+et	I-player_setting
+
+sesi	B-media_type
+durdurur	B-player_setting
+musun	I-player_setting
+
+benim	O
+sesli	B-media_type
+kitabımı	I-media_type
+çalmaya	O
+devam	O
+et	O
+
+sesli	B-media_type
+kitabı	I-media_type
+durdur	B-player_setting
+
+vatan	B-audiobook_name
+yahut	I-audiobook_name
+silistre	I-audiobook_name
+yi	O
+kaldığım	O
+yerden	O
+aç	O
+
+can	B-audiobook_name
+sesli	B-media_type
+kitabını	I-media_type
+başlat	O
+
+en	O
+son	O
+eklenen	O
+sesli	B-media_type
+kitap	I-media_type
+ı	O
+çal	O
+
+audio	B-media_type
+çal	O
+
+en	O
+son	O
+ara	O
+verdiğimiz	O
+yerden	O
+benim	O
+sesli	B-media_type
+kitap	I-media_type
+a	O
+devam	B-player_setting
+et	I-player_setting
+
+en	O
+son	O
+çaldığın	O
+sesli	B-media_type
+kitap	I-media_type
+la	O
+devam	B-player_setting
+et	I-player_setting
+
+son	O
+zamanlarda	O
+durdurulmuş	O
+audio	B-media_type
+yu	O
+çal	O
+
+sesli	B-media_type
+kitabıma	I-media_type
+benim	O
+başladığım	O
+son	O
+bölümün	O
+başından	O
+devam	B-player_setting
+et	I-player_setting
+
+kiralık	B-audiobook_name
+konak	I-audiobook_name
+çal	O
+
+beş	B-time
+dakika	I-time
+mola	B-player_setting
+verelim	O
+
+kitap	O
+okumaya	B-player_setting
+başla	I-player_setting
+
+benim	O
+için	O
+kuran	B-audiobook_name
+a	O
+devam	B-player_setting
+et	I-player_setting
+
+mai	B-audiobook_name
+ve	I-audiobook_name
+siyah	I-audiobook_name
+sesli	B-media_type
+kitabını	I-media_type
+aç	O
+ve	O
+en	O
+son	O
+çalınan	O
+yerden	O
+çal	O
+
+bu	O
+playbacki	O
+sesli	B-media_type
+kitapta	I-media_type
+ara	O
+ve	O
+benim	O
+için	O
+çal	O
+
+bu	O
+sesli	B-media_type
+kitabı	I-media_type
+kaldığı	B-player_setting
+yerden	I-player_setting
+devam	I-player_setting
+ettir	I-player_setting
+
+downpourdan	B-app_name
+kara	B-audiobook_name
+kitabı	I-audiobook_name
+dinle	O
+
+bölüm	O
+dörtten	O
+kuran	B-audiobook_name
+okumaya	B-player_setting
+başla	I-player_setting
+
+yıldız	B-artist_name
+tilbe	I-artist_name
+den	O
+sesli	B-media_type
+kitap	I-media_type
+tan	O
+bir	O
+şarkı	O
+ile	O
+devam	B-player_setting
+et	I-player_setting
+
+sesli	B-media_type
+kitap	I-media_type
+kuran	B-audiobook_name
+çal	O
+
+kuyucaklı	B-audiobook_name
+yusuf	I-audiobook_name
+adlı	O
+sesli	B-media_type
+kitaba	I-media_type
+devam	B-player_setting
+edebilir	I-player_setting
+misin	I-player_setting
+
+sesli	B-media_type
+kitap	I-media_type
+ta	O
+greya	B-song_name
+yı	O
+çal	O
+
+fransızca	B-audiobook_name
+dersinde	I-audiobook_name
+okuma	O
+kısmına	O
+devam	B-player_setting
+et	I-player_setting
+
+lütfen	O
+dağılmak	O
+istiyorum	O
+u	O
+çal	O
+
+o	O
+sabahattin	B-audiobook_author
+ali	I-audiobook_author
+kitap	B-media_type
+ını	O
+okumaya	B-player_setting
+başla	I-player_setting
+
+benim	O
+sesli	B-media_type
+kitabımla	I-media_type
+devam	B-player_setting
+et	I-player_setting
+
+benim	O
+sinekli	B-audiobook_name
+bakkal	I-audiobook_name
+kitabımı	O
+oynatmaya	B-player_setting
+devam	I-player_setting
+et	I-player_setting
+
+kürk	B-audiobook_name
+mantolu	I-audiobook_name
+madonna'yı	I-audiobook_name
+kaldığı	B-player_setting
+yerden	I-player_setting
+devam	I-player_setting
+ettir	I-player_setting
+
+bu	O
+sesli	B-media_type
+kitap	I-media_type
+ta	O
+bu	O
+nokta	O
+dan	O
+çal	O
+
+bana	O
+sarımsaklı	B-food_type
+ekmek	I-food_type
+tarifi	O
+ver	O
+
+makarna	B-food_type
+pişirmek	B-cooking_type
+için	O
+ne	O
+kadar	O
+zaman	O
+gerekli	O
+
+brokoli	B-ingredient
+ve	O
+tavukla	B-ingredient
+ne	O
+pişirebilirim	O
+
+yemek	O
+yaparken	O
+beni	O
+yönlendir	O
+
+nasıl	O
+makarna	B-food_type
+yapabilirim	O
+
+beyaz	B-ingredient
+şarap	I-ingredient
+yerine	O
+ne	O
+kullanılabilir	O
+
+antep	B-food_type
+yemekleri	O
+videoları	B-media_type
+oynatabilir	O
+misin	O
+lütfen	O
+
+olly	O
+nasıl	O
+deniz	B-food_type
+mahsulleri	I-food_type
+çorbası	I-food_type
+yaparım	O
+
+tantuni	B-food_type
+nasıl	O
+yapılır	O
+
+en	B-food_type
+seksi	I-food_type
+yemek	O
+hangisi	O
+
+pizza	B-food_type
+yı	O
+çıtır	B-cooking_type
+yapmak	O
+için	O
+ne	O
+kadar	O
+süre	O
+pişirmem	O
+gerekir	O
+
+börülceyi	B-ingredient
+nasıl	O
+pişirirsin	O
+
+bana	O
+tarifler	O
+ver	O
+
+nasıl	O
+pişireceğimi	O
+göstermek	O
+için	O
+google	O
+ı	O
+kullan	O
+
+bana	O
+en	O
+iyi	O
+pişirme	O
+fikirlerini	O
+ver	O
+
+kurabiye	B-food_type
+tarifi	O
+göster	O
+
+nasıl	O
+kurabiye	B-food_type
+yaparım	O
+
+bir	B-time
+litrede	I-time
+kaç	O
+fincan	O
+var	O
+
+fırında	O
+patates	B-food_type
+nasıl	O
+yapabilirim	O
+
+pizza	B-food_type
+tarifi	O
+ara	O
+
+nasıl	O
+rulo	B-food_type
+köfte	I-food_type
+yaparım	O
+
+bana	O
+bir	O
+erişteli	B-food_type
+tavuk	I-food_type
+çorbası	I-food_type
+tarifi	O
+bul	O
+
+glütensiz	B-food_type
+menüler	O
+ara	O
+
+bana	O
+yemek	O
+tarifini	O
+nasıl	O
+pişireceğimi	O
+göster	O
+
+buzlu	O
+turtayı	O
+ne	O
+kadar	O
+soğutayım	O
+
+dört	O
+kişilik	O
+sufle	B-food_type
+nasıl	O
+yapılır	O
+
+sosisli	B-food_type
+tarifi	O
+bul	O
+
+güveç	O
+kabında	O
+tavuk	B-food_type
+güveç	I-food_type
+tarif	O
+i	O
+
+spagetti	B-food_type
+tarifi	O
+getirebilir	O
+misin	O
+
+hindi	B-food_type
+köfte	I-food_type
+tarifi	O
+getir	O
+
+yemek	O
+tarifleri	O
+
+tavuk	B-food_type
+göğsünü	I-food_type
+fırında	O
+ne	O
+kadar	O
+pişirmeliyim	O
+
+yengeç	B-food_type
+eti	I-food_type
+için	O
+tarif	O
+
+meksika	B-food_type
+yemeği	I-food_type
+için	O
+öneriye	O
+ihtiyacım	O
+var	O
+
+yorum	O
+yok	O
+
+haşlanmış	B-food_type
+yumurta	I-food_type
+için	O
+pişirme	O
+süresi	O
+ne	O
+kadar	O
+
+badem	B-drink_type
+sütü	I-drink_type
+için	O
+kolay	O
+tarif	O
+bul	O
+
+tavuklu	B-food_type
+güveç	I-food_type
+tarifi	O
+bul	O
+
+yemek	O
+tarifi	O
+ara	O
+
+alexa	O
+benimle	O
+satranç	B-game_name
+oyna	O
+
+satranç	B-game_name
+oynamak	O
+istiyorum	O
+oynatabilir	O
+misin	O
+
+güzel	O
+bir	O
+satranç	B-game_name
+oyununa	O
+ne	O
+dersin	O
+
+solitaire	B-game_name
+aç	O
+
+yarış	B-game_type
+oyunu	O
+oyna	O
+
+hadi	O
+langırt	B-game_name
+oynayalım	O
+
+örümcek	B-game_name
+oyununu	O
+başlat	O
+
+benle	O
+oyun	O
+oynamak	O
+ister	O
+misin	O
+
+benim	O
+futbol	B-game_name
+oyunumu	O
+beşinci	O
+levelden	O
+oynatmanı	O
+istiyorum	O
+
+trivia	B-game_name
+oyununu	O
+oynamak	O
+istiyorum	O
+
+oyun	O
+bul	O
+
+yılan	B-game_name
+koynumda	O
+oyna	O
+
+bulmaca	B-game_name
+çözelim	O
+
+papa	B-game_name
+pear	I-game_name
+saga	I-game_name
+'yı	O
+aç	O
+
+hadi	O
+tavla	B-game_name
+oynayalım	O
+
+oyun	O
+aç	O
+
+clash	B-game_name
+of	I-game_name
+clans	I-game_name
+oyununda	O
+düşman	O
+rolünü	O
+alabilir	O
+misin	O
+
+lütfen	O
+benimle	O
+satranç	B-game_name
+oyna	O
+
+bu	B-game_name
+şarkıya	I-game_name
+isim	I-game_name
+verebilir	I-game_name
+misin	I-game_name
+
+benimle	O
+poker	B-game_name
+oynayabilir	O
+misin	O
+
+millionaires	B-game_name
+oynayalım	O
+
+tic	B-game_name
+tac	I-game_name
+toe	I-game_name
+oynayalım	O
+
+benim	O
+alışveriş	B-list_name
+listemdeki	O
+öğeleri	O
+listele	O
+olly	O
+
+önümüzdeki	O
+hafta	O
+olan	O
+kıbrıs	O
+gezisini	O
+iptal	O
+etmek	O
+istiyorum	O
+
+bugün	B-date
+alışveriş	B-list_name
+listemde	O
+ne	O
+var	O
+
+alışveriş	B-list_name
+listesinden	O
+ekmeği	O
+çıkar	O
+
+parti	B-list_name
+alışveriş	I-list_name
+listeme	O
+votka	O
+ekle	O
+
+alınacaklar	B-list_name
+listesini	O
+kaldır	O
+
+yeni	O
+bir	O
+liste	O
+oluşturabilir	O
+misin	O
+
+geçen	B-date
+hafta	I-date
+satın	O
+alınan	O
+ürünleri	O
+yiyecek	B-list_name
+listesinden	O
+kaldır	O
+
+görünüşe	O
+göre	O
+
+listeyi	O
+temizle	O
+
+liste	O
+yap	O
+
+hangi	O
+marketler	B-list_name
+için	O
+liste	O
+yaptım	O
+
+listelerim	O
+neler	O
+
+hangi	O
+listeler	O
+mevcut	O
+
+listeyi	O
+bul	O
+ve	O
+elmayı	O
+kaldır	O
+
+osmanlıca	B-list_name
+şarkı	O
+listemi	O
+sil	O
+
+lütfen	O
+bir	O
+listeyi	O
+kaldır	O
+
+bu	O
+öğeyi	O
+listeye	O
+ekle	O
+
+yaptığım	O
+son	O
+beş	O
+liste	O
+neydi	O
+
+bana	O
+en	O
+son	O
+yüklenen	O
+listeyi	O
+gönder	O
+
+benim	O
+için	O
+bir	O
+numara	B-list_name
+listesi	O
+yap	O
+
+benim	O
+için	O
+yeni	O
+bir	O
+liste	O
+oluştur	O
+lütfen	O
+
+bugün	B-date
+yapılacaklar	B-list_name
+listemde	O
+ne	O
+var	O
+
+bugün	B-date
+neler	O
+yapıyorum	O
+
+yapılacaklar	B-list_name
+listemdeki	O
+beş	O
+numaralı	O
+maddeyi	O
+kontrol	O
+et	O
+
+lütfen	O
+benim	O
+listemi	O
+göster	O
+
+excel	O
+dosyasını	O
+listeden	O
+kaldır	O
+
+bana	O
+bir	O
+oynatma	O
+listesi	O
+söyle	O
+
+listede	O
+kaç	O
+tane	O
+yiyecek	O
+var	O
+
+liste	O
+ön	O
+eki	O
+kuru	O
+olan	O
+tüm	O
+gıda	O
+maddelerini	O
+içermemelidir	O
+
+yarına	B-date
+kadar	O
+yeni	O
+bir	O
+liste	O
+oluştur	O
+
+yeni	O
+bir	O
+liste	O
+yap	O
+
+yeni	O
+bir	O
+market	B-list_name
+listesine	O
+kalem	O
+ekle	O
+
+lütfen	O
+bu	O
+öğeyi	O
+listeden	O
+kaldırın	O
+
+market	O
+listesine	O
+ekle	O
+
+listeyi	O
+oku	O
+
+listemi	O
+doldur	O
+
+hangi	O
+listelere	O
+sahip	O
+olduğumu	O
+söyle	O
+
+üçüncü	O
+öğeyi	O
+kaldır	O
+
+liste	O
+ne	O
+içeriyor	O
+
+lütfen	O
+bu	O
+öğeyi	O
+listeye	O
+ekleyin	O
+
+mevcut	O
+listeleri	O
+göster	O
+
+lütfen	O
+bana	O
+listemde	O
+ne	O
+olduğunu	O
+söyler	O
+misin	O
+
+market	B-list_name
+listemden	O
+karabiberi	O
+çıkar	O
+
+listeme	O
+bir	O
+şey	O
+ekle	O
+
+şu	O
+öğeyi	O
+listemden	O
+kaldır	O
+
+google	O
+çeviri	O
+
+bu	B-date
+hafta	I-date
+için	O
+yapılacaklar	O
+listeme	O
+ne	O
+eklediğimi	O
+oku	O
+
+alışveriş	B-list_name
+listesi	O
+öğelerini	O
+oku	O
+
+alışveriş	O
+listeme	O
+kahvaltılık	O
+gevrek	O
+ekle	O
+
+benim	O
+alışveriş	B-list_name
+listemde	O
+yumurta	O
+var	O
+mı	O
+
+planladığım	O
+parti	B-event_name
+için	O
+bir	O
+irtibat	O
+listem	O
+var	O
+mı	O
+
+yapılacaklar	B-list_name
+listemi	O
+sil	O
+
+kalemi	O
+listeden	O
+çıkart	O
+
+lütfen	O
+bakkal	B-list_name
+listesine	O
+süt	O
+ekle	O
+
+lütfen	O
+bana	O
+listelerimi	O
+gösterir	O
+misin	O
+
+listeleri	O
+aç	O
+listeyi	O
+kaldır	O
+
+olly	O
+listemde	O
+sırada	O
+ne	O
+var	O
+
+benim	O
+bakkal	B-list_name
+listemden	O
+sütü	O
+çıkar	O
+
+lütfen	O
+ben	O
+hangi	O
+listeleri	O
+yaptım	O
+söyle	O
+
+onu	O
+listeden	O
+yeniden	O
+düzenle	O
+
+onu	O
+listeden	O
+çıkar	O
+
+olly	O
+listede	O
+başka	O
+neyim	O
+var	O
+
+bugün	B-date
+yapılacaklar	O
+listeme	O
+yiyecek	O
+satın	O
+almayı	O
+ekle	O
+
+lütfen	O
+bana	O
+öğeyi	O
+nasıl	O
+kaldırabileceğimi	O
+söyle	O
+
+listelerimi	O
+kontrol	O
+edebilir	O
+miyim	O
+
+ben	O
+alışveriş	B-list_name
+listesi	O
+yaptım	O
+mı	O
+
+öğeyi	O
+listemden	O
+kaldır	O
+
+yeni	O
+bir	O
+liste	O
+oluştur	O
+
+bana	O
+listeyi	O
+anlat	O
+
+lütfen	O
+ilk	O
+listeyi	O
+kaldır	O
+
+çarşamba	B-date
+sabahki	B-timeofday
+toplantıyı	O
+kaldır	O
+
+bekleyen	B-list_name
+faturalarımın	I-list_name
+yeni	O
+bir	O
+listesini	O
+oluştur	O
+
+listemi	O
+bana	O
+oku	O
+
+bana	O
+listemi	O
+ver	O
+
+iş	O
+için	O
+bir	O
+liste	O
+yap	O
+
+lütfen	O
+futbol	B-list_name
+başlıklı	O
+listeyi	O
+sil	O
+
+bu	O
+listeyi	O
+artık	O
+istemiyorum	O
+
+yapılacaklar	B-list_name
+listemde	O
+herhangi	O
+bir	O
+şey	O
+var	O
+mı	O
+
+şu	O
+anda	O
+hangi	O
+listeler	O
+mevcut	O
+
+son	O
+satırı	O
+sil	O
+
+okul	B-list_name
+malzemeleri	I-list_name
+için	O
+yeni	O
+bir	O
+liste	O
+oluştur	O
+
+tatil	B-list_name
+listemden	I-list_name
+gazeteyi	O
+aramayı	O
+sil	O
+
+bugünkü	B-date
+alışveriş	B-list_name
+listemi	O
+oku	O
+
+bugün	B-date
+için	O
+listede	O
+ne	O
+var	O
+
+bir	O
+listeye	O
+bir	O
+madde	O
+eklemek	O
+
+market	O
+alışverişini	O
+listeden	O
+çıkar	O
+
+boyamız	O
+bitti	O
+o	O
+yüzden	O
+banyo	O
+badanasını	O
+listeden	O
+çıkar	O
+
+bana	O
+daha	O
+fazla	O
+sabun	O
+sipariş	O
+etmemi	O
+hatırlat	O
+
+listemi	O
+aç	O
+
+son	O
+çalınan	O
+şarkıyı	O
+kaldır	O
+
+lütfen	O
+ali'yi	B-person
+kişi	O
+listeme	O
+ekle	O
+
+bana	O
+listelerimi	O
+okuyabilir	O
+misin	O
+
+hey	O
+listelerim	O
+neler	O
+
+hey	O
+olly	O
+benim	O
+listelerim	O
+neler	O
+
+market	B-list_name
+listemdeki	O
+eşyaların	O
+neler	O
+olduğunu	O
+söyler	O
+misin	O
+
+o	O
+listede	O
+ne	O
+var	O
+
+bana	O
+listemde	O
+ne	O
+olduğunu	O
+söyle	O
+
+bir	O
+liste	O
+kaldır	O
+
+sütü	O
+alışveriş	B-list_name
+listesinden	O
+çıkar	O
+
+market	B-list_name
+listeme	O
+süt	O
+ekle	O
+
+tarkan	B-list_name
+müzik	I-list_name
+listesini	O
+kaldır	O
+
+bu	O
+belirli	O
+listede	O
+neler	O
+var	O
+
+iş	O
+listelerimi	O
+görebilir	O
+miyim	O
+
+bunu	O
+bir	O
+listeye	O
+ekle	O
+
+lütfen	O
+bugün	B-date
+yapılacaklar	B-list_name
+listemi	O
+kaldır	O
+
+yumurta	O
+istemiyorum	O
+
+mevcut	O
+olanları	O
+listele	O
+
+satın	O
+alınacak	O
+aylık	B-general_frequency
+alışverişlerin	B-list_name
+bir	O
+listesini	O
+oluştur	O
+
+çalışma	O
+planım	O
+
+benim	O
+sağlık	B-list_name
+planım	I-list_name
+
+yeni	B-list_name
+yıl	I-list_name
+listesine	O
+hamur	O
+işleri	O
+ekle	O
+
+yapılacak	B-list_name
+şeyler	I-list_name
+listesini	O
+sil	O
+
+eski	B-list_name
+çalma	I-list_name
+listesini	I-list_name
+sil	O
+ve	O
+yenisini	O
+oluştur	O
+
+listeyi	O
+kontrol	O
+et	O
+
+yapılacaklar	B-list_name
+listemde	O
+kaç	O
+madde	O
+var	O
+
+listemi	O
+kontrol	O
+et	O
+
+podcastteki	O
+bir	O
+bölümü	O
+iletebilir	B-player_setting
+misin	O
+
+sonraki	B-podcast_descriptor
+bölümü	I-podcast_descriptor
+çal	O
+
+benim	O
+podcast	O
+ımı	O
+yerleştir	O
+
+sonraki	B-podcast_descriptor
+bölüme	I-podcast_descriptor
+geç	O
+
+en	O
+yeni	O
+rabarba	B-podcast_name
+yı	O
+çal	O
+
+sıradaki	B-podcast_descriptor
+bölüm	I-podcast_descriptor
+e	O
+git	O
+
+rabarba	B-podcast_name
+nın	O
+yedinci	O
+bölümünü	O
+çal	O
+
+en	O
+son	O
+dans	O
+parçalarını	O
+bul	O
+ve	O
+bir	O
+çalma	O
+listesi	O
+yap	O
+
+ceza	B-artist_name
+'dan	O
+tüm	O
+şarkıları	O
+düzenle	O
+ve	O
+çal	O
+
+podcasti	O
+en	O
+baştan	O
+çalar	O
+
+hey	O
+benim	O
+geçen	B-podcast_descriptor
+gece	I-podcast_descriptor
+durdurduğum	I-podcast_descriptor
+o	O
+podcast	O
+ı	O
+çal	O
+
+bir	B-podcast_descriptor
+sonraki	I-podcast_descriptor
+podcast	I-podcast_descriptor
+a	O
+atla	O
+
+bir	O
+sonraki	O
+podcast	O
+ı	O
+yeniden	O
+çal	O
+
+sıradaki	B-podcast_descriptor
+podcast	I-podcast_descriptor
+a	O
+atla	O
+
+mesut	B-person
+süre	I-person
+podcast	O
+ı	O
+dinlemek	O
+istiyorum	O
+
+favori	O
+
+devam	B-player_setting
+et	I-player_setting
+lütfen	O
+
+podcast	O
+bul	O
+ve	O
+onu	O
+aç	O
+
+benim	O
+müzik	O
+klasörümü	O
+çalabilir	O
+misin	O
+
+sıradaki	B-podcast_descriptor
+bölüme	I-podcast_descriptor
+atla	O
+
+bu	O
+podcast	O
+i	O
+bitir	O
+ve	O
+yenisini	O
+başlat	O
+
+tarkanın	B-person
+en	O
+son	O
+podcastini	O
+dinle	O
+
+gelecek	B-podcast_descriptor
+bölümü	I-podcast_descriptor
+çal	O
+
+haber	B-podcast_name
+saati	I-podcast_name
+podcastini	O
+başlat	O
+
+bana	O
+en	B-podcast_descriptor
+yüksek	I-podcast_descriptor
+derecelendirilen	I-podcast_descriptor
+podcastler	O
+i	O
+göster	O
+
+sıradaki	O
+bilmeniz	O
+gereken	O
+şeyler	B-podcast_name
+bölümünü	O
+oynat	O
+
+klasik	B-music_genre
+parçalar	O
+çal	O
+
+berkcan	B-podcast_name
+güven	I-podcast_name
+podcastini	O
+çal	O
+
+bölüm	O
+bire	O
+dön	O
+
+butonu	O
+geri	B-player_setting
+al	I-player_setting
+
+bana	O
+en	O
+son	O
+bölümü	O
+göster	O
+
+olly	O
+ağır	B-podcast_name
+sıklet	I-podcast_name
+podcastini	O
+aç	O
+
+cihaza	O
+kayıtlı	O
+beyaz	B-podcast_name
+podcastini	O
+aç	O
+
+ağ	O
+podcast	O
+
+çok	O
+daha	O
+net	O
+ve	O
+kişiye	O
+yönelik	O
+
+yüksek	O
+sadakat	O
+
+barış	B-podcast_name
+özcan	I-podcast_name
+son	B-podcast_descriptor
+bölümü	I-podcast_descriptor
+çal	O
+
+bu	O
+podcasti	O
+dinlemek	O
+istiyorum	O
+
+bu	B-date
+hafta	I-date
+sinemalarda	O
+oynayan	O
+yeni	O
+filmler	O
+hangileri	O
+
+eskişehir	B-place_name
+yakınlarında	O
+devam	O
+eden	O
+köpek	B-event_name
+gösterileri	I-event_name
+var	O
+mı	O
+
+şehirdeki	B-place_name
+en	O
+yakın	O
+pub	B-business_type
+nerede	O
+
+yakınlarda	O
+gerçekleşecek	B-time
+konserler	B-event_name
+
+cinemaximumda	B-place_name
+vizyonda	O
+hangi	O
+filmler	O
+var	O
+
+büyükşehir	B-place_name
+tiyatrolarında	O
+hangi	O
+gösteriler	B-event_name
+veya	O
+sergiler	B-event_name
+programlanmış	O
+
+yakınımda	O
+hangi	O
+olaylar	O
+oluyor	O
+
+meksika	B-food_type
+yemeği	O
+yemek	O
+için	O
+yakınımda	O
+nereye	O
+gitmeliyim	O
+
+biraz	O
+sushi	B-food_type
+ihtiyacım	O
+var	O
+en	O
+yakını	O
+hangisi	O
+
+yakınlarda	O
+çin	B-food_type
+restoranı	B-business_type
+ara	O
+
+bu	B-timeofday
+gece	I-timeofday
+yemek	B-event_name
+festivali	I-event_name
+nerede	O
+
+butik	B-business_type
+mağazaları	I-business_type
+arıyorum	O
+bana	O
+bir	B-place_name
+kilometrelik	I-place_name
+uzaklıkta	I-place_name
+giyim	O
+dükkanları	O
+bulabilir	O
+misin	O
+
+en	O
+yakın	O
+restoran	B-business_type
+nerede	O
+
+olly	O
+bana	O
+dükkanın	O
+yerini	O
+sapta	O
+
+bugün	B-date
+hangi	O
+yeni	O
+filmler	O
+var	O
+
+konumuma	B-place_name
+en	I-place_name
+yakın	I-place_name
+kebapçıları	B-business_type
+göster	O
+
+boğaziçindeki	B-place_name
+iyi	O
+bisikletçiler	B-business_type
+
+mahalledeki	O
+en	O
+iyi	O
+bar	B-business_type
+
+bana	O
+tüm	O
+yerel	O
+etkinlikleri	O
+söyle	O
+
+bakkalın	B-business_type
+yanında	O
+
+adana	B-place_name
+civarında	O
+sinemada	O
+hangi	O
+komedi	B-movie_type
+filmini	O
+izleyebilirim	O
+
+gülhane	B-place_name
+parkını	I-place_name
+gezerken	O
+bir	O
+yapılacaklar	O
+listesi	O
+hazırla	O
+
+yellowstone	B-place_name
+milli	I-place_name
+parkını	I-place_name
+ziyaret	O
+ettiğimde	O
+ne	O
+yapmalıyım	O
+
+çevremde	O
+neler	O
+oluyor	O
+
+yakınımdaki	O
+tiyatrolar	B-business_type
+
+gelecek	B-date
+hafta	I-date
+ankarada	B-place_name
+hangi	O
+kitap	B-event_name
+fuarı	I-event_name
+etkinlikleri	O
+düzenleniyor	O
+
+yeni	O
+vin	B-movie_name
+diesel	I-movie_name
+filminin	O
+oynadığı	O
+en	O
+yakın	O
+tiyatro	O
+hangisi	O
+
+istanbul'da	B-place_name
+hangi	O
+etkinlikler	O
+oluyor	O
+
+düğün	B-movie_name
+dernek	I-movie_name
+
+beşiktaşta	B-place_name
+en	O
+ucuz	O
+dizüstü	O
+bilgisayarları	O
+kim	O
+satıyor	O
+
+buradaki	O
+en	O
+iyi	O
+giysici	B-business_type
+nedir	O
+
+bira	B-drink_type
+satan	O
+bir	O
+market	O
+bul	O
+
+bana	O
+yakın	O
+sinemalarda	B-place_name
+hangi	O
+filmler	O
+oynuyor	O
+
+yakınımda	O
+oynayan	O
+popüler	O
+filmler	O
+neler	O
+
+i.	O
+m.	O
+d.	O
+b.	O
+oylamaları	O
+iyi	O
+filmler	O
+
+civarımda	O
+hangi	O
+etkinlikler	O
+gerçekleşiyor	O
+
+hangi	O
+lunapark	O
+araçları	O
+en	O
+iyisi	O
+
+ne	O
+izlemeye	O
+değer	O
+
+bu	B-date
+haftasonu	I-date
+bölgemde	O
+hangi	O
+aktiviteler	O
+var	O
+bildir	O
+
+istanbulda	B-place_name
+neler	O
+oluyor	O
+
+benim	O
+muhite	O
+yakın	O
+ne	O
+tür	O
+mağazalar	B-business_type
+var	O
+
+bu	O
+bölgede	O
+ucuz	O
+restoran	B-business_type
+tavsiye	O
+edebilir	O
+misin	O
+
+olly	O
+yakınımdaki	O
+restoranlar	B-business_type
+neler	O
+
+bölgemdeki	O
+en	O
+yakın	O
+irlanda	B-business_type
+barını	I-business_type
+nerede	O
+bulabilirim	O
+
+olly	O
+çevremde	O
+hangi	O
+barlar	B-business_type
+var	O
+
+bana	O
+milano'da	B-place_name
+olan	O
+tüm	O
+etkinlikleri	O
+göster	O
+
+bana	O
+şehrimde	O
+neler	O
+olduğunu	O
+söyle	O
+
+bugün	B-date
+istanbul	B-place_name
+'da	O
+neler	O
+var	O
+
+mahallemde	O
+kaç	O
+tane	O
+market	O
+var	O
+
+bölgemdeki	O
+bir	O
+restoranı	B-business_type
+sor	O
+
+çok	O
+açım	O
+adanada	B-place_name
+ne	B-business_type
+yenir	I-business_type
+
+olly	O
+batı	B-place_name
+ataşehirde	I-place_name
+nereden	O
+içecek	B-business_type
+alabilirim	O
+
+bugünün	B-date
+yerel	O
+etkinlikleri	O
+
+civardaki	O
+tüm	O
+dükkanları	B-business_type
+listele	O
+
+yavuz	O
+selim	O
+caddesinde	B-place_name
+bir	O
+pub	B-business_type
+önerebilir	O
+misin	O
+
+mahallede	B-place_name
+neler	O
+oluyor	O
+
+tekirdağda	B-place_name
+bana	O
+pizza	B-food_type
+getirecek	O
+bir	O
+yere	O
+ihtiyacım	O
+var	O
+
+lara	B-place_name
+'da	O
+hangi	O
+çin	B-food_type
+lokantaları	O
+var	O
+
+lütfen	O
+konumumdaki	O
+etkinlikleri	O
+ara	O
+
+hey	O
+olly	O
+çarşamba	B-date
+günü	O
+muğla	B-place_name
+ya	O
+giden	O
+trenleri	O
+öğrenmek	O
+istiyorum	O
+
+kayseri	B-place_name
+ye	O
+bir	O
+sonraki	O
+tren	B-transport_type
+ne	O
+zaman	O
+
+yunanistan	B-place_name
+'a	O
+en	O
+iyi	O
+yol	O
+hangisi	O
+
+yarım	B-time
+saat	I-time
+içinde	O
+çin	B-place_name
+mahallesine	I-place_name
+gidiyorum	O
+bana	O
+bir	O
+uber	B-transport_agency
+ayarla	O
+
+olly	O
+bu	B-date
+cuma	I-date
+ö.	B-time
+s.	I-time
+beş	I-time
+için	O
+istanbul	B-place_name
+a	O
+eurostar	B-transport_name
+da	O
+bilet	O
+ayarla	O
+
+manhattan	B-place_name
+'dan	O
+new	B-place_name
+york	I-place_name
+'a	O
+benim	O
+a.	O
+c.	O
+sınıf	O
+tren	B-transport_type
+koltuğumu	O
+ayırt	O
+
+bağdat	B-place_name
+caddesi	I-place_name
+'nde	O
+trafik	O
+durumu	O
+nasıl	O
+
+bana	O
+şimdi	O
+bir	O
+uber	B-transport_agency
+çağır	O
+
+nilüfer	B-place_name
+sokakta	I-place_name
+trafik	O
+daha	O
+mı	O
+sıkışık	O
+
+kadife	B-place_name
+sokakta	I-place_name
+şu	O
+anda	O
+ne	O
+kadar	O
+trafik	O
+var	O
+
+bana	O
+hemen	O
+bir	O
+uber	B-transport_agency
+gönder	O
+
+tren	B-place_name
+istasyonu	I-place_name
+nerede	O
+
+uber'in	B-transport_agency
+on	B-time
+beş	I-time
+dakika	I-time
+içinde	O
+evimde	B-place_name
+olmasını	O
+rica	O
+eder	O
+misin	O
+
+havalimanına	B-place_name
+gitmek	O
+için	O
+bir	O
+taksi	B-transport_type
+ihtiyacım	O
+var	O
+
+bana	O
+bir	O
+uçak	O
+bileti	O
+ayırt	O
+
+eve	B-place_name
+gitmek	O
+için	O
+taksi	B-transport_type
+ara	O
+
+evimden	B-place_name
+alacak	O
+uber	B-transport_agency
+çağır	O
+
+mersin	B-place_name
+istikametine	O
+programlı	O
+bir	O
+sonraki	O
+dört	O
+treni	O
+bana	O
+bildirebilir	O
+misin	O
+lütfen	O
+
+mahmutbey	B-place_name
+gişelerde	I-place_name
+trafik	O
+nasıl	O
+
+trafik	O
+nasıl	O
+
+bana	O
+gelecek	O
+perşembe	B-date
+için	O
+has	O
+turizmden	O
+bir	O
+antakya	B-place_name
+bileti	O
+al	O
+daha	O
+ileri	O
+gün	O
+varsa	O
+daha	O
+iyi	O
+
+ankara	B-place_name
+'dan	O
+kastamonu	B-place_name
+'ya	O
+giden	O
+trenin	O
+saatleri	O
+ne	O
+
+susam	B-place_name
+sokağı	I-place_name
+na	O
+bir	O
+sonraki	O
+tren	B-transport_type
+saat	O
+kaçta	O
+
+hadi	O
+bir	O
+taksi	B-transport_type
+tutalım	O
+
+beni	O
+en	O
+yakın	O
+tren	B-place_name
+istasyonuna	I-place_name
+yönlendir	O
+
+feneryolu	B-place_name
+'ndan	O
+bostancı	B-place_name
+'ya	O
+tren	B-transport_type
+zamanları	O
+
+salı	B-date
+günü	O
+paris	B-place_name
+'e	O
+giden	O
+tren	B-transport_type
+için	O
+iki	O
+bilet	O
+al	O
+
+işten	O
+eve	B-place_name
+trafik	O
+durumu	O
+nedir	O
+
+buradan	O
+eve	B-place_name
+olan	O
+trafik	O
+durumunu	O
+söyle	O
+
+taksi	B-transport_type
+ayırt	O
+
+antrenör	O
+ve	O
+ücret	O
+
+istanbul'da	B-place_name
+trafik	O
+çok	O
+yoğundur	O
+
+yarın	B-date
+sabah	B-timeofday
+için	O
+havalimanı	B-place_name
+na	O
+gitmek	O
+için	O
+bir	O
+taksi	B-transport_type
+ayarla	O
+
+trafik	O
+durumunu	O
+öğrenmek	O
+istiyorum	O
+
+bana	O
+en	O
+yakın	O
+müsait	O
+taksiyi	B-transport_type
+çağır	O
+
+izmir'e	B-place_name
+nasıl	O
+gidebilirim	O
+
+bana	O
+uber	B-transport_agency
+çağır	O
+
+taksi	B-transport_type
+çağır	O
+
+sirkeci	B-place_name
+için	O
+son	O
+trene	B-transport_type
+yeniden	O
+bilet	O
+al	O
+
+bana	O
+bugün	B-date
+i̇stanbul	B-place_name
+a	O
+giden	O
+tren	B-transport_type
+biletini	O
+satın	O
+al	O
+
+en	O
+yakın	O
+apple	B-business_name
+mağazası	I-business_name
+yol	O
+tarifi	O
+
+bana	O
+mevcut	O
+trafik	O
+durumu	O
+hakkında	O
+fikir	O
+ver	O
+
+nevşehir	B-place_name
+'den	O
+yozgat	B-place_name
+istikametine	O
+giden	O
+tren	B-transport_type
+zamanları	O
+nedir	O
+
+istanbul'dan	B-place_name
+ankara'ya	I-place_name
+nasıl	O
+giderim	O
+
+evden	B-place_name
+işe	O
+trafik	O
+nasıl	O
+
+bir	O
+araç	O
+bul	O
+
+yirmi	B-date
+üçünde	I-date
+kadıköy	B-place_name
+'e	O
+tren	B-transport_type
+zamanları	O
+nedir	O
+
+tren	B-transport_type
+bileti	O
+satın	O
+al	O
+
+yarın	B-date
+sabah	B-timeofday
+sekizde	B-time
+bana	O
+bir	O
+taksi	B-transport_type
+lazım	O
+
+sabah	B-timeofday
+giden	O
+bir	O
+bilet	O
+ayırt	O
+
+bugün	B-timeofday
+ö.	B-time
+s.	I-time
+on	I-time
+dan	O
+sonra	O
+uygun	O
+bir	O
+uber	B-transport_agency
+şoförü	O
+bul	O
+
+aydın	B-place_name
+istikameti	O
+için	O
+tren	B-transport_type
+kaçta	O
+alkıyor	O
+
+gelecek	O
+salı	B-date
+için	O
+bana	O
+ankaraya	B-place_name
+bir	O
+tren	B-transport_type
+bileti	O
+ayarlayabilir	O
+misin	O
+
+tren	B-transport_type
+aydın	B-place_name
+dan	O
+kaçta	O
+kalkıyor	O
+
+istanbul	B-place_name
+istikametine	O
+bir	O
+sonraki	O
+pegasus	O
+treni	B-transport_type
+ne	O
+zaman	O
+
+bana	O
+yerel	O
+taksi	B-business_type
+servisinin	I-business_type
+numarasını	O
+bul	O
+
+bana	O
+yerin	O
+tarifini	O
+ver	O
+
+tatilya	B-place_name
+için	O
+rota	O
+
+lokasyona	O
+gitmem	O
+lazım	O
+taksi	B-transport_type
+çağır	O
+
+bu	O
+konum	O
+için	O
+tüm	O
+tren	B-transport_type
+bilet	O
+fiyatlarının	O
+bir	O
+listesini	O
+istiyorum	O
+lütfen	O
+
+aydına	B-place_name
+gitmem	O
+lazım	O
+bana	O
+bir	O
+tren	B-transport_type
+bileti	O
+ayarla	O
+
+istanbul'dan	B-place_name
+eskişehir'e	I-place_name
+tren	B-transport_type
+saatleri	O
+nedir	O
+
+olly	O
+lütfen	O
+bana	O
+atlantaya	B-place_name
+bir	O
+tren	B-transport_type
+bileti	O
+al	O
+
+bir	O
+tren	B-transport_type
+bileti	O
+ne	O
+kadar	O
+
+istanbula	B-place_name
+bir	O
+tren	B-transport_type
+bileti	O
+nasıl	O
+satın	O
+alınacağı	O
+ile	O
+ilgili	O
+bana	O
+bilgi	O
+gönder	O
+lütfen	O
+
+bana	O
+samsun	B-place_name
+için	O
+tren	B-transport_type
+saatlerini	O
+verebilir	O
+misin	O
+
+yarın	B-date
+sabah	O
+on	B-time
+dan	O
+önce	O
+aydın	B-place_name
+için	O
+bir	O
+tren	B-transport_type
+bilet	O
+i	O
+ayarla	O
+
+akbanka	B-business_name
+gitmek	O
+istiyorum	O
+bana	O
+yol	O
+tarifi	O
+ver	O
+
+lütfen	O
+bana	O
+bir	O
+erzuruma	B-place_name
+tren	B-transport_type
+bileti	O
+siparişi	O
+ver	O
+
+beni	O
+işe	O
+götürmek	O
+için	O
+yarın	B-date
+sabah	B-timeofday
+sekize	B-time
+bir	O
+taksiye	B-transport_type
+ihtiyacım	O
+var	O
+
+anlık	O
+trafik	O
+
+tren	B-transport_type
+sefer	O
+saatleri	O
+ne	O
+zaman	O
+
+bizim	O
+eve	B-place_name
+kadar	O
+olan	O
+trafiği	O
+kontrol	O
+edebilir	O
+misin	O
+
+trafik	O
+yoğun	O
+mu	O
+
+ankara'ya	B-place_name
+giden	O
+trene	B-transport_type
+binmek	O
+için	O
+bana	O
+bir	O
+bilet	O
+al	O
+
+aydın	B-place_name
+da	O
+genellikle	O
+ne	O
+kadar	O
+trafik	O
+var	O
+
+bu	O
+sefer	O
+bi	O
+tren	B-transport_type
+bileti	O
+ayırt	O
+
+uber	B-transport_agency
+ayarla	O
+
+akmerkez'e	B-place_name
+bir	O
+araba	O
+bul	O
+lütfen	O
+
+beni	O
+hemen	O
+alması	O
+için	O
+bir	O
+taksi	B-transport_type
+çağır	O
+
+trafikte	O
+herhangi	O
+bir	O
+problem	O
+var	O
+mı	O
+
+en	O
+yakın	O
+mcdonaldsa	B-business_name
+yol	O
+tarifi	O
+
+şehir	B-place_name
+merkezine	O
+gitmek	O
+için	O
+hangi	O
+caddeye	O
+girmeliyim	O
+
+bir	O
+tren	B-transport_type
+bileti	O
+almam	O
+gerek	O
+
+bir	O
+tren	B-transport_type
+bileti	O
+ayırtın	O
+
+aydına	B-place_name
+bir	O
+tren	B-transport_type
+bileti	O
+kaç	O
+para	O
+
+çiçek	B-business_name
+taksiden	I-business_name
+bir	O
+taksi	B-transport_type
+iste	O
+
+bu	O
+sabah	B-timeofday
+trafik	O
+nasıl	O
+
+şimdi	O
+trafik	O
+nasıl	O
+
+yakınımdaki	O
+trafik	O
+nasıl	O
+
+orduda	B-place_name
+şu	O
+anda	O
+trafik	O
+durumu	O
+nasıl	O
+
+ny	B-place_name
+için	O
+tüm	O
+tren	B-transport_type
+saatlerini	O
+listele	O
+
+aydın	B-place_name
+için	O
+bütün	O
+tren	B-transport_type
+ve	O
+saatini	O
+de	O
+göster	O
+
+bugün	B-date
+bana	O
+iskenderun'a	B-place_name
+bir	O
+tren	B-transport_type
+bileti	O
+al	O
+
+maçka	O
+parkı	O
+'na	O
+en	O
+hızlı	O
+yol	O
+hangisi	O
+
+irctc	B-app_name
+uygulamasını	O
+açın	O
+ve	O
+bilet	O
+rezervasyonuna	O
+gidin	O
+
+benim	O
+için	O
+aydın	B-place_name
+a	O
+bir	O
+tren	B-transport_type
+bileti	O
+ayırt	O
+
+bir	B-time
+saatlik	I-time
+bir	O
+süre	O
+içinde	O
+beni	O
+şu	O
+anki	O
+konumumdan	O
+alacak	O
+bir	O
+taksi	B-transport_type
+ayarla	O
+
+bugün	B-date
+hangi	O
+rotada	O
+trafik	O
+daha	O
+az	O
+
+izmir'e	B-place_name
+tren	B-transport_type
+biletimi	O
+ayırt	O
+
+beni	O
+cuma	B-date
+günü	O
+sabah	B-time
+beş	I-time
+otuz	I-time
+da	O
+havalimanı	B-place_name
+na	O
+götürecek	O
+bir	O
+taksi	B-transport_type
+bul	O
+
+nj	B-place_name
+'den	O
+ny	B-place_name
+'a	O
+banliyö	O
+treninde	B-transport_type
+bir	O
+yer	O
+al	O
+
+ertesi	B-date
+gün	I-date
+ankara	B-place_name
+istikametinde	O
+olan	O
+trenlerin	O
+listesini	O
+sayabilir	O
+misin	O
+
+belli	O
+bir	O
+bölgede	O
+yollar	O
+dar	O
+mı	O
+geniş	O
+mi	O
+
+benim	O
+için	O
+yirmi	O
+bir	O
+marta	B-date
+bir	O
+tren	B-transport_type
+koltuğu	O
+rezerve	O
+et	O
+
+lütfen	O
+bana	O
+kuzey	B-transport_name
+demiryolu	I-transport_name
+tren	B-transport_type
+inin	O
+saatini	O
+bildir	O
+
+lütfen	O
+sonraki	O
+taksiyi	B-transport_type
+ayarla	O
+
+uber	B-transport_agency
+uygulama	O
+aç	O
+ve	O
+bana	O
+bir	O
+araba	B-transport_type
+çağır	O
+lütfen	O
+
+hey	O
+bana	O
+en	O
+yakın	O
+trene	B-transport_type
+saat	O
+kaçta	O
+yetişebilirim	O
+
+bir	O
+tanım	O
+bul	O
+
+polonyanın	B-place_name
+cumhurbaşkanı	O
+kimdir	O
+
+hırvatistan	B-place_name
+hangi	O
+para	O
+birimini	O
+kullanır	O
+
+zürafa	O
+ne	O
+kadar	O
+uzundur	O
+
+zahmet	B-definition_word
+kelimesi	O
+hangi	O
+durumda	O
+kullanılır	O
+
+bu	O
+direncin	O
+rezistansını	O
+hesapla	O
+
+google	O
+
+tarama	O
+merkezleri	O
+
+bana	O
+tahliyenin	B-definition_word
+kısaca	O
+tanımını	O
+söyle	O
+
+sizce	O
+zamanda	O
+yolculuk	O
+mümkün	O
+mü	O
+
+sertap	B-person
+erenerin	I-person
+yaşı	O
+ne	O
+
+arkadaşa	O
+e-posta	O
+at	O
+
+bana	O
+vahiy	O
+kitabında	O
+hangi	O
+farklı	O
+ülkelerin	O
+temsil	O
+edildiğini	O
+açıkla	O
+
+üç	O
+kere	O
+yedi	O
+ne	O
+eder	O
+
+bu	B-timeofday
+gece	I-timeofday
+ne	O
+pişirsem	O
+
+bana	O
+öldüğümüzde	O
+neler	O
+olacağını	O
+söyle	O
+
+nuri	B-person
+bilge	I-person
+ceylan	I-person
+hangi	O
+ilden	O
+
+sadece	O
+sen	O
+ve	O
+benim	O
+için	O
+bir	O
+gün	O
+ayarla	O
+
+kırk	O
+ikinin	O
+karekökü	O
+kaç	O
+
+söyle	O
+bana	O
+neden	O
+cem	B-person
+yılmaz	I-person
+gülse	I-person
+birselden	I-person
+daha	O
+iyi	O
+bir	O
+komedyen	O
+
+bana	O
+şener	B-person
+şenin	I-person
+göbek	O
+adını	O
+söyle	O
+
+zürafa	B-definition_word
+kelimesi	O
+nasıl	O
+yazılır	O
+
+tedavülden	B-definition_word
+kaldırma	I-definition_word
+kelimesini	O
+söyleyebilir	O
+misin	O
+
+dünyanın	B-place_name
+en	O
+uzun	O
+binaları	O
+hangileriydi	O
+
+duman	B-artist_name
+şarkılarını	O
+duyuyor	O
+musun	O
+
+meslektaşımla	B-relation
+bir	O
+toplantı	B-event_name
+ayarla	O
+
+rol	O
+yapan	O
+oyuncu	O
+
+lütfen	O
+bana	O
+cüneyt	B-person
+arkının	I-person
+bir	O
+sonraki	O
+filmi	O
+hakkında	O
+bilgi	O
+verin	O
+
+yok	O
+
+yalan	O
+söyleyebilir	O
+misin	O
+
+kasırga	B-definition_word
+nedir	O
+
+kelimeyi	O
+googleda	O
+ara	O
+
+ankaradan	B-place_name
+istanbula	I-place_name
+olan	O
+mesafeyi	O
+hesapla	O
+
+hesabı	O
+çöz	O
+
+izmirin	B-place_name
+nüfusu	O
+nedir	O
+
+ana	O
+dilin	O
+nedir	O
+
+hülya	B-person
+avşar	I-person
+kaç	O
+yaşında	O
+
+kendimi	O
+daha	O
+mutlu	O
+etmek	O
+için	O
+bana	O
+yapabileceğim	O
+her	O
+şeyi	O
+özetle	O
+
+on	O
+kolay	O
+adımda	O
+zengin	O
+olabilseydim	O
+bunlar	O
+ne	O
+olurdu	O
+
+en	O
+büyük	O
+hayvan	O
+
+en	O
+yüksek	O
+bina	O
+
+tarkanın	B-person
+yaşadığı	O
+yer	O
+neresi	O
+
+konumum	O
+neresi	O
+
+internetten	O
+toplayabildiğin	O
+tüm	O
+bilgiler	O
+dahilinde	O
+başkan	O
+kennedyyi	O
+kimin	O
+öldürdüğüne	O
+dair	O
+en	O
+iyi	O
+açıklamayı	O
+bana	O
+verebilir	O
+misin	O
+
+karım	B-relation
+için	O
+orijinal	O
+romantik	O
+mesajlar	O
+yazmak	O
+istiyorum	O
+
+bana	O
+cahit	B-person
+arf	I-person
+ve	O
+onun	O
+matematiksel	O
+macerası	O
+ile	O
+ilgili	O
+hikaye	O
+yi	O
+anlat	O
+
+aşağıdaki	O
+soru	O
+öğretmenin	O
+amaçlarını	O
+ve	O
+eylemlerini	O
+analiz	O
+etmenizi	O
+istiyor	O
+
+en	O
+büyük	O
+hip	B-music_genre
+hop	I-music_genre
+sanatçıları	O
+kimlerdir	O
+
+ikiyüzlülük	B-definition_word
+ne	O
+demektir	O
+
+riyakarlık	B-definition_word
+kelimesi	O
+ne	O
+anlama	O
+gelir	O
+
+şu	O
+soruyu	O
+cevapla	O
+süper	O
+mario	O
+kardeşlerde	O
+en	O
+baş	O
+olmak	O
+ne	O
+demek	O
+
+cümle	O
+içinde	O
+kullan	O
+
+iki	O
+artı	O
+ikinin	O
+cevabı	O
+ne	O
+
+sapmayı	B-definition_word
+tanımla	O
+
+kelimeleri	O
+tanımlarken	O
+eş	O
+anlamlılar	O
+sözlüğü	O
+ver	O
+ve	O
+daha	O
+açık	O
+hale	O
+getirmek	O
+için	O
+bir	O
+cümle	O
+içinde	O
+kullan	O
+
+tüm	O
+zamanların	O
+en	O
+iyi	O
+beş	O
+n.	O
+h.	O
+l.	O
+golcüleri	O
+kimlerdir	O
+
+ismet	B-person
+inönü	I-person
+ne	O
+zaman	O
+doğdu	O
+
+ankara	B-place_name
+valisi	O
+kim	O
+
+kişisel	B-definition_word
+dijital	I-definition_word
+asistanın	I-definition_word
+tanımı	O
+nedir	O
+
+erdoğanın	B-person
+kamuoyu	O
+desteği	O
+nedir	O
+
+bunun	O
+cevabını	O
+nasıl	O
+alacağım	O
+söyler	O
+misin	O
+
+matematik	O
+problemini	O
+çöz	O
+
+diğer	O
+gezegenlerde	O
+yaşam	O
+var	O
+mı	O
+
+en	O
+sevdiğin	O
+renk	O
+hangisi	O
+
+robotiklerin	O
+üç	O
+kanunu	O
+ile	O
+ilgili	O
+ne	O
+düşünüyorsun	O
+
+bana	O
+bugünün	B-date
+şanslı	O
+rengini	O
+söyle	O
+
+benim	O
+için	O
+bir	O
+şiir	O
+oku	O
+
+borsa	O
+ile	O
+geçen	B-date
+hafta	I-date
+ankara	B-place_name
+daki	O
+hava	O
+durumu	O
+arasında	O
+bir	O
+ilişki	O
+var	O
+mı	O
+
+mehmet	B-person
+ali	I-person
+alabora	I-person
+tek	O
+çocuk	O
+mu	O
+
+lütfen	O
+bu	O
+kelime	O
+yi	O
+araştır	O
+
+gökyüzü	O
+neden	O
+mavidir	O
+
+yirmi	O
+dört	O
+kere	O
+yirmi	O
+dört	O
+nedir	O
+
+bir	O
+dünya	O
+günü	O
+ne	O
+kadardır	O
+
+inşallah	O
+bir	O
+öğle	B-meal_type
+yemeği	I-meal_type
+yeriz	O
+beraber	O
+
+beyaz	B-artist_name
+kelebekler	I-artist_name
+kimlerdi	O
+
+dünyanın	O
+sonu	O
+ne	O
+zaman	O
+gelecek	O
+
+gergin	B-definition_word
+ne	O
+demek	O
+
+manitam	O
+şu	O
+anda	O
+nerede	O
+
+ambulansın	B-definition_word
+tanımına	O
+bak	O
+
+votkalı	O
+jöle	O
+kalorisiz	O
+mi	O
+
+kıyma	O
+almak	O
+için	O
+en	O
+ucuz	O
+yeri	O
+söyler	O
+misin	O
+
+patates	B-definition_word
+ne	O
+demek	O
+
+bana	O
+bununla	O
+ilgili	O
+ilginç	O
+bir	O
+gerçek	O
+söyle	O
+
+bir	O
+sonraki	O
+tur	O
+ne	O
+zaman	O
+
+şu	O
+anda	O
+dolar	B-currency_name
+ve	O
+avro	B-currency_name
+arasındaki	O
+döviz	O
+kuru	O
+nedir	O
+
+çerçeveyi	B-definition_word
+tanımla	O
+
+patatesin	B-definition_word
+tanımını	O
+yap	O
+
+adel	O
+kaç	O
+kere	O
+elmas	O
+oldu	O
+
+bana	O
+bugün	B-date
+dünyada	O
+gerçekleşen	O
+en	O
+garip	O
+olayları	O
+anlat	O
+
+saati	O
+söyle	O
+
+metinseli	B-definition_word
+nasıl	O
+tanımlarsın	O
+
+bulgaristana	B-place_name
+bedava	O
+seyahat	O
+etmek	O
+istiyorum	O
+beni	O
+oraya	O
+götürür	O
+müsün	O
+
+yen	B-currency_name
+amerikan	I-currency_name
+doları	I-currency_name
+takas	O
+oranları	O
+
+beş	O
+kilometrede	O
+kaç	O
+mil	O
+var	O
+
+aslı	B-person
+enver	I-person
+kaç	O
+yaşında	O
+
+tarsus	B-place_name
+içel	I-place_name
+nerede	O
+
+recep	B-person
+tayyip	I-person
+erdoğan	I-person
+şu	O
+anda	O
+ne	O
+yapıyor	O
+
+baz	B-definition_word
+istasyonu	I-definition_word
+nedir	O
+
+tl	B-currency_name
+nin	O
+frank	B-currency_name
+karşılığı	O
+ne	O
+
+aydın	B-place_name
+izmir	I-place_name
+arası	O
+kaç	O
+kilometre	O
+
+kanada	B-currency_name
+doları	I-currency_name
+karşısında	O
+birleşik	B-currency_name
+devletler	I-currency_name
+doları	I-currency_name
+döviz	O
+takas	O
+oranı	O
+nedir	O
+
+anıtkabir	B-definition_word
+hakkında	O
+ne	O
+biliyorsun	O
+
+a.	B-place_name
+b.	I-place_name
+d.	I-place_name
+ve	O
+çin	B-place_name
+arasındaki	O
+döviz	O
+kurları	O
+ne	O
+kadar	O
+
+bana	O
+bilgi	O
+ver	O
+
+amerika	O
+birleşik	O
+devletlerinin	O
+ortalama	O
+rakımı	O
+nedir	O
+
+birleşik	B-currency_name
+devletler	I-currency_name
+ve	O
+fransa	B-currency_name
+arasındaki	O
+döviz	O
+kuru	O
+nedir	O
+
+istanbulda	B-place_name
+ne	O
+kadar	O
+insan	O
+yaşıyor	O
+
+siri	O
+bir	O
+amerikan	B-currency_name
+doları	I-currency_name
+kaç	O
+japon	B-currency_name
+yeni	I-currency_name
+eder	O
+
+mehmet	B-person
+günsür	I-person
+kaç	O
+yılında	O
+doğdu	O
+
+bana	O
+kültür	B-definition_word
+mantarından	I-definition_word
+bahset	O
+
+migros	B-business_name
+hisse	O
+senedi	O
+fiyatları	O
+
+hangi	O
+din	O
+en	O
+doğrudur	O
+
+hatay	B-place_name
+ve	O
+içel	B-place_name
+arasında	O
+kaç	O
+mil	O
+var	O
+
+şener	B-person
+şen	I-person
+kaç	O
+yaşında	O
+
+demet	B-person
+akbağ	I-person
+hiç	O
+akademi	O
+ödülü	O
+kazandı	O
+mı	O
+
+yen	B-currency_name
+için	O
+döviz	O
+kurunu	O
+söyle	O
+
+tl	B-currency_name
+karşısında	O
+abd	B-currency_name
+doları	I-currency_name
+takas	O
+oranı	O
+nedir	O
+
+lütfen	O
+bana	O
+dolar	B-currency_name
+ve	O
+yen	B-currency_name
+arasındaki	O
+kur	O
+farkıını	O
+göster	O
+
+golün	B-definition_word
+tanımı	O
+ne	O
+
+binali	B-person
+yıldırım	I-person
+kaç	O
+yaşında	O
+
+iki	O
+çocuğu	O
+meşgul	O
+etmem	O
+lazım	O
+ne	O
+yapabilirim	O
+söyle	O
+
+doların	O
+rupi	O
+cinsinden	O
+döviz	O
+kurunu	O
+bana	O
+verebilir	O
+misin	O
+
+bana	O
+güneş	B-definition_word
+enerjili	I-definition_word
+bahçe	I-definition_word
+kazıklarından	O
+bahset	O
+
+adananın	B-place_name
+en	I-place_name
+büyük	I-place_name
+ilçesi	I-place_name
+hangisi	O
+
+sanal	B-definition_word
+gerçeklik	I-definition_word
+gözlüğünün	I-definition_word
+tanımı	O
+nedir	O
+
+yeni	O
+tinder	O
+eşleşmem	O
+var	O
+mı	O
+
+muz	B-definition_word
+neye	O
+benzer	O
+
+ali	B-person
+ağaoğlu	I-person
+kimdir	O
+
+danimarka	B-place_name
+nerededir	O
+
+fiyort	B-place_name
+ne	O
+demek	O
+
+bülent	B-person
+ersoy	I-person
+ne	O
+zaman	O
+doğmuştur	O
+
+tweet	B-definition_word
+ne	O
+demek	O
+
+sakarya	B-place_name
+nerede	O
+
+zafer	B-definition_word
+ne	O
+demek	O
+
+hangi	O
+abd	O
+eyaleti	O
+en	O
+kuzeydedir	O
+
+stonehenge	O
+nerede	O
+
+bizim	B-business_name
+toptan	I-business_name
+için	O
+hisse	O
+fiyatına	O
+ihtiyacım	O
+var	O
+
+hint	B-currency_name
+rupisi	I-currency_name
+kuru	O
+ne	O
+kadar	O
+
+bermuda	O
+şeytan	O
+üçgeni	O
+nedir	O
+
+filipin	B-currency_name
+pesosu	I-currency_name
+kuru	O
+nedir	O
+
+turkcellin	B-business_name
+güncel	O
+hisse	O
+senedi	O
+oranı	O
+nedir	O
+
+hadisenin	B-artist_name
+biyografisini	O
+göster	O
+
+avro'dan	B-currency_name
+abd	I-currency_name
+doları'na	I-currency_name
+
+lütfen	O
+bana	O
+atatürkün	B-person
+doğum	B-event_name
+gününü	I-event_name
+verir	O
+misin	O
+
+külot	O
+ne	O
+tür	O
+bir	O
+don	O
+
+wikipediayı	O
+dene	O
+
+olly	O
+doların	B-currency_name
+değeri	O
+brezilyada	B-place_name
+daha	O
+mı	O
+fazla	O
+yoksa	O
+daha	O
+mı	O
+az	O
+
+gömlek	B-definition_word
+neye	O
+benzer	O
+
+danışmanıma	O
+sor	O
+
+dow	O
+jones	O
+bugün	B-date
+kaçta	O
+
+lütfen	O
+bana	O
+bugün	O
+dow	O
+hisselerine	O
+yatırım	O
+yaparsam	O
+ne	O
+zaman	O
+zengin	O
+olabileceğimi	O
+ve	O
+beş	O
+yıl	O
+sonra	O
+getirisi	O
+ne	O
+olacağını	O
+söyle	O
+
+tarkan	B-person
+hangi	O
+yılda	O
+doğdu	O
+
+mekanların	O
+tam	O
+yerini	O
+bul	O
+
+bir	O
+fit	O
+kaç	O
+inç	O
+eder	O
+
+kanada	B-currency_name
+doları	I-currency_name
+karşısında	O
+euro	B-currency_name
+kuru	O
+ne	O
+kadar	O
+
+meltem	B-person
+cumbulun	I-person
+en	O
+iyi	O
+beş	O
+filmini	O
+listele	O
+
+amerikan	B-currency_name
+doları	I-currency_name
+ve	O
+avro	B-currency_name
+arasındaki	O
+döviz	O
+kuru	O
+nedir	O
+
+altı	O
+eksi	O
+dört	O
+nedir	O
+
+bir	O
+avro	B-currency_name
+kaç	O
+dolara	B-currency_name
+eşittir	O
+bana	O
+söyle	O
+
+ingiltere	B-place_name
+ne	O
+kadar	O
+büyük	O
+
+bana	O
+izmirden	B-place_name
+bahset	O
+
+dünyadaki	O
+çeşitli	O
+bitkileri	O
+göster	O
+
+coca-cola	B-business_name
+hissesi	O
+bugün	B-date
+nasıl	O
+gidiyor	O
+
+ecevitin	B-person
+karısı	O
+kim	O
+
+google	B-business_name
+için	O
+bugünün	O
+kapanış	O
+fiyatı	O
+
+akbank	B-business_name
+hisse	O
+fiyatını	O
+söyle	O
+
+hipotez	B-definition_word
+ne	O
+demek	O
+
+özgürlük	O
+heykeli	O
+ne	O
+zaman	O
+yapıldı	O
+
+mete	B-person
+gazoz	I-person
+kaç	O
+yaşında	O
+evlendi	O
+
+cüneyt	B-person
+arkın	I-person
+kimdir	O
+
+gelişmemiş	B-definition_word
+tanımı	O
+nedir	O
+
+empire	O
+state	O
+binasının	O
+yüksekliği	O
+ne	O
+kadar	O
+
+amerikan	B-currency_name
+doları	I-currency_name
+ve	O
+hint	B-currency_name
+rupisi	I-currency_name
+arasındaki	O
+döviz	O
+kuru	O
+nedir	O
+
+siyasetin	O
+şu	O
+anki	O
+halini	O
+anlat	O
+
+edis	B-person
+ne	O
+zaman	O
+doğdu	O
+
+kendini	O
+bir	O
+kelimeyle	O
+tanımla	O
+
+en	O
+yakın	O
+italyan	B-food_type
+restoranı	B-business_type
+nerede	O
+
+yahninin	B-definition_word
+neye	O
+benzediğini	O
+söyler	O
+misin	O
+
+hande	O
+yener	O
+yeni	O
+bir	O
+albüm	O
+kaydediyor	O
+mu	O
+
+obje	B-definition_word
+adı	I-definition_word
+tanımı	O
+
+volkswagen	B-definition_word
+golf	I-definition_word
+araba	I-definition_word
+nasıl	O
+görünüyor	O
+
+ipad	O
+air	O
+özellikleri	O
+
+bana	O
+güneş	O
+ve	O
+ay	O
+arasındaki	O
+mesafeyi	O
+söyle	O
+
+sözlükte	O
+dünya	B-definition_word
+için	O
+tanımı	O
+bul	O
+
+iki	O
+bin	O
+on	O
+yedinin	O
+en	O
+iyi	O
+akıllı	O
+telefonu	O
+hangisi	O
+
+dövizle	O
+alacağım	O
+döviz	O
+kuru	O
+
+bana	O
+bu	O
+kişinin	O
+ayrıntılarını	O
+al	O
+
+lütfen	O
+bu	O
+kişi	O
+hakkında	O
+birkaç	O
+ayrıntı	O
+söyle	O
+
+bugün	B-date
+türkiye	B-place_name
+deki	O
+en	O
+büyük	O
+kaygı	O
+ne	O
+ve	O
+bunu	O
+gidermek	O
+için	O
+yapılacak	O
+en	O
+etkili	O
+şey	O
+nedir	O
+
+türkiye	B-place_name
+cumhuriyetinin	I-place_name
+yirmi	O
+beşinci	O
+başkanı	O
+kimdir	O
+
+bana	O
+uçaksız	O
+en	O
+düşük	O
+maliyetle	O
+baliye	O
+nasıl	O
+gideceğimi	O
+söyle	O
+seçenek	O
+süresi	O
+önemli	O
+değil	O
+iki	O
+yüz	O
+gün	O
+seyahat	O
+zamanım	O
+ve	O
+harcayacak	O
+sadece	O
+dolarım	O
+var	O
+
+bana	O
+diz	B-definition_word
+üstü	I-definition_word
+bilgisayarın	I-definition_word
+devresini	I-definition_word
+tarif	O
+et	O
+
+iphone	O
+hisseleri	O
+genellikle	O
+ne	O
+zaman	O
+düşer	O
+
+açıkla	O
+
+bana	O
+yerçekiminin	O
+nasıl	O
+çalıştığını	O
+açıkla	O
+
+ajda	B-person
+pekkan	I-person
+ve	O
+mirkelam	B-person
+ne	O
+zaman	O
+evlendi	O
+
+dolar	B-currency_name
+ile	O
+euro	B-currency_name
+arasında	O
+döviz	O
+takas	O
+oranları	O
+
+hipertrofinin	B-definition_word
+ne	O
+anlama	O
+geldiğini	O
+söyler	O
+misin	O
+
+borsa	O
+şirket	O
+ismi	O
+
+robotum	O
+işimi	O
+benim	O
+için	O
+yapsa	O
+çok	O
+sevinirim	O
+
+bana	O
+laptop	B-definition_word
+devresinin	I-definition_word
+tanımını	O
+ver	O
+
+xyyi	O
+tanımla	O
+
+turkcell	B-business_name
+hisse	O
+senedi	O
+açılış	O
+fiyatını	O
+bana	O
+ver	O
+
+organik	O
+buğdayı	O
+nereden	O
+alabilirim	O
+
+hisseler	O
+lütfen	O
+
+dolar	B-currency_name
+ı	O
+tl	B-currency_name
+kuruna	O
+çevir	O
+
+dolar	B-currency_name
+rupi	I-currency_name
+döviz	O
+takas	O
+kuru	O
+
+erdoğanın	O
+seçimi	O
+kazanmasını	O
+sağlayan	O
+faktör	O
+nedir	O
+
+deprem	O
+tahmini	O
+
+google	O
+hindi	O
+pişirmenin	O
+en	O
+kolay	O
+ve	O
+hızlı	O
+yolu	O
+nedir	O
+
+ızgara	O
+ne	O
+tür	O
+bir	O
+alettir	O
+ve	O
+nasıl	O
+kullanırım	O
+
+benim	O
+için	O
+pilici	B-definition_word
+tanımla	O
+
+anıtkabir	B-place_name
+nerede	O
+
+bana	O
+topun	B-definition_word
+neye	O
+benzediğini	O
+tarif	O
+et	O
+
+alexa	O
+kamer	B-person
+gençle	I-person
+ilgili	O
+bildiğin	O
+her	O
+şeyi	O
+bana	O
+göster	O
+
+bana	O
+vestelin	B-business_name
+hisse	O
+senedi	O
+fiyatlarını	O
+söyle	O
+
+aksa	B-business_name
+hisse	O
+senedi	O
+fiyatları	O
+nedir	O
+
+google	B-business_name
+hissesinin	O
+değeri	O
+nedir	O
+
+yeni	O
+planlar	O
+getirdin	O
+
+bir	O
+sterlini	B-currency_name
+abd	I-currency_name
+dolarına	I-currency_name
+çevir	O
+
+yüksek	O
+hisse	O
+senedi	O
+fiyatı	O
+
+canonun	O
+açıklamasında	O
+kaç	O
+mega	O
+piksel	O
+yazıyor	O
+
+paris	B-person
+hilton	I-person
+nasıl	O
+ünlü	O
+oldu	O
+
+iki	O
+kere	O
+üçün	O
+cevabı	O
+ne	O
+
+on	O
+iki	O
+bölü	O
+dört	O
+kaç	O
+eder	O
+
+beren	B-person
+saatin	I-person
+doğal	O
+saç	O
+rengi	O
+nedir	O
+
+eğer	O
+beş	O
+amerikan	B-currency_name
+dolarım	I-currency_name
+varsa	O
+bu	O
+kaç	O
+avustralya	B-currency_name
+doları	I-currency_name
+eder	O
+
+benim	O
+için	O
+ay	B-definition_word
+tarifi	O
+yap	O
+
+dünyada	B-place_name
+kaç	O
+tane	O
+nehir	O
+var	O
+
+oğlak	O
+burcu	O
+olan	O
+ünlüleri	O
+bul	O
+
+bir	O
+tüketici	O
+malı	O
+ise	O
+müşteri	O
+geri	O
+bildirimi	O
+nedir	O
+
+hint	B-currency_name
+rupisi	I-currency_name
+nin	O
+abd	B-currency_name
+doları	I-currency_name
+karşısında	O
+döviz	O
+takas	O
+fiyatı	O
+ne	O
+
+şu	O
+nesneyi	O
+tarif	O
+eder	O
+misin	O
+lütfen	O
+
+nasanın	O
+fırlattığı	O
+ilk	O
+uydu	O
+nedir	O
+
+lütfen	O
+bir	O
+fili	B-definition_word
+tarif	O
+et	O
+
+bugün	B-date
+amerikan	B-currency_name
+doları	I-currency_name
+kuru	O
+ne	O
+kadar	O
+
+hürrem	B-person
+sultan	I-person
+ne	O
+kadar	O
+zamandır	O
+hamile	O
+
+kipa	B-business_name
+hisse	O
+senedi	O
+fiyatı	O
+nedir	O
+
+kolayca	O
+envanter	O
+tutmak	O
+ve	O
+bir	O
+şeyler	O
+azaldığında	O
+bana	O
+haber	O
+vermeni	O
+istiyorum	O
+
+ali	B-person
+ağaoğlu	I-person
+bu	B-date
+hafta	I-date
+neler	O
+yaptı	O
+
+makarna	B-definition_word
+sosu	I-definition_word
+tanımı	O
+nedir	O
+
+insanlar	O
+nasıl	O
+oluyor	O
+da	O
+her	O
+şeyi	O
+tanrıdan	O
+gizleyebileceklerini	O
+düşünüyorlar	O
+
+döviz	O
+kuru	O
+ücretleri	O
+
+by	O
+nedir	O
+
+merve	B-person
+ildeniz	I-person
+kaç	O
+yaşında	O
+
+söyle	O
+bana	O
+dünya	O
+nasıl	O
+başladı	O
+
+bana	O
+on	O
+dolar	B-currency_name
+ın	O
+euro	B-currency_name
+karşılığını	O
+söyle	O
+
+bilgisayar	B-definition_word
+nedir	O
+
+dünyanın	B-place_name
+en	O
+küçük	O
+adası	O
+hangisidir	O
+
+japonya	B-place_name
+ne	O
+kadar	O
+büyük	O
+
+istanbul	B-place_name
+almanya	I-place_name
+arası	O
+mesafe	O
+ne	O
+
+bana	O
+bu	B-timeofday
+gece	I-timeofday
+sinemalarda	O
+hangi	O
+filmlerin	O
+oynadığını	O
+söyler	O
+misin	O
+
+olly	O
+sorun	B-definition_word
+kelimesinin	O
+tanımı	O
+nedir	O
+
+olly	O
+amerikan	B-currency_name
+doları	I-currency_name
+ile	O
+avustralya	B-currency_name
+doları	I-currency_name
+arasındaki	O
+döviz	O
+kuru	O
+nedir	O
+
+apple	B-business_name
+kaçta	O
+işlem	O
+görüyor	O
+
+hey	O
+olly	O
+pasifin	B-definition_word
+anlamı	O
+nedir	O
+
+albert	B-person
+einstein	I-person
+görelilik	O
+teorisini	O
+bulduğunda	O
+kaç	O
+yaşındaydı	O
+
+sıfırdan	O
+beşe	O
+üstel	O
+fonksiyonun	O
+yakın	O
+bir	O
+integralini	O
+hesapla	O
+
+brexitin	O
+a.	O
+b.	O
+vatandaşlarını	O
+uzun	O
+ve	O
+orta	O
+vadede	O
+nasıl	O
+etkileyeceğini	O
+söyle	O
+
+bizimle	O
+meksika	O
+pezosu	O
+arasındaki	O
+kuru	O
+ara	O
+lütfen	O
+
+olly	O
+vestel	B-definition_word
+televizyon	I-definition_word
+ile	O
+ilgili	O
+tanım	O
+bul	O
+
+vestel	B-business_name
+için	O
+takas	O
+fiyatları	O
+nedir	O
+
+ne	O
+kadar	O
+uzakta	O
+
+bu	O
+şey	O
+ne	O
+
+vestel	B-business_name
+hisseleri	O
+ne	O
+kadar	O
+
+twitterda	B-media_type
+hakkında	O
+en	O
+çok	O
+konuşulan	O
+konu	O
+ne	O
+
+annemin	B-relation
+söylediği	O
+son	O
+şey	O
+neydi	O
+
+bana	O
+hafta	B-time
+sonundan	I-time
+itibaren	O
+kardelen'in	B-person
+facebook'undan	B-media_type
+güncellemeleri	O
+al	O
+
+bana	O
+benim	O
+facebook'umdan	B-media_type
+yeni	O
+yorumlar	O
+bul	O
+
+son	O
+instagram	B-media_type
+fotoğrafım	O
+kaç	O
+beğeni	O
+aldı	O
+
+bana	O
+sabah	B-media_type
+gazetesi	I-media_type
+yazısındaki	O
+son	O
+tweeti	O
+oku	O
+
+kutlamak	O
+için	O
+facebook'ta	B-media_type
+yeni	O
+durum	O
+at	O
+
+benim	O
+her	B-general_frequency
+üç	I-general_frequency
+saatte	I-general_frequency
+bir	O
+olan	O
+facebook	B-media_type
+güncellememin	O
+çalışıyor	O
+olması	O
+lazım	O
+
+onu	O
+facebooka	B-media_type
+koy	O
+
+bu	O
+makale	O
+çok	O
+iyi	O
+linki	O
+benim	O
+için	O
+facebooktan	B-media_type
+paylaşabilir	O
+misin	O
+
+youtube'da	B-media_type
+bir	O
+video	O
+yayınla	O
+
+facebook	B-media_type
+statüsü	O
+yoğun	O
+gün	O
+
+lütfen	O
+cemil	B-person
+ile	O
+gönderi	O
+paylaş	O
+
+lütfen	O
+durumu	O
+facebooka	B-media_type
+gönder	O
+
+akrabalarımın	B-relation
+fotoğraflarına	O
+dayanarak	O
+gittikleri	O
+yerlerin	O
+bir	O
+listesini	O
+göster	O
+
+facebooktaki	B-media_type
+güncel	O
+haber	O
+akışı	O
+
+bana	O
+toplam	O
+takipçi	O
+sayısı	O
+da	O
+dahil	O
+olmak	O
+üzere	O
+twitter	B-media_type
+kullanıcı	O
+profilimin	O
+ayrıntılarını	O
+ver	O
+
+güzel	O
+bunu	O
+facebookuma	B-media_type
+atarmısın	O
+
+sosyal	O
+medyama	O
+ne	O
+olduğunu	O
+söyler	O
+misin	O
+
+benim	O
+akışıma	O
+en	O
+son	O
+gelen	O
+nedir	O
+
+lütfen	O
+beni	O
+yeni	O
+durum	O
+güncellemelerinden	O
+haberdar	O
+et	O
+
+trend	O
+olan	O
+sosyal	O
+medya	O
+
+yeni	O
+tweet	B-media_type
+
+facebook	B-media_type
+u	O
+aç	O
+ve	O
+amerika	B-place_name
+birleşik	I-place_name
+devletlerine	I-place_name
+mutlu	B-event_name
+yıllar	I-event_name
+dile	O
+
+metrodan	B-business_name
+memnun	O
+değilim	O
+lütfen	O
+bana	O
+yardım	O
+et	O
+
+monitise	B-business_name
+uygulamalarının	O
+çöktüğünü	O
+söyleyen	O
+bir	O
+tweet	B-media_type
+gönderebilir	O
+misin	O
+
+aşağıdakileri	O
+facebookta	B-media_type
+bir	O
+durum	O
+olarak	O
+yayınla	O
+
+lütfen	O
+twitterda	B-media_type
+bir	O
+durum	O
+paylaş	O
+ve	O
+
+lütfen	O
+bu	O
+resmi	O
+facebook	B-media_type
+hesabımda	O
+paylaş	O
+
+lale	B-business_name
+emlağa	I-business_name
+tweet	B-media_type
+at	I-media_type
+ve	O
+onlara	O
+uygulamamın	O
+bozuk	O
+olduğunu	O
+bildir	O
+
+facebook	B-media_type
+grubuma	O
+geldiğimi	O
+söyle	O
+
+lütfen	O
+levise	B-business_name
+şikayet	O
+et	O
+
+onlara	O
+sıralarının	O
+çok	O
+uzun	O
+olduğunu	O
+söyle	O
+
+bana	O
+yemlik	O
+lazım	O
+
+bu	O
+mesajı	O
+twitter'da	O
+microsoft'a	B-business_name
+gönder	O
+
+benim	O
+telefonumdaki	B-device_type
+facebook	B-media_type
+a	O
+resim	O
+postala	O
+alexa	O
+
+vestel	B-business_name
+elektroniğe	I-business_name
+bir	O
+şikayet	O
+tweeti	B-media_type
+at	I-media_type
+
+türk	B-business_name
+havayollarına	I-business_name
+tweet	B-media_type
+gönder	O
+çantalarımı	O
+kaybettiğiniz	O
+için	O
+kızgınım	O
+
+pizza	B-business_name
+hutda	I-business_name
+korkunç	O
+bir	O
+hizmetim	O
+vardı	O
+bunu	O
+tweetlemem	B-media_type
+gerekiyor	O
+
+twitter	O
+tüketici	B-business_name
+servisi	I-business_name
+aracılığıyla	O
+şikayet	O
+gönder	O
+
+nossa	B-business_name
+mobilya	I-business_name
+müşterine	I-business_name
+hizmetlerine	I-business_name
+bir	O
+şikayet	O
+tweeti	O
+gönderebilir	O
+misin	O
+
+superonline	B-business_name
+a	O
+halen	O
+beklediğimi	O
+söyle	O
+
+bugün	B-date
+aldığım	O
+tablet	O
+için	O
+vatana	B-business_name
+şikayet	O
+yaz	O
+
+ulusal	B-business_name
+şebeke	I-business_name
+elektriğin	O
+tekrar	O
+kesildiğini	O
+bilsin	O
+
+twitter	B-media_type
+aracılığıyla	O
+amazon	B-business_name
+müşteri	I-business_name
+hizmetleri	I-business_name
+
+lütfen	O
+beni	O
+benim	O
+sosyal	O
+medya	O
+hesaplarım	O
+hakkında	O
+bilgilendir	O
+
+samsung'a	B-business_name
+şikayet	O
+tweet'i	B-media_type
+at	I-media_type
+
+lütfen	O
+dizüstü	O
+bilgisayarın	O
+hatalı	O
+servisi	O
+hakkında	O
+dell	B-business_name
+firmasına	I-business_name
+bir	O
+tweet	B-media_type
+at	I-media_type
+
+şoka	B-business_name
+tweet	B-media_type
+at	I-media_type
+ve	O
+müşteri	O
+hizmetlerinin	O
+çok	O
+kötü	O
+olduğunu	O
+söyle	O
+
+olly	O
+makara	B-business_name
+ya	O
+bir	O
+tweet	B-media_type
+gönder	O
+onlara	O
+en	O
+kötü	O
+müşteri	O
+hizmetlerine	O
+sahip	O
+olduklarını	O
+söyle	O
+
+müşteri	B-business_name
+hizmetlerine	I-business_name
+takip	O
+eden	O
+mesajın	O
+şikayet	O
+tweetini	B-media_type
+oluştur	I-media_type
+
+metin	B-person
+facebookta	B-media_type
+yeni	O
+bir	O
+şey	O
+yayınladı	O
+mı	O
+
+kötü	O
+teslimat	O
+hakkında	O
+dominosa	B-business_name
+bir	O
+tweet	B-media_type
+gönder	O
+
+bu	O
+firmaya	O
+tweet	B-media_type
+atmam	I-media_type
+gerektiğini	O
+hatırlat	O
+
+facebooka	B-media_type
+off	O
+hastayım	O
+yaz	O
+
+tumblra	B-media_type
+gönderi	O
+paylaş	O
+ve	O
+eğlendiğimi	O
+söyle	O
+
+durumu	O
+ele	O
+al	O
+
+burger	B-business_name
+kinge	I-business_name
+şikayet	O
+tweet	B-media_type
+at	I-media_type
+
+olly	O
+şirkete	O
+bir	O
+tweet	B-media_type
+gönder	O
+
+boscha	B-business_name
+buzdolabımla	O
+ilgili	O
+bir	O
+şikayet	O
+tweeti	B-media_type
+at	I-media_type
+
+galeri	B-media_type
+yi	O
+aç	O
+video	O
+ismi	O
+postala	O
+
+twittera	B-media_type
+gönderi	O
+yoğun	O
+bir	O
+gün	O
+var	O
+önümde	O
+
+twitter	B-media_type
+hesabımda	O
+müşteri	O
+hizmetlerine	O
+litre	O
+başına	O
+gram	O
+hizmeti	O
+için	O
+iyi	O
+değil	O
+tweet'i	B-media_type
+at	I-media_type
+
+şikayeti	O
+tweet	B-media_type
+at	I-media_type
+
+instagram	B-media_type
+hesabımdaki	O
+en	O
+son	O
+fotoğraflar	O
+neler	O
+
+ok	O
+google	O
+moenun	O
+lokantasındaki	O
+servis	O
+korkunç	O
+olduğunu	O
+tweetle	B-media_type
+
+drenaj	O
+tıkanmasıyla	O
+ilgili	O
+şikayeti	O
+benim	O
+için	O
+tweet	B-media_type
+at	I-media_type
+
+sosyal	O
+bilgi	O
+
+tüketici	B-business_name
+servisine	I-business_name
+en	O
+sonki	O
+iletişimimiz	O
+konusunda	O
+hayal	O
+kırıklığına	O
+uğradığımı	O
+belirten	O
+bir	O
+tweet	B-media_type
+at	I-media_type
+
+twitterda	B-media_type
+bir	O
+durum	O
+paylaşmak	O
+istiyorum	O
+
+sabahattin	B-person
+önderden	I-person
+araba	O
+kazası	O
+hakkında	O
+ne	O
+zaman	O
+bir	O
+eposta	O
+aldım	O
+
+yeni	O
+e-postalarım	O
+olursa	O
+bana	O
+haber	O
+ver	O
+
+emilia	B-person
+ya	O
+akşam	B-meal_type
+yemeği	I-meal_type
+için	O
+beklediğimizi	O
+söyleyen	O
+bir	O
+email	O
+gönder	O
+
+emilia	B-person
+dan	O
+herhangi	O
+bir	O
+e-posta	O
+var	O
+mı	O
+
+lütfen	O
+chelsea'ya	B-person
+bir	O
+e-posta	O
+gönderebilir	O
+misin	O
+
+gelen	B-email_folder
+kutumu	I-email_folder
+kontrol	O
+et	O
+
+david'e	B-person
+bir	O
+yarın	B-date
+olacak	O
+toplantı	B-event_name
+için	O
+bir	O
+email	O
+at	O
+ve	O
+david	B-person
+öğleden	B-timeofday
+sonra	I-timeofday
+buluşabilir	O
+miyiz	O
+de	O
+
+olly	O
+zeynepin	B-person
+partisi	B-event_name
+hakkında	O
+bilgi	O
+almak	O
+istiyorum	O
+
+benim	O
+en	O
+yakın	O
+zamanlı	O
+epostamı	O
+aç	O
+ve	O
+yanıtla	O
+
+bu	O
+içeriği	O
+e-posta	O
+aracılığıyla	O
+gönder	O
+
+anneme	B-relation
+bir	O
+email	O
+gönder	O
+konu	O
+hava	O
+durumu	O
+vücut	O
+bu	B-date
+hafta	I-date
+orada	O
+hava	O
+nasıl	O
+
+annemden	B-relation
+gelen	O
+okunmamış	O
+epostalar	O
+için	O
+epostaları	O
+kontrol	O
+et	O
+
+lütfen	O
+bana	O
+kişilerimden	O
+zeynebin	B-person
+ayrıntılarını	B-personal_info
+ver	O
+
+listemde	O
+ali	B-person
+isminde	B-personal_info
+olan	I-personal_info
+bir	O
+kişi	O
+var	O
+mı	O
+
+mehmet	B-email_address
+gmail.com'a	I-email_address
+yeni	O
+yıl	O
+e-postası	O
+gönder	O
+
+kadir'in	B-person
+soyadı	B-personal_info
+ne	O
+
+arkadaşımın	B-relation
+sorusuna	O
+yanıt	O
+gönder	O
+
+son	B-time
+iki	I-time
+saat	I-time
+içindeki	O
+e-postaları	O
+kontrol	O
+et	O
+
+son	B-time
+oniki	I-time
+saatte	I-time
+gelen	O
+epostaları	O
+kontrol	O
+et	O
+
+alexa	B-email_address
+mvay	I-email_address
+at	I-email_address
+hotmail	I-email_address
+nokta	I-email_address
+comu	I-email_address
+yeni	O
+kişi	O
+olarak	O
+muhammed	B-person
+veysel	I-person
+ay	I-person
+adına	O
+ekle	O
+
+hepsiburadadan	B-business_name
+yeni	O
+epostalar	O
+varsa	O
+bana	O
+bildir	O
+
+gelecek	O
+mesajı	O
+bu	O
+kişiye	O
+eposta	O
+ile	O
+gönder	O
+lütfen	O
+
+emre	B-person
+rahmet'ten	I-person
+bütçelerle	O
+ilgili	O
+hiç	O
+e-posta	O
+alıp	O
+almadığımı	O
+kontrol	O
+et	O
+ve	O
+bak	O
+
+bu	O
+epostayı	O
+kişiye	O
+kaydet	O
+
+ahmete	B-person
+mevcut	O
+en	O
+son	O
+teknoloji	O
+konularını	O
+gönder	O
+
+cansu	B-person
+bana	O
+e-posta	O
+gönderdiğinde	O
+bana	O
+haber	O
+ver	O
+
+öğleden	B-time
+sonra	I-time
+saat	I-time
+üç	I-time
+den	O
+beri	O
+gelen	B-email_folder
+kutumda	I-email_folder
+ne	O
+biriktiğini	O
+bana	O
+bildir	O
+
+arkadaşım	B-relation
+ahmet'e	B-person
+yarın	B-date
+meşgul	O
+olacağıma	O
+dair	O
+bir	O
+e-posta	O
+gönderebilir	O
+misin	O
+
+mahmut	B-person
+son	O
+teslim	O
+tarihlerini	O
+ara	O
+
+hey	O
+iş	B-relation
+arkadaşına	I-relation
+bir	O
+email	O
+başlat	O
+
+bu	O
+iş	B-relation
+arkadaşına	I-relation
+bu	O
+eposta	O
+adresinden	O
+yeni	O
+eposta	O
+aç	O
+
+lütfen	O
+gmail	O
+gelen	B-email_folder
+kutumu	I-email_folder
+yenile	O
+
+selam	O
+gönder	O
+
+macitden	B-person
+en	O
+son	O
+maili	O
+göster	O
+
+müdürüme	B-relation
+bir	O
+e-posta	O
+gönder	O
+
+en	O
+son	O
+e-postaları	O
+göster	O
+olly	O
+
+george	B-person
+brown'a	I-person
+e-posta	O
+at	O
+
+son	B-time
+beş	I-time
+dakika	I-time
+içinde	O
+gelen	O
+herhangi	O
+bir	O
+eposta	O
+
+arkadaşıma	B-relation
+bir	O
+eposta	O
+gönder	O
+doğum	B-event_name
+günü	I-event_name
+dilekleri	O
+ilet	O
+
+annemin	B-relation
+mail	B-personal_info
+adresi	I-personal_info
+nedir	O
+
+bu	O
+yeni	O
+e-postanın	O
+kişilerime	O
+eklenmesini	O
+istiyorum	O
+
+enese	B-person
+email	O
+gönder	O
+dosyaları	O
+yarın	B-date
+göndereceğim	O
+
+son	O
+zamanlarda	O
+alınan	O
+tüm	O
+epostaları	O
+zaman	O
+damgasıyla	O
+göster	O
+
+bana	O
+yeni	O
+eposta	O
+göster	O
+
+yanıtlayı	O
+aç	O
+
+bu	O
+maile	O
+cevap	O
+ver	O
+
+gbaby	B-person
+e	O
+eposta	O
+gönder	O
+ve	O
+ona	O
+büyük	O
+annesinin	O
+onu	O
+sevdiğini	O
+ve	O
+harika	O
+bir	O
+hafta	O
+sonu	O
+geçirmesini	O
+dilediğini	O
+söyle	O
+
+cevap	O
+yaz	O
+
+bana	O
+abimin	B-relation
+iletişim	B-personal_info
+bilgilerini	I-personal_info
+söyle	O
+
+bu	O
+mesajı	O
+aile	B-relation
+grubuna	O
+gönder	O
+a	O
+ile	O
+başlar	O
+
+son	O
+zamanlarda	O
+bana	O
+kim	O
+eposta	O
+gönderdi	O
+ve	O
+epostaların	O
+konuları	O
+nelerdir	O
+
+olly	O
+lütfen	O
+ahmetin	B-person
+fikrinin	O
+harika	O
+olduğunu	O
+belirterek	O
+epostasına	O
+yanıt	O
+ver	O
+
+performans	O
+incelemesi	O
+için	O
+buluşmak	O
+üzere	O
+patrona	B-relation
+eposta	O
+gönder	O
+
+uğur	B-person
+türkiye	B-place_name
+de	O
+mi	O
+yaşıyor	B-personal_info
+
+yeni	O
+email	O
+hesabıma	O
+herhangi	O
+bir	O
+email	O
+gelirse	O
+beni	O
+bilgilendir	O
+
+selam	O
+bu	B-timeofday
+gece	I-timeofday
+akşam	B-meal_type
+yemeği	I-meal_type
+için	O
+bana	O
+gel	O
+kardeşim	B-relation
+mesajını	O
+email	O
+olarak	O
+gönder	O
+
+tekneyi	O
+satan	O
+adama	O
+paranın	O
+bende	O
+olduğunu	O
+söyleyen	O
+bir	O
+eposta	O
+gönder	O
+
+bana	O
+dün	B-date
+patronla	O
+ilgili	O
+e-postayı	O
+kimin	O
+gönderdiğini	O
+söyle	O
+
+klinik	B-business_name
+tetkiklerim	O
+hakkında	O
+ne	O
+söyledi	O
+
+kişi	O
+hakkında	O
+bilgi	O
+bulabilir	O
+miyim	O
+
+okunmamış	O
+epostalarımı	O
+oku	O
+
+yeni	O
+epostaları	O
+kontrol	O
+et	O
+
+son	O
+zamanlarda	O
+hiç	O
+e-posta	O
+uyarıları	O
+alıp	O
+almadığımı	O
+kontrol	O
+edebilir	O
+misin	O
+
+benim	O
+için	O
+bir	O
+eposta	O
+gönder	O
+
+herkese	O
+cevap	O
+ver	O
+
+osman	B-person
+çelik'e	I-person
+söyle	O
+
+teşekkür	O
+cevabı	O
+yaz	O
+
+hazel	B-person
+kurada'dan	I-person
+gelen	O
+hiç	O
+yeni	O
+bir	O
+e-postam	O
+var	O
+mı	O
+
+promosyonumla	B-event_name
+ilgili	O
+herhangi	O
+bir	O
+e-posta	O
+var	O
+mı	O
+
+hey	O
+epostaları	O
+kontrol	O
+et	O
+
+geçen	B-date
+hafta	I-date
+bana	O
+gelen	O
+tüm	O
+e-postaların	O
+konularını	O
+ve	O
+gönderenlerini	O
+listele	O
+
+son	O
+zamanlarda	O
+bana	O
+kim	O
+eposta	O
+gönderdi	O
+ve	O
+ne	O
+hakkında	O
+eposta	O
+attılar	O
+
+epostayı	O
+metine	B-person
+gönder	O
+
+eposta	O
+başlat	O
+
+kaç	O
+tane	O
+okunmamış	O
+epostam	O
+var	O
+
+ahmet'e	B-person
+akşam	I-person
+yemeğinin	I-person
+kaçta	I-person
+olduğunu	I-person
+soran	O
+bir	O
+e-posta	O
+gönder	O
+
+kablonete	B-business_name
+hizmetlerinin	O
+berbat	O
+olduğunu	O
+bildiren	O
+bir	O
+e-posta	O
+gönder	O
+
+lütfen	O
+bu	O
+gönderenden	O
+gelen	O
+son	O
+eposta	O
+çalışmasını	O
+kontrol	O
+edin	O
+
+benim	O
+eposta	O
+hesabımı	O
+aç	O
+ve	O
+yeni	O
+eposta	O
+olup	O
+olmadığını	O
+kontrol	O
+et	O
+
+patronuma	B-relation
+geç	O
+kalacağımı	O
+söyleyen	O
+bir	O
+eposta	O
+gönder	O
+
+ne	O
+gibi	O
+yeni	O
+mesajlarım	O
+var	O
+
+yeni	O
+emaillerimi	O
+aç	O
+
+simgeden	B-person
+gelen	O
+emailleri	O
+kontrol	O
+et	O
+
+alinin	B-person
+epostasını	O
+yanıtla	O
+
+bugün	B-date
+kaç	O
+eposta	O
+
+annem	B-relation
+bana	O
+hiç	O
+email	O
+gönderdi	O
+mi	O
+
+anneme	B-relation
+eposta	O
+gönder	O
+yarın	B-date
+alışverişe	O
+gitmek	O
+istiyorum	O
+
+ibrahimden	B-person
+gelen	O
+tüm	O
+mailleri	O
+kontrol	O
+et	O
+
+pınara	B-person
+bir	O
+eposta	O
+yazmama	O
+yardım	O
+eder	O
+misin	O
+
+olly	O
+lütfen	O
+annemden	B-relation
+email	O
+alıp	O
+almadığımı	O
+kontrol	O
+et	O
+
+tüm	O
+şirket	B-relation
+çalışanlarıma	I-relation
+bir	O
+eposta	O
+gönder	O
+
+adrese	O
+email	O
+mesajı	O
+gönder	O
+
+yeni	O
+adres	O
+
+google	O
+cuma	B-date
+eklediğim	O
+hakan	B-person
+için	O
+yeni	O
+eposta	O
+adresini	O
+bul	O
+
+bu	O
+patronum	B-relation
+için	O
+doğru	O
+alan	O
+kodu	O
+mu	O
+
+yanıtla	O
+
+lütfen	O
+üç	B-date
+aydır	I-date
+konuşmadığım	O
+kişileri	O
+sil	O
+
+can	B-email_address
+at	I-email_address
+gmail	I-email_address
+nokta	I-email_address
+com	I-email_address
+adresine	O
+bir	O
+e-posta	O
+göndermek	O
+istiyorum	O
+
+kızıma	B-relation
+seni	O
+seviyorum	O
+diye	O
+eposta	O
+gönder	O
+
+anneme	B-relation
+doğum	B-event_name
+günün	I-event_name
+kutlu	O
+olsun	O
+diye	O
+eposta	O
+gönder	O
+
+lütfen	O
+bana	O
+meltemin	B-person
+bana	O
+herhangi	O
+bir	O
+eposta	O
+gönderip	O
+göndermediğini	O
+söyle	O
+
+patrondan	B-relation
+hiç	O
+yeni	O
+gelen	O
+eposta	O
+var	O
+mı	O
+
+son	B-time
+bir	I-time
+saat	I-time
+içinde	O
+herhangi	O
+bir	O
+eposta	O
+aldım	O
+mı	O
+
+henüz	O
+hiç	O
+kişisel	O
+e-posta	O
+geldi	O
+mi	O
+
+kız	B-relation
+kardeşimden	I-relation
+dün	B-date
+gelen	O
+e-postamı	O
+aç	O
+yanıt	O
+ver'e	O
+tıkla	O
+ve	O
+benim	O
+yanıtım	O
+için	O
+ses	O
+aktivasyonunu	O
+aç	O
+
+telefon	B-device_type
+rehberimde	I-device_type
+kaç	O
+kişi	O
+var	O
+
+ahmet'in	B-person
+bana	O
+ne	O
+hakkında	O
+e-posta	O
+gönderdiğini	O
+görebiliyor	O
+musun	O
+
+bob'dan	B-person
+toplantı	O
+kelimesini	O
+içeren	O
+konuyla	O
+ilgili	O
+e-postaları	O
+bulmak	O
+istiyorum	O
+
+lütfen	O
+benim	O
+annem	B-relation
+e	O
+email	O
+gönder	O
+
+cengiz	B-person
+bana	O
+bir	O
+e-posta	O
+gönderdi	O
+mi	O
+
+e-postama	O
+bak	O
+
+ayşe'nin	B-person
+son	O
+e-postasını	O
+aç	O
+
+iletişim	O
+için	O
+eposta	O
+ara	O
+
+kişi	O
+bul	O
+
+e-postamı	O
+aç	O
+
+can	B-person
+adındaki	O
+kişiyi	O
+aç	O
+
+en	O
+son	O
+kime	O
+e-posta	O
+gönderdim	O
+
+bugünün	B-date
+gelen	O
+kutusundaki	B-email_folder
+emaillerin	O
+konu	O
+satırı	O
+ne	O
+ve	O
+gönderenleri	O
+kimler	O
+
+lütfen	O
+kişi	B-list_name
+listemi	I-list_name
+aç	O
+
+deryanın	B-person
+iletişim	O
+bilgilerini	O
+aç	O
+
+hasan	B-person
+lidar	I-person
+dan	O
+gelen	O
+tüm	O
+emailleri	O
+kontrol	O
+et	O
+
+melihe	B-person
+yanıt	O
+gönder	O
+
+yeni	O
+herhangi	O
+bir	O
+e-postam	O
+var	O
+mı	O
+
+tayfuna	B-person
+eposta	O
+gönder	O
+
+benim	O
+mailimi	O
+kontrol	O
+et	O
+
+sunaya	B-person
+email	O
+göndermem	O
+ve	O
+bir	O
+şeyden	O
+bahsetmem	B-person
+gerek	O
+
+okunmamışları	O
+göster	O
+
+gelen	B-email_folder
+kutumda	I-email_folder
+yeni	O
+e-postalar	O
+var	O
+mı	O
+
+maili	O
+cevapla	O
+
+bayan	B-person
+palmer'a	I-person
+bir	O
+e-posta	O
+gönderin	O
+ve	O
+ona	O
+dean'in	O
+son	O
+ödevini	O
+teslim	O
+edip	O
+etmediğini	O
+sorun	O
+
+son	O
+e-postama	O
+bir	O
+yanıt	O
+gönder	O
+
+muratın	B-person
+epostasını	O
+altı	O
+otuz	O
+yanıtıyla	O
+cevapla	O
+
+e-postalarım	O
+neler	O
+
+jean'in	B-person
+e-postasını	O
+yanıtlamak	O
+istiyorum	O
+
+jane	B-person
+doe'den	I-person
+gelen	O
+e-postaları	O
+kontrol	O
+et	O
+
+hiç	O
+yeni	O
+e-posta	O
+var	O
+mı	O
+
+benim	O
+için	O
+gelen	B-email_folder
+kutusuna	I-email_folder
+göre	O
+kontrol	O
+et	O
+
+bu	O
+emaili	O
+yeni	O
+kişi	O
+yap	O
+
+kişilere	O
+kaydet	O
+
+bana	O
+yakın	O
+tarihli	O
+tüm	O
+e-postaları	O
+ver	O
+
+son	O
+e-posta	O
+etkinliğim	O
+nedir	O
+
+bana	O
+ilgili	O
+kişi	O
+e-posta	B-personal_info
+bilgilerini	I-personal_info
+ver	O
+
+lütfen	O
+bana	O
+mahmut	B-person
+dan	O
+yeni	O
+epostalar	O
+bildir	O
+
+bana	O
+sadece	O
+ceren'den	B-person
+gelen	O
+yeni	O
+e-postaları	O
+bildir	O
+
+öğleden	B-time
+sonra	I-time
+beşten	I-time
+beri	O
+hiç	O
+e-posta	O
+aldım	O
+mı	O
+
+bugün	B-date
+aliden	B-person
+hiç	O
+eposta	O
+aldım	O
+mi	O
+
+şirket	B-relation
+çalışanıma	I-relation
+bugünkü	B-date
+planlanmış	O
+toplantı	O
+bilgilerini	O
+içeren	O
+bir	O
+e-posta	O
+gönder	O
+
+azradan	B-person
+bugün	B-date
+yeni	O
+email	O
+almış	O
+mıyım	O
+
+meliha	B-person
+ya	O
+eposta	O
+gönder	O
+
+raci'nin	B-person
+telefon	B-personal_info
+numarasını	I-personal_info
+ara	O
+
+yeni	O
+mailleri	O
+bildir	O
+
+okunmamış	O
+kaç	O
+mesajım	O
+var	O
+
+lütfen	O
+az	O
+önce	O
+okuduğum	O
+epostayı	O
+yanıtla	O
+
+bert	B-person
+bugün	B-date
+bana	O
+yazdı	O
+mı	O
+
+alex'in	B-person
+adresi	B-personal_info
+nedir	O
+
