@@ -1,0 +1,1514 @@
+{
+  "baseline": {
+    "dev": {
+      "precision": 0.49214394323365435,
+      "recall": 0.4876946258161728,
+      "f1": 0.4899091826437941,
+      "macro_f1": 0.3747031710080723,
+      "macro_precision": 0.41651936840708464,
+      "macro_recall": 0.36804233002510567,
+      "weighted_f1": 0.4849256122540426,
+      "n_classes": 54,
+      "tp": 971,
+      "fp": 1002,
+      "fn": 1020,
+      "token_accuracy": 0.831233572011239,
+      "invalid_bio_transitions": 440,
+      "by_type": {
+        "alarm_type": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5,
+          "support": 2,
+          "tp": 1,
+          "fp": 1,
+          "fn": 1
+        },
+        "app_name": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 8,
+          "tp": 4,
+          "fp": 0,
+          "fn": 4
+        },
+        "artist_name": {
+          "precision": 0.47619047619047616,
+          "recall": 0.4444444444444444,
+          "f1": 0.45977011494252873,
+          "support": 45,
+          "tp": 20,
+          "fp": 22,
+          "fn": 25
+        },
+        "audiobook_author": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 1,
+          "fn": 1
+        },
+        "audiobook_name": {
+          "precision": 0.3,
+          "recall": 0.1875,
+          "f1": 0.23076923076923075,
+          "support": 16,
+          "tp": 3,
+          "fp": 7,
+          "fn": 13
+        },
+        "business_name": {
+          "precision": 0.40384615384615385,
+          "recall": 0.3620689655172414,
+          "f1": 0.3818181818181818,
+          "support": 58,
+          "tp": 21,
+          "fp": 31,
+          "fn": 37
+        },
+        "business_type": {
+          "precision": 0.782608695652174,
+          "recall": 0.5454545454545454,
+          "f1": 0.6428571428571429,
+          "support": 33,
+          "tp": 18,
+          "fp": 5,
+          "fn": 15
+        },
+        "change_amount": {
+          "precision": 0.25,
+          "recall": 0.16666666666666666,
+          "f1": 0.2,
+          "support": 6,
+          "tp": 1,
+          "fp": 3,
+          "fn": 5
+        },
+        "coffee_type": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 2,
+          "tp": 1,
+          "fp": 0,
+          "fn": 1
+        },
+        "color_type": {
+          "precision": 0.5789473684210527,
+          "recall": 0.7333333333333333,
+          "f1": 0.6470588235294117,
+          "support": 15,
+          "tp": 11,
+          "fp": 8,
+          "fn": 4
+        },
+        "cooking_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 4,
+          "fn": 2
+        },
+        "currency_name": {
+          "precision": 0.6415094339622641,
+          "recall": 0.7906976744186046,
+          "f1": 0.7083333333333334,
+          "support": 43,
+          "tp": 34,
+          "fp": 19,
+          "fn": 9
+        },
+        "date": {
+          "precision": 0.5595854922279793,
+          "recall": 0.6428571428571429,
+          "f1": 0.5983379501385041,
+          "support": 336,
+          "tp": 216,
+          "fp": 170,
+          "fn": 120
+        },
+        "definition_word": {
+          "precision": 0.3076923076923077,
+          "recall": 0.09302325581395349,
+          "f1": 0.14285714285714285,
+          "support": 43,
+          "tp": 4,
+          "fp": 9,
+          "fn": 39
+        },
+        "device_type": {
+          "precision": 0.6756756756756757,
+          "recall": 0.7142857142857143,
+          "f1": 0.6944444444444444,
+          "support": 35,
+          "tp": 25,
+          "fp": 12,
+          "fn": 10
+        },
+        "drink_type": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 3,
+          "tp": 1,
+          "fp": 0,
+          "fn": 2
+        },
+        "email_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "tp": 0,
+          "fp": 8,
+          "fn": 3
+        },
+        "email_folder": {
+          "precision": 0.2,
+          "recall": 0.16666666666666666,
+          "f1": 0.1818181818181818,
+          "support": 6,
+          "tp": 1,
+          "fp": 4,
+          "fn": 5
+        },
+        "event_name": {
+          "precision": 0.52046783625731,
+          "recall": 0.5632911392405063,
+          "f1": 0.541033434650456,
+          "support": 158,
+          "tp": 89,
+          "fp": 82,
+          "fn": 69
+        },
+        "food_type": {
+          "precision": 0.3939393939393939,
+          "recall": 0.52,
+          "f1": 0.44827586206896547,
+          "support": 50,
+          "tp": 26,
+          "fp": 40,
+          "fn": 24
+        },
+        "game_name": {
+          "precision": 0.8181818181818182,
+          "recall": 0.5,
+          "f1": 0.6206896551724137,
+          "support": 18,
+          "tp": 9,
+          "fp": 2,
+          "fn": 9
+        },
+        "game_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "general_frequency": {
+          "precision": 0.041666666666666664,
+          "recall": 0.06666666666666667,
+          "f1": 0.05128205128205127,
+          "support": 15,
+          "tp": 1,
+          "fp": 23,
+          "fn": 14
+        },
+        "house_place": {
+          "precision": 0.7083333333333334,
+          "recall": 0.68,
+          "f1": 0.6938775510204083,
+          "support": 25,
+          "tp": 17,
+          "fp": 7,
+          "fn": 8
+        },
+        "ingredient": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "tp": 0,
+          "fp": 1,
+          "fn": 4
+        },
+        "joke_type": {
+          "precision": 0.5,
+          "recall": 0.125,
+          "f1": 0.2,
+          "support": 8,
+          "tp": 1,
+          "fp": 1,
+          "fn": 7
+        },
+        "list_name": {
+          "precision": 0.5675675675675675,
+          "recall": 0.5675675675675675,
+          "f1": 0.5675675675675675,
+          "support": 37,
+          "tp": 21,
+          "fp": 16,
+          "fn": 16
+        },
+        "meal_type": {
+          "precision": 0.17857142857142858,
+          "recall": 0.45454545454545453,
+          "f1": 0.25641025641025644,
+          "support": 11,
+          "tp": 5,
+          "fp": 23,
+          "fn": 6
+        },
+        "media_type": {
+          "precision": 0.6,
+          "recall": 0.6804123711340206,
+          "f1": 0.6376811594202899,
+          "support": 97,
+          "tp": 66,
+          "fp": 44,
+          "fn": 31
+        },
+        "movie_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 1,
+          "fn": 2
+        },
+        "movie_type": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn": 0
+        },
+        "music_descriptor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 8,
+          "tp": 0,
+          "fp": 1,
+          "fn": 8
+        },
+        "music_genre": {
+          "precision": 0.6666666666666666,
+          "recall": 0.6111111111111112,
+          "f1": 0.6376811594202899,
+          "support": 36,
+          "tp": 22,
+          "fp": 11,
+          "fn": 14
+        },
+        "news_topic": {
+          "precision": 0.3157894736842105,
+          "recall": 0.2926829268292683,
+          "f1": 0.3037974683544304,
+          "support": 41,
+          "tp": 12,
+          "fp": 26,
+          "fn": 29
+        },
+        "order_type": {
+          "precision": 0.5909090909090909,
+          "recall": 0.6842105263157895,
+          "f1": 0.6341463414634148,
+          "support": 19,
+          "tp": 13,
+          "fp": 9,
+          "fn": 6
+        },
+        "person": {
+          "precision": 0.5135135135135135,
+          "recall": 0.2900763358778626,
+          "f1": 0.3707317073170732,
+          "support": 131,
+          "tp": 38,
+          "fp": 36,
+          "fn": 93
+        },
+        "personal_info": {
+          "precision": 0.16666666666666666,
+          "recall": 0.1111111111111111,
+          "f1": 0.13333333333333333,
+          "support": 9,
+          "tp": 1,
+          "fp": 5,
+          "fn": 8
+        },
+        "place_name": {
+          "precision": 0.5641025641025641,
+          "recall": 0.43349753694581283,
+          "f1": 0.49025069637883006,
+          "support": 203,
+          "tp": 88,
+          "fp": 68,
+          "fn": 115
+        },
+        "player_setting": {
+          "precision": 0.18518518518518517,
+          "recall": 0.1388888888888889,
+          "f1": 0.15873015873015875,
+          "support": 36,
+          "tp": 5,
+          "fp": 22,
+          "fn": 31
+        },
+        "playlist_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7,
+          "tp": 0,
+          "fp": 8,
+          "fn": 7
+        },
+        "podcast_descriptor": {
+          "precision": 0.125,
+          "recall": 0.2,
+          "f1": 0.15384615384615385,
+          "support": 10,
+          "tp": 2,
+          "fp": 14,
+          "fn": 8
+        },
+        "podcast_name": {
+          "precision": 0.5,
+          "recall": 0.25,
+          "f1": 0.3333333333333333,
+          "support": 8,
+          "tp": 2,
+          "fp": 2,
+          "fn": 6
+        },
+        "radio_name": {
+          "precision": 0.2857142857142857,
+          "recall": 0.2857142857142857,
+          "f1": 0.2857142857142857,
+          "support": 21,
+          "tp": 6,
+          "fp": 15,
+          "fn": 15
+        },
+        "relation": {
+          "precision": 0.7878787878787878,
+          "recall": 0.6190476190476191,
+          "f1": 0.6933333333333334,
+          "support": 42,
+          "tp": 26,
+          "fp": 7,
+          "fn": 16
+        },
+        "song_name": {
+          "precision": 0.36363636363636365,
+          "recall": 0.17391304347826086,
+          "f1": 0.2352941176470588,
+          "support": 23,
+          "tp": 4,
+          "fp": 7,
+          "fn": 19
+        },
+        "sport_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 4,
+          "fn": 1
+        },
+        "time": {
+          "precision": 0.21495327102803738,
+          "recall": 0.34074074074074073,
+          "f1": 0.2636103151862464,
+          "support": 135,
+          "tp": 46,
+          "fp": 168,
+          "fn": 89
+        },
+        "time_zone": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1": 0.6666666666666666,
+          "support": 5,
+          "tp": 5,
+          "fp": 5,
+          "fn": 0
+        },
+        "timeofday": {
+          "precision": 0.17391304347826086,
+          "recall": 0.0851063829787234,
+          "f1": 0.11428571428571427,
+          "support": 47,
+          "tp": 4,
+          "fp": 19,
+          "fn": 43
+        },
+        "transport_agency": {
+          "precision": 1.0,
+          "recall": 0.8888888888888888,
+          "f1": 0.9411764705882353,
+          "support": 9,
+          "tp": 8,
+          "fp": 0,
+          "fn": 1
+        },
+        "transport_descriptor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "tp": 0,
+          "fp": 3,
+          "fn": 0
+        },
+        "transport_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "transport_type": {
+          "precision": 0.8833333333333333,
+          "recall": 0.9814814814814815,
+          "f1": 0.9298245614035088,
+          "support": 54,
+          "tp": 53,
+          "fp": 7,
+          "fn": 1
+        },
+        "weather_descriptor": {
+          "precision": 0.65,
+          "recall": 0.65,
+          "f1": 0.65,
+          "support": 60,
+          "tp": 39,
+          "fp": 21,
+          "fn": 21
+        }
+      }
+    },
+    "train_seconds": 0.05,
+    "predict_seconds": 0.0
+  },
+  "hmm": {
+    "dev": {
+      "precision": 0.5957446808510638,
+      "recall": 0.5203415369161225,
+      "f1": 0.5554959785522788,
+      "macro_f1": 0.3558441515317028,
+      "macro_precision": 0.43380000503391014,
+      "macro_recall": 0.31873268515002107,
+      "weighted_f1": 0.5403195384630937,
+      "n_classes": 54,
+      "tp": 1036,
+      "fp": 703,
+      "fn": 955,
+      "token_accuracy": 0.8335901386748844,
+      "invalid_bio_transitions": 1,
+      "by_type": {
+        "alarm_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "app_name": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 8,
+          "tp": 4,
+          "fp": 0,
+          "fn": 4
+        },
+        "artist_name": {
+          "precision": 0.4473684210526316,
+          "recall": 0.37777777777777777,
+          "f1": 0.40963855421686746,
+          "support": 45,
+          "tp": 17,
+          "fp": 21,
+          "fn": 28
+        },
+        "audiobook_author": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "audiobook_name": {
+          "precision": 0.3333333333333333,
+          "recall": 0.125,
+          "f1": 0.18181818181818182,
+          "support": 16,
+          "tp": 2,
+          "fp": 4,
+          "fn": 14
+        },
+        "business_name": {
+          "precision": 0.4264705882352941,
+          "recall": 0.5,
+          "f1": 0.4603174603174603,
+          "support": 58,
+          "tp": 29,
+          "fp": 39,
+          "fn": 29
+        },
+        "business_type": {
+          "precision": 0.8421052631578947,
+          "recall": 0.48484848484848486,
+          "f1": 0.6153846153846154,
+          "support": 33,
+          "tp": 16,
+          "fp": 3,
+          "fn": 17
+        },
+        "change_amount": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 6,
+          "tp": 0,
+          "fp": 0,
+          "fn": 6
+        },
+        "coffee_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "color_type": {
+          "precision": 1.0,
+          "recall": 0.4666666666666667,
+          "f1": 0.6363636363636364,
+          "support": 15,
+          "tp": 7,
+          "fp": 0,
+          "fn": 8
+        },
+        "cooking_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "currency_name": {
+          "precision": 0.7441860465116279,
+          "recall": 0.7441860465116279,
+          "f1": 0.7441860465116278,
+          "support": 43,
+          "tp": 32,
+          "fp": 11,
+          "fn": 11
+        },
+        "date": {
+          "precision": 0.6902173913043478,
+          "recall": 0.7559523809523809,
+          "f1": 0.7215909090909091,
+          "support": 336,
+          "tp": 254,
+          "fp": 114,
+          "fn": 82
+        },
+        "definition_word": {
+          "precision": 0.35294117647058826,
+          "recall": 0.13953488372093023,
+          "f1": 0.2,
+          "support": 43,
+          "tp": 6,
+          "fp": 11,
+          "fn": 37
+        },
+        "device_type": {
+          "precision": 0.8709677419354839,
+          "recall": 0.7714285714285715,
+          "f1": 0.8181818181818182,
+          "support": 35,
+          "tp": 27,
+          "fp": 4,
+          "fn": 8
+        },
+        "drink_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3
+        },
+        "email_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "tp": 0,
+          "fp": 4,
+          "fn": 3
+        },
+        "email_folder": {
+          "precision": 1.0,
+          "recall": 0.6666666666666666,
+          "f1": 0.8,
+          "support": 6,
+          "tp": 4,
+          "fp": 0,
+          "fn": 2
+        },
+        "event_name": {
+          "precision": 0.5949367088607594,
+          "recall": 0.5949367088607594,
+          "f1": 0.5949367088607594,
+          "support": 158,
+          "tp": 94,
+          "fp": 64,
+          "fn": 64
+        },
+        "food_type": {
+          "precision": 0.4666666666666667,
+          "recall": 0.42,
+          "f1": 0.4421052631578947,
+          "support": 50,
+          "tp": 21,
+          "fp": 24,
+          "fn": 29
+        },
+        "game_name": {
+          "precision": 0.8181818181818182,
+          "recall": 0.5,
+          "f1": 0.6206896551724137,
+          "support": 18,
+          "tp": 9,
+          "fp": 2,
+          "fn": 9
+        },
+        "game_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "general_frequency": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665,
+          "support": 15,
+          "tp": 9,
+          "fp": 3,
+          "fn": 6
+        },
+        "house_place": {
+          "precision": 0.8333333333333334,
+          "recall": 0.6,
+          "f1": 0.6976744186046512,
+          "support": 25,
+          "tp": 15,
+          "fp": 3,
+          "fn": 10
+        },
+        "ingredient": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        },
+        "joke_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 8,
+          "tp": 0,
+          "fp": 0,
+          "fn": 8
+        },
+        "list_name": {
+          "precision": 0.3,
+          "recall": 0.24324324324324326,
+          "f1": 0.26865671641791045,
+          "support": 37,
+          "tp": 9,
+          "fp": 21,
+          "fn": 28
+        },
+        "meal_type": {
+          "precision": 0.6,
+          "recall": 0.8181818181818182,
+          "f1": 0.6923076923076923,
+          "support": 11,
+          "tp": 9,
+          "fp": 6,
+          "fn": 2
+        },
+        "media_type": {
+          "precision": 0.6385542168674698,
+          "recall": 0.5463917525773195,
+          "f1": 0.5888888888888889,
+          "support": 97,
+          "tp": 53,
+          "fp": 30,
+          "fn": 44
+        },
+        "movie_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "movie_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "music_descriptor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 8,
+          "tp": 0,
+          "fp": 0,
+          "fn": 8
+        },
+        "music_genre": {
+          "precision": 0.8846153846153846,
+          "recall": 0.6388888888888888,
+          "f1": 0.7419354838709676,
+          "support": 36,
+          "tp": 23,
+          "fp": 3,
+          "fn": 13
+        },
+        "news_topic": {
+          "precision": 0.4666666666666667,
+          "recall": 0.17073170731707318,
+          "f1": 0.25,
+          "support": 41,
+          "tp": 7,
+          "fp": 8,
+          "fn": 34
+        },
+        "order_type": {
+          "precision": 0.7333333333333333,
+          "recall": 0.5789473684210527,
+          "f1": 0.6470588235294117,
+          "support": 19,
+          "tp": 11,
+          "fp": 4,
+          "fn": 8
+        },
+        "person": {
+          "precision": 0.42424242424242425,
+          "recall": 0.42748091603053434,
+          "f1": 0.42585551330798477,
+          "support": 131,
+          "tp": 56,
+          "fp": 76,
+          "fn": 75
+        },
+        "personal_info": {
+          "precision": 0.3333333333333333,
+          "recall": 0.1111111111111111,
+          "f1": 0.16666666666666666,
+          "support": 9,
+          "tp": 1,
+          "fp": 2,
+          "fn": 8
+        },
+        "place_name": {
+          "precision": 0.515625,
+          "recall": 0.4876847290640394,
+          "f1": 0.5012658227848102,
+          "support": 203,
+          "tp": 99,
+          "fp": 93,
+          "fn": 104
+        },
+        "player_setting": {
+          "precision": 0.6153846153846154,
+          "recall": 0.4444444444444444,
+          "f1": 0.5161290322580646,
+          "support": 36,
+          "tp": 16,
+          "fp": 10,
+          "fn": 20
+        },
+        "playlist_name": {
+          "precision": 0.5,
+          "recall": 0.42857142857142855,
+          "f1": 0.4615384615384615,
+          "support": 7,
+          "tp": 3,
+          "fp": 3,
+          "fn": 4
+        },
+        "podcast_descriptor": {
+          "precision": 0.6666666666666666,
+          "recall": 0.4,
+          "f1": 0.5,
+          "support": 10,
+          "tp": 4,
+          "fp": 2,
+          "fn": 6
+        },
+        "podcast_name": {
+          "precision": 0.2,
+          "recall": 0.125,
+          "f1": 0.15384615384615385,
+          "support": 8,
+          "tp": 1,
+          "fp": 4,
+          "fn": 7
+        },
+        "radio_name": {
+          "precision": 0.5263157894736842,
+          "recall": 0.47619047619047616,
+          "f1": 0.5,
+          "support": 21,
+          "tp": 10,
+          "fp": 9,
+          "fn": 11
+        },
+        "relation": {
+          "precision": 0.6521739130434783,
+          "recall": 0.35714285714285715,
+          "f1": 0.4615384615384615,
+          "support": 42,
+          "tp": 15,
+          "fp": 8,
+          "fn": 27
+        },
+        "song_name": {
+          "precision": 0.4,
+          "recall": 0.17391304347826086,
+          "f1": 0.24242424242424243,
+          "support": 23,
+          "tp": 4,
+          "fp": 6,
+          "fn": 19
+        },
+        "sport_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "time": {
+          "precision": 0.47019867549668876,
+          "recall": 0.5259259259259259,
+          "f1": 0.49650349650349657,
+          "support": 135,
+          "tp": 71,
+          "fp": 80,
+          "fn": 64
+        },
+        "time_zone": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 5,
+          "tp": 0,
+          "fp": 0,
+          "fn": 5
+        },
+        "timeofday": {
+          "precision": 0.9090909090909091,
+          "recall": 0.425531914893617,
+          "f1": 0.5797101449275361,
+          "support": 47,
+          "tp": 20,
+          "fp": 2,
+          "fn": 27
+        },
+        "transport_agency": {
+          "precision": 1.0,
+          "recall": 0.2222222222222222,
+          "f1": 0.3636363636363636,
+          "support": 9,
+          "tp": 2,
+          "fp": 0,
+          "fn": 7
+        },
+        "transport_descriptor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0
+        },
+        "transport_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "transport_type": {
+          "precision": 0.896551724137931,
+          "recall": 0.9629629629629629,
+          "f1": 0.9285714285714286,
+          "support": 54,
+          "tp": 52,
+          "fp": 6,
+          "fn": 2
+        },
+        "weather_descriptor": {
+          "precision": 0.5217391304347826,
+          "recall": 0.4,
+          "f1": 0.4528301886792453,
+          "support": 60,
+          "tp": 24,
+          "fp": 22,
+          "fn": 36
+        }
+      }
+    },
+    "train_seconds": 0.06,
+    "predict_seconds": 6.41
+  },
+  "crf": {
+    "dev": {
+      "precision": 0.78,
+      "recall": 0.6659969864389754,
+      "f1": 0.718504470333243,
+      "macro_f1": 0.525247918790787,
+      "macro_precision": 0.6309089002635345,
+      "macro_recall": 0.4729064444876265,
+      "weighted_f1": 0.7074452731137264,
+      "n_classes": 53,
+      "tp": 1326,
+      "fp": 374,
+      "fn": 665,
+      "token_accuracy": 0.8829874014320674,
+      "invalid_bio_transitions": 1,
+      "by_type": {
+        "alarm_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 1,
+          "fn": 2
+        },
+        "app_name": {
+          "precision": 1.0,
+          "recall": 0.625,
+          "f1": 0.7692307692307693,
+          "support": 8,
+          "tp": 5,
+          "fp": 0,
+          "fn": 3
+        },
+        "artist_name": {
+          "precision": 0.6470588235294118,
+          "recall": 0.4888888888888889,
+          "f1": 0.5569620253164557,
+          "support": 45,
+          "tp": 22,
+          "fp": 12,
+          "fn": 23
+        },
+        "audiobook_author": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "audiobook_name": {
+          "precision": 0.8,
+          "recall": 0.25,
+          "f1": 0.38095238095238093,
+          "support": 16,
+          "tp": 4,
+          "fp": 1,
+          "fn": 12
+        },
+        "business_name": {
+          "precision": 0.7380952380952381,
+          "recall": 0.5344827586206896,
+          "f1": 0.62,
+          "support": 58,
+          "tp": 31,
+          "fp": 11,
+          "fn": 27
+        },
+        "business_type": {
+          "precision": 0.7916666666666666,
+          "recall": 0.5757575757575758,
+          "f1": 0.6666666666666667,
+          "support": 33,
+          "tp": 19,
+          "fp": 5,
+          "fn": 14
+        },
+        "change_amount": {
+          "precision": 0.6666666666666666,
+          "recall": 0.3333333333333333,
+          "f1": 0.4444444444444444,
+          "support": 6,
+          "tp": 2,
+          "fp": 1,
+          "fn": 4
+        },
+        "coffee_type": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1": 0.6666666666666666,
+          "support": 2,
+          "tp": 1,
+          "fp": 0,
+          "fn": 1
+        },
+        "color_type": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665,
+          "support": 15,
+          "tp": 9,
+          "fp": 3,
+          "fn": 6
+        },
+        "cooking_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "currency_name": {
+          "precision": 0.925,
+          "recall": 0.8604651162790697,
+          "f1": 0.891566265060241,
+          "support": 43,
+          "tp": 37,
+          "fp": 3,
+          "fn": 6
+        },
+        "date": {
+          "precision": 0.8279883381924198,
+          "recall": 0.8452380952380952,
+          "f1": 0.8365243004418261,
+          "support": 336,
+          "tp": 284,
+          "fp": 59,
+          "fn": 52
+        },
+        "definition_word": {
+          "precision": 0.8518518518518519,
+          "recall": 0.5348837209302325,
+          "f1": 0.6571428571428571,
+          "support": 43,
+          "tp": 23,
+          "fp": 4,
+          "fn": 20
+        },
+        "device_type": {
+          "precision": 0.9655172413793104,
+          "recall": 0.8,
+          "f1": 0.8750000000000001,
+          "support": 35,
+          "tp": 28,
+          "fp": 1,
+          "fn": 7
+        },
+        "drink_type": {
+          "precision": 1.0,
+          "recall": 0.3333333333333333,
+          "f1": 0.5,
+          "support": 3,
+          "tp": 1,
+          "fp": 0,
+          "fn": 2
+        },
+        "email_address": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3,
+          "tp": 0,
+          "fp": 2,
+          "fn": 3
+        },
+        "email_folder": {
+          "precision": 0.8,
+          "recall": 0.6666666666666666,
+          "f1": 0.7272727272727272,
+          "support": 6,
+          "tp": 4,
+          "fp": 1,
+          "fn": 2
+        },
+        "event_name": {
+          "precision": 0.7464788732394366,
+          "recall": 0.6708860759493671,
+          "f1": 0.7066666666666667,
+          "support": 158,
+          "tp": 106,
+          "fp": 36,
+          "fn": 52
+        },
+        "food_type": {
+          "precision": 0.5957446808510638,
+          "recall": 0.56,
+          "f1": 0.577319587628866,
+          "support": 50,
+          "tp": 28,
+          "fp": 19,
+          "fn": 22
+        },
+        "game_name": {
+          "precision": 0.8,
+          "recall": 0.4444444444444444,
+          "f1": 0.5714285714285714,
+          "support": 18,
+          "tp": 8,
+          "fp": 2,
+          "fn": 10
+        },
+        "game_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "general_frequency": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5333333333333333,
+          "f1": 0.5925925925925926,
+          "support": 15,
+          "tp": 8,
+          "fp": 4,
+          "fn": 7
+        },
+        "house_place": {
+          "precision": 0.9047619047619048,
+          "recall": 0.76,
+          "f1": 0.8260869565217391,
+          "support": 25,
+          "tp": 19,
+          "fp": 2,
+          "fn": 6
+        },
+        "ingredient": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        },
+        "joke_type": {
+          "precision": 1.0,
+          "recall": 0.125,
+          "f1": 0.2222222222222222,
+          "support": 8,
+          "tp": 1,
+          "fp": 0,
+          "fn": 7
+        },
+        "list_name": {
+          "precision": 0.7272727272727273,
+          "recall": 0.6486486486486487,
+          "f1": 0.6857142857142857,
+          "support": 37,
+          "tp": 24,
+          "fp": 9,
+          "fn": 13
+        },
+        "meal_type": {
+          "precision": 0.6923076923076923,
+          "recall": 0.8181818181818182,
+          "f1": 0.7500000000000001,
+          "support": 11,
+          "tp": 9,
+          "fp": 4,
+          "fn": 2
+        },
+        "media_type": {
+          "precision": 0.8452380952380952,
+          "recall": 0.7319587628865979,
+          "f1": 0.7845303867403314,
+          "support": 97,
+          "tp": 71,
+          "fp": 13,
+          "fn": 26
+        },
+        "movie_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "movie_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "music_descriptor": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 8,
+          "tp": 0,
+          "fp": 1,
+          "fn": 8
+        },
+        "music_genre": {
+          "precision": 0.8695652173913043,
+          "recall": 0.5555555555555556,
+          "f1": 0.6779661016949152,
+          "support": 36,
+          "tp": 20,
+          "fp": 3,
+          "fn": 16
+        },
+        "news_topic": {
+          "precision": 0.3793103448275862,
+          "recall": 0.2682926829268293,
+          "f1": 0.3142857142857143,
+          "support": 41,
+          "tp": 11,
+          "fp": 18,
+          "fn": 30
+        },
+        "order_type": {
+          "precision": 0.7222222222222222,
+          "recall": 0.6842105263157895,
+          "f1": 0.7027027027027027,
+          "support": 19,
+          "tp": 13,
+          "fp": 5,
+          "fn": 6
+        },
+        "person": {
+          "precision": 0.7583333333333333,
+          "recall": 0.6946564885496184,
+          "f1": 0.7250996015936256,
+          "support": 131,
+          "tp": 91,
+          "fp": 29,
+          "fn": 40
+        },
+        "personal_info": {
+          "precision": 0.6666666666666666,
+          "recall": 0.2222222222222222,
+          "f1": 0.3333333333333333,
+          "support": 9,
+          "tp": 2,
+          "fp": 1,
+          "fn": 7
+        },
+        "place_name": {
+          "precision": 0.7647058823529411,
+          "recall": 0.6403940886699507,
+          "f1": 0.6970509383378016,
+          "support": 203,
+          "tp": 130,
+          "fp": 40,
+          "fn": 73
+        },
+        "player_setting": {
+          "precision": 0.8260869565217391,
+          "recall": 0.5277777777777778,
+          "f1": 0.6440677966101694,
+          "support": 36,
+          "tp": 19,
+          "fp": 4,
+          "fn": 17
+        },
+        "playlist_name": {
+          "precision": 0.6666666666666666,
+          "recall": 0.2857142857142857,
+          "f1": 0.4,
+          "support": 7,
+          "tp": 2,
+          "fp": 1,
+          "fn": 5
+        },
+        "podcast_descriptor": {
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666665,
+          "support": 10,
+          "tp": 6,
+          "fp": 2,
+          "fn": 4
+        },
+        "podcast_name": {
+          "precision": 0.8,
+          "recall": 0.5,
+          "f1": 0.6153846153846154,
+          "support": 8,
+          "tp": 4,
+          "fp": 1,
+          "fn": 4
+        },
+        "radio_name": {
+          "precision": 0.9333333333333333,
+          "recall": 0.6666666666666666,
+          "f1": 0.7777777777777778,
+          "support": 21,
+          "tp": 14,
+          "fp": 1,
+          "fn": 7
+        },
+        "relation": {
+          "precision": 0.8333333333333334,
+          "recall": 0.7142857142857143,
+          "f1": 0.7692307692307692,
+          "support": 42,
+          "tp": 30,
+          "fp": 6,
+          "fn": 12
+        },
+        "song_name": {
+          "precision": 0.6923076923076923,
+          "recall": 0.391304347826087,
+          "f1": 0.5,
+          "support": 23,
+          "tp": 9,
+          "fp": 4,
+          "fn": 14
+        },
+        "sport_type": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1,
+          "tp": 0,
+          "fp": 0,
+          "fn": 1
+        },
+        "time": {
+          "precision": 0.696,
+          "recall": 0.6444444444444445,
+          "f1": 0.6692307692307692,
+          "support": 135,
+          "tp": 87,
+          "fp": 38,
+          "fn": 48
+        },
+        "time_zone": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1": 0.9090909090909091,
+          "support": 5,
+          "tp": 5,
+          "fp": 1,
+          "fn": 0
+        },
+        "timeofday": {
+          "precision": 0.8536585365853658,
+          "recall": 0.7446808510638298,
+          "f1": 0.7954545454545454,
+          "support": 47,
+          "tp": 35,
+          "fp": 6,
+          "fn": 12
+        },
+        "transport_agency": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 9,
+          "tp": 9,
+          "fp": 0,
+          "fn": 0
+        },
+        "transport_name": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 2,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "transport_type": {
+          "precision": 0.9310344827586207,
+          "recall": 1.0,
+          "f1": 0.9642857142857143,
+          "support": 54,
+          "tp": 54,
+          "fp": 4,
+          "fn": 0
+        },
+        "weather_descriptor": {
+          "precision": 0.7192982456140351,
+          "recall": 0.6833333333333333,
+          "f1": 0.7008547008547009,
+          "support": 60,
+          "tp": 41,
+          "fp": 16,
+          "fn": 19
+        }
+      }
+    },
+    "train_seconds": 168.08,
+    "predict_seconds": 0.34
+  }
+}
