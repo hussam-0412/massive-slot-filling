@@ -230,3 +230,11 @@ MASSIVE is copyright Amazon.com Inc. or its affiliates and is distributed under 
 - Bastianelli et al. (2020), [SLURP: A Spoken Language Understanding Resource Package](https://aclanthology.org/2020.emnlp-main.588/). MASSIVE uses English SLURP utterances as its starting point.
 - [BERTurk model card](https://huggingface.co/dbmdz/bert-base-turkish-cased), dbmdz. This project fine-tunes the existing pretrained model.
 
+
+## Included raw dataset
+
+The original Turkish and English MASSIVE 1.1 JSONL files are included in
+[data/raw/massive](data/raw/massive/), together with the
+[dataset license](data/raw/massive/LICENSE) and
+[source and preprocessing notes](data/raw/massive/README.md).
+Each language contains 16,521 records with the original train/dev/test partitions.
